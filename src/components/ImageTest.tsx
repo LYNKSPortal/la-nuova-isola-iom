@@ -3,7 +3,7 @@
 export default function ImageTest() {
   return (
     <div className="p-8 bg-gray-100 min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">Image Loading Test</h1>
+      <h1 className="font-bold mb-4">Image Loading Test</h1>
       
       {/* Test 1: White logo (we know this works) */}
       <div className="mb-8">

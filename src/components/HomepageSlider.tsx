@@ -129,7 +129,7 @@ export default function HomepageSlider() {
           >
             <div className="w-full h-full flex items-center justify-center bg-black/30">
               <div className="text-center text-white px-4">
-                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+                <h1 className="font-bold text-white mb-6">
                   {slide.title}
                 </h1>
                 <p className="text-xl text-white mb-8 max-w-3xl mx-auto">

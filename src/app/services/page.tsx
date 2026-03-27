@@ -30,7 +30,7 @@ export default function Services() {
         <div className="relative h-full flex items-center">
           <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
             <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              <h1 className="font-bold text-white mb-4">
                 Our Services
               </h1>
               <p className="text-xl text-white">

@@ -30,7 +30,7 @@ export default function About() {
         <header className="relative h-full flex items-center">
           <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
             <div className="text-center">
-              <h1 id="about-hero-heading" className="text-4xl md:text-5xl font-bold text-white mb-4">
+              <h1 id="about-hero-heading" className="font-bold text-white mb-4">
                 About La Nuova Isola
               </h1>
               <p className="text-xl text-white">
