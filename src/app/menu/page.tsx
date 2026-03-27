@@ -46,6 +46,15 @@ export default function Menu() {
       <section className="py-20 bg-white">
         <div className="px-[20px] md:px-[50px] lg:px-[100px]">
           <div className="space-y-12">
+            {/* Lunch Menu */}
+            <div className="w-full">
+              <img 
+                src="/menu/Isola Lunch Menu Mar26_page-0001 2.jpg" 
+                alt="La Nuova Isola Lunch Menu"
+                className="w-full h-auto shadow-xl rounded-lg"
+              />
+            </div>
+            
             {/* Menu Page 1 */}
             <div className="w-full">
               <img 
