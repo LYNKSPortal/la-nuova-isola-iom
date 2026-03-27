@@ -97,7 +97,7 @@ export default function Menu() {
             {/* General Download Section */}
             <div className="text-center py-8">
               <p className="text-gray-700 mb-6">
-                If you would like to download or print the menu, please click on the button below:
+                If you would like to download or print the Evening Menu, please click on the button below:
               </p>
               <a 
                 href="/menu/Isola-Menu-Feb26.pdf" 
