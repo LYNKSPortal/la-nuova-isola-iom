@@ -66,106 +66,72 @@ p, span, div, li, a, button, input, textarea, select, label, td, th, blockquote,
 }
 
 /* =========================
-   Desktop (Big & Bold)
+   Desktop (Balanced)
 ========================= */
 h1 {
-  font-family: var(--font-heading);
-  font-size: 72px;
-  line-height: 1.05;
-  font-weight: 700;
-}
-
-h2 {
   font-family: var(--font-heading);
   font-size: 60px;
   line-height: 1.1;
   font-weight: 700;
 }
 
-h3 {
+h2 {
   font-family: var(--font-heading);
   font-size: 48px;
   line-height: 1.15;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: 38px;
+  line-height: 1.2;
   font-weight: 600;
 }
 
 h4 {
   font-family: var(--font-heading);
-  font-size: 36px;
-  line-height: 1.2;
+  font-size: 30px;
+  line-height: 1.25;
   font-weight: 600;
 }
 
 h5 {
   font-family: var(--font-heading);
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.3;
   font-weight: 600;
 }
 
 h6 {
   font-family: var(--font-heading);
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: 600;
 }
 
 /* =========================
-   Tablet (Noticeably Smaller)
+   Tablet
 ========================= */
 @media (max-width: 1024px) {
-  h1 {
-    font-size: 48px;
-  }
-
-  h2 {
-    font-size: 40px;
-  }
-
-  h3 {
-    font-size: 32px;
-  }
-
-  h4 {
-    font-size: 26px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-
-  h6 {
-    font-size: 16px;
-  }
+  h1 { font-size: 44px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 24px; }
+  h5 { font-size: 20px; }
+  h6 { font-size: 16px; }
 }
 
 /* =========================
-   Mobile (Compact & Readable)
+   Mobile
 ========================= */
 @media (max-width: 767px) {
-  h1 {
-    font-size: 34px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 24px;
-  }
-
-  h4 {
-    font-size: 20px;
-  }
-
-  h5 {
-    font-size: 18px;
-  }
-
-  h6 {
-    font-size: 16px;
-  }
+  h1 { font-size: 32px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 22px; }
+  h4 { font-size: 20px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 16px; }
 }
 
 /* Override any specific font-size classes for non-heading text */
