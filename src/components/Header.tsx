@@ -37,11 +37,6 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium transition-colors">
-                  Services
-                </Link>
-              </li>
-              <li>
                 <Link href="/menu" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium transition-colors">
                   Menu
                 </Link>
@@ -120,15 +115,6 @@ export default function Header() {
                     onClick={() => setIsMenuOpen(false)}
                   >
                     About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/services"
-                    className="block px-3 py-2 text-base font-medium text-white hover:text-gray-200 hover:bg-white/10"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Services
                   </Link>
                 </li>
                 <li>
