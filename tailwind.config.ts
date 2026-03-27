@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-poppins)", "Arial", "Helvetica", "sans-serif"],
         mono: ["var(--font-poppins)", "Arial", "Helvetica", "sans-serif"],
+        heading: ["'ITC Garamond Std'", "Georgia", "serif"],
       },
       fontSize: {
         'base': ['14px', '1.5'], // Mobile
