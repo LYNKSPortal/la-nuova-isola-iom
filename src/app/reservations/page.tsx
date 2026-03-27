@@ -44,25 +44,25 @@ export default function Reservations() {
       {/* Reservation Form */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gray-50 rounded-lg shadow-lg p-8">
+          <div className="bg-gray-50 shadow-lg p-8">
             <h2 className="font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
             
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
-                  <input type="text" required className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                  <input type="text" required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
-                  <input type="text" required className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                  <input type="text" required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
                 </div>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Email *</label>
-                  <input type="email" required className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                  <input type="email" required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Phone *</label>
@@ -100,7 +100,7 @@ export default function Reservations() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Number of Guests *</label>
-                  <select required className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                  <select required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
                     <option value="">Select guests</option>
                     <option value="1">1 Guest</option>
                     <option value="2">2 Guests</option>
@@ -119,7 +119,7 @@ export default function Reservations() {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Occasion (Optional)</label>
-                <select className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                <select className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
                   <option value="">Select occasion</option>
                   <option value="birthday">Birthday</option>
                   <option value="anniversary">Anniversary</option>
@@ -132,10 +132,10 @@ export default function Reservations() {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Special Requests (Optional)</label>
-                <textarea rows={4} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" placeholder="Any dietary restrictions, seating preferences, or special occasions..."></textarea>
+                <textarea rows={4} className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" placeholder="Any dietary restrictions, seating preferences, or special occasions..."></textarea>
               </div>
               
-              <div className="bg-white p-4 rounded-lg border border-gray-200">
+              <div className="bg-white p-4 border border-gray-200">
                 <h3 className="text-lg font-medium text-gray-900 mb-3">Reservation Policy</h3>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-start">
@@ -160,7 +160,7 @@ export default function Reservations() {
               </div>
               
               <div className="flex items-start">
-                <input type="checkbox" id="terms" className="mt-1 w-4 h-4 text-red-600 border-gray-300 rounded focus:ring-red-500" />
+                <input type="checkbox" id="terms" className="mt-1 w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500" />
                 <label htmlFor="terms" className="ml-3 text-sm text-gray-600">
                   I agree to the reservation policy and understand that my table will be held for 15 minutes
                 </label>
