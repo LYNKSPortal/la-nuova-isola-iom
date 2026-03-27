@@ -44,7 +44,7 @@ export default function Menu() {
 
       {/* Menu Images */}
       <section className="py-20 bg-white">
-        <div className="px-[100px]">
+        <div className="px-[20px] md:px-[50px] lg:px-[100px]">
           <div className="space-y-12">
             {/* Menu Page 1 */}
             <div className="w-full">
