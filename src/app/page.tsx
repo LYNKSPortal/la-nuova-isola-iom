@@ -40,7 +40,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h2 id="about-heading" className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <h2 id="about-heading" className="font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4">
                 <p className="text-gray-600">
                   La Nuova Isola brings the authentic taste of Italy to your table. Founded in 2020, 
@@ -73,7 +73,7 @@ export default function Home() {
       <section id="services" className="py-20 bg-gray-50" aria-labelledby="services-heading">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <header className="text-center mb-16">
-            <h2 id="services-heading" className="text-3xl font-bold text-gray-900 mb-4">Our Services</h2>
+            <h2 id="services-heading" className="font-bold text-gray-900 mb-4">Our Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               From intimate dinners to large celebrations, we offer exceptional dining experiences for every occasion
             </p>
@@ -85,7 +85,7 @@ export default function Home() {
                 <span className="text-gray-600">Service Image 1</span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Fine Dining</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Fine Dining</h3>
                 <p className="text-gray-600">
                   Experience our signature tasting menu featuring seasonal ingredients and innovative preparations
                 </p>
@@ -97,7 +97,7 @@ export default function Home() {
                 <span className="text-gray-600">Service Image 2</span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Private Events</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Private Events</h3>
                 <p className="text-gray-600">
                   Host your special occasions in our private dining room with customized menus and service
                 </p>
@@ -109,7 +109,7 @@ export default function Home() {
                 <span className="text-gray-600">Service Image 3</span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Catering</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Catering</h3>
                 <p className="text-gray-600">
                   Bring the taste of La Nuova Isola to your event with our professional catering services
                 </p>
@@ -124,7 +124,7 @@ export default function Home() {
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 id="contact-heading" className="text-3xl font-bold text-gray-900 mb-6">Contact Us</h2>
+              <h2 id="contact-heading" className="font-bold text-gray-900 mb-6">Contact Us</h2>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
@@ -193,7 +193,7 @@ export default function Home() {
             </div>
             
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Reserve a Table</h2>
+              <h2 className="font-bold text-gray-900 mb-6">Reserve a Table</h2>
               <form className="space-y-4" noValidate>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>

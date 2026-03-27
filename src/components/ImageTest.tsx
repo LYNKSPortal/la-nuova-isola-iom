@@ -7,7 +7,7 @@ export default function ImageTest() {
       
       {/* Test 1: White logo (we know this works) */}
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">Test 1: White Logo</h2>
+        <h2 className="font-semibold mb-2">Test 1: White Logo</h2>
         <img 
           src="/white-logo.png" 
           alt="White Logo Test"
@@ -19,7 +19,7 @@ export default function ImageTest() {
 
       {/* Test 2: Direct slider image */}
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">Test 2: Slider Image 1</h2>
+        <h2 className="font-semibold mb-2">Test 2: Slider Image 1</h2>
         <img 
           src="/homepage-slider/Isola_01-scaled.jpg" 
           alt="Slider Image Test"
@@ -31,7 +31,7 @@ export default function ImageTest() {
 
       {/* Test 3: Background image */}
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">Test 3: Background Image</h2>
+        <h2 className="font-semibold mb-2">Test 3: Background Image</h2>
         <div 
           className="w-64 h-48 border-2 border-gray-300 bg-cover bg-center"
           style={{ backgroundImage: 'url(/homepage-slider/Isola_01-scaled.jpg)' }}
@@ -44,7 +44,7 @@ export default function ImageTest() {
 
       {/* Test 4: CSS background with fallback */}
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">Test 4: CSS Background</h2>
+        <h2 className="font-semibold mb-2">Test 4: CSS Background</h2>
         <div 
           className="w-64 h-48 border-2 border-gray-300 bg-red-500 bg-cover bg-center"
           style={{ 

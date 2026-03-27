@@ -51,7 +51,7 @@ export default function Services() {
                 <span className="text-gray-600">Fine Dining Image</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Fine Dining</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Fine Dining</h3>
                 <p className="text-gray-600 mb-4">
                   Experience our signature tasting menu featuring seasonal ingredients and innovative preparations. 
                   Our fine dining service offers an intimate atmosphere with impeccable attention to detail.
@@ -88,7 +88,7 @@ export default function Services() {
                 <span className="text-gray-600">Private Events Image</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Private Events</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Private Events</h3>
                 <p className="text-gray-600 mb-4">
                   Host your special occasions in our elegant private dining room. Perfect for corporate events, 
                   weddings, birthday celebrations, and intimate gatherings.
@@ -125,7 +125,7 @@ export default function Services() {
                 <span className="text-gray-600">Catering Image</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Catering</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Catering</h3>
                 <p className="text-gray-600 mb-4">
                   Bring the authentic taste of La Nuova Isola to your venue. Our professional catering team 
                   ensures the same quality and service you'd expect in our restaurant.
@@ -162,7 +162,7 @@ export default function Services() {
                 <span className="text-gray-600">Wine Tasting Image</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Wine Tasting</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Wine Tasting</h3>
                 <p className="text-gray-600 mb-4">
                   Explore our curated selection of Italian wines with expert guidance from our sommelier. 
                   Perfect for wine enthusiasts and corporate team building.
@@ -199,7 +199,7 @@ export default function Services() {
                 <span className="text-gray-600">Cooking Classes Image</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Cooking Classes</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Cooking Classes</h3>
                 <p className="text-gray-600 mb-4">
                   Learn the secrets of Italian cuisine from our expert chefs. Hands-on classes covering 
                   pasta making, traditional techniques, and regional specialties.
@@ -236,7 +236,7 @@ export default function Services() {
                 <span className="text-gray-600">Takeout Image</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Takeout & Delivery</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Takeout & Delivery</h3>
                 <p className="text-gray-600 mb-4">
                   Enjoy La Nuova Isola at home with our takeout and delivery services. Same quality, 
                   same flavors, delivered to your door or ready for pickup.
@@ -274,7 +274,7 @@ export default function Services() {
       <section className="py-20 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Services</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Why Choose Our Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We're committed to providing exceptional service and unforgettable experiences
             </p>
@@ -287,7 +287,7 @@ export default function Services() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Premium Quality</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Premium Quality</h3>
               <p className="text-gray-600">
                 Only the finest ingredients and highest standards in everything we do
               </p>
@@ -299,7 +299,7 @@ export default function Services() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Passionate Service</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Passionate Service</h3>
               <p className="text-gray-600">
                 Our team is dedicated to creating memorable experiences for every guest
               </p>
@@ -311,7 +311,7 @@ export default function Services() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Flexible Options</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Flexible Options</h3>
               <p className="text-gray-600">
                 Customizable services tailored to meet your specific needs and preferences
               </p>

@@ -154,7 +154,7 @@ export default function Menu() {
           {menuCategories.map((category, index) => (
             <div key={category.name} className={`${index > 0 ? 'mt-20' : ''}`}>
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">{category.name}</h2>
+                <h2 className="font-bold text-gray-900 mb-4">{category.name}</h2>
                 <p className="text-gray-600 max-w-2xl mx-auto">
                   {category.description}
                 </p>
@@ -164,7 +164,7 @@ export default function Menu() {
                 {category.items.map((item) => (
                   <div key={item.name} className="bg-gray-50 rounded-lg p-6">
                     <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-xl font-semibold text-gray-900">{item.name}</h3>
+                      <h3 className="font-semibold text-gray-900">{item.name}</h3>
                       <span className="text-xl font-bold text-red-600">{item.price}</span>
                     </div>
                     <p className="text-gray-600">{item.description}</p>
@@ -180,7 +180,7 @@ export default function Menu() {
       <section className="py-20 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Wine Selection</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Wine Selection</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Carefully selected Italian wines to complement your meal
             </p>
@@ -191,7 +191,7 @@ export default function Menu() {
               <div className="w-full h-48 bg-gray-200 mb-4 flex items-center justify-center">
                 <span className="text-gray-600">Red Wine</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Red Wines</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Red Wines</h3>
               <p className="text-gray-600 mb-4">
                 Chianti, Barolo, Brunello di Montalcino, and more
               </p>
@@ -211,7 +211,7 @@ export default function Menu() {
               <div className="w-full h-48 bg-gray-200 mb-4 flex items-center justify-center">
                 <span className="text-gray-600">White Wine</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">White Wines</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">White Wines</h3>
               <p className="text-gray-600 mb-4">
                 Pinot Grigio, Sauvignon Blanc, and Italian whites
               </p>
@@ -231,7 +231,7 @@ export default function Menu() {
               <div className="w-full h-48 bg-gray-200 mb-4 flex items-center justify-center">
                 <span className="text-gray-600">Sparkling Wine</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Sparkling Wines</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Sparkling Wines</h3>
               <p className="text-gray-600 mb-4">
                 Prosecco, Franciacorta, and other Italian sparkling wines
               </p>
@@ -254,7 +254,7 @@ export default function Menu() {
       <section className="py-20 bg-white">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Dietary Options</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Dietary Options</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We accommodate various dietary preferences and restrictions
             </p>
@@ -267,7 +267,7 @@ export default function Menu() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Vegetarian</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Vegetarian</h3>
               <p className="text-gray-600">
                 Extensive vegetarian options available in all categories
               </p>
@@ -279,7 +279,7 @@ export default function Menu() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Gluten-Free</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Gluten-Free</h3>
               <p className="text-gray-600">
                 Gluten-free pasta and options available upon request
               </p>
@@ -291,7 +291,7 @@ export default function Menu() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Vegan</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Vegan</h3>
               <p className="text-gray-600">
                 Plant-based alternatives for many traditional dishes
               </p>
