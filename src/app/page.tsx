@@ -33,12 +33,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 bg-white" aria-labelledby="about-heading">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center" role="img" aria-label="La Nuova Isola Restaurant Interior">
-                <span className="text-gray-600">Restaurant Image</span>
-              </div>
-            </div>
+          <div className="max-w-4xl mx-auto text-center">
             <div>
               <h2 id="about-heading" className="font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4">
