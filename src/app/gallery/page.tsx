@@ -1,5 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Gallery - La Nuova Isola | Restaurant Photos Isle of Man",
+  description: "View photos of La Nuova Isola restaurant, our dishes, and events in the Isle of Man. Experience our authentic Italian dining atmosphere.",
+  keywords: ["restaurant gallery", "Italian restaurant photos", "Isle of Man dining", "La Nuova Isola images"],
+  openGraph: {
+    title: "Gallery - La Nuova Isola",
+    description: "View photos of La Nuova Isola restaurant and our authentic Italian dishes.",
+    url: "https://lanuovaisola.im/gallery",
+  },
+};
 
 export default function Gallery() {
   const galleryImages = [

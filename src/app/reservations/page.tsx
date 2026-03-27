@@ -1,5 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Reservations - La Nuova Isola | Book Table Isle of Man",
+  description: "Make a reservation at La Nuova Isola Italian restaurant in the Isle of Man. Book your table online for authentic Italian dining.",
+  keywords: ["restaurant reservations", "book table", "Italian dining", "Isle of Man restaurant", "La Nuova Isola booking"],
+  openGraph: {
+    title: "Reservations - La Nuova Isola",
+    description: "Make a reservation at La Nuova Isola Italian restaurant in the Isle of Man.",
+    url: "https://lanuovaisola.im/reservations",
+  },
+};
 
 export default function Reservations() {
   return (

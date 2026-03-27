@@ -1,5 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Our Services - La Nuova Isola | Italian Restaurant Isle of Man",
+  description: "Discover La Nuova Isola's services: fine dining, private events, catering, wine tasting, cooking classes, and takeout in the Isle of Man.",
+  keywords: ["Italian restaurant services", "fine dining", "private events", "catering", "wine tasting", "cooking classes"],
+  openGraph: {
+    title: "Our Services - La Nuova Isola",
+    description: "Discover La Nuova Isola's services: fine dining, private events, catering, and more.",
+    url: "https://lanuovaisola.im/services",
+  },
+};
 
 export default function Services() {
   return (

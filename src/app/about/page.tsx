@@ -1,5 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About La Nuova Isola - Our Story | Italian Restaurant Isle of Man",
+  description: "Learn about La Nuova Isola's story, our passion for authentic Italian cuisine, and our commitment to excellence in the Isle of Man.",
+  keywords: ["about La Nuova Isola", "Italian restaurant story", "Isle of Man restaurant", "Italian cuisine", "restaurant history"],
+  openGraph: {
+    title: "About La Nuova Isola - Our Story",
+    description: "Learn about La Nuova Isola's story, our passion for authentic Italian cuisine, and our commitment to excellence.",
+    url: "https://lanuovaisola.im/about",
+  },
+};
 
 export default function About() {
   return (
@@ -7,18 +19,18 @@ export default function About() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-96">
+      <section className="relative h-96" aria-labelledby="about-hero-heading">
         <div className="absolute inset-0 bg-gray-900">
           {/* Placeholder for hero image */}
-          <div className="w-full h-full bg-gray-800 flex items-center justify-center">
+          <div className="w-full h-full bg-gray-800 flex items-center justify-center" role="img" aria-label="La Nuova Isola Restaurant Interior">
             <span className="text-white text-xl">About Hero Image</span>
           </div>
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div className="relative h-full flex items-center">
+        <header className="relative h-full flex items-center">
           <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
             <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              <h1 id="about-hero-heading" className="text-4xl md:text-5xl font-bold text-white mb-4">
                 About La Nuova Isola
               </h1>
               <p className="text-xl text-white">
@@ -26,7 +38,7 @@ export default function About() {
               </p>
             </div>
           </div>
-        </div>
+        </header>
       </section>
 
       {/* Our Story Section */}

@@ -1,5 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Our Menu - La Nuova Isola | Italian Cuisine Isle of Man",
+  description: "Explore La Nuova Isola's authentic Italian menu featuring traditional pasta, pizza, seafood, and desserts in the Isle of Man.",
+  keywords: ["Italian menu", "authentic Italian cuisine", "pasta", "pizza", "Italian food", "Isle of Man restaurant"],
+  openGraph: {
+    title: "Our Menu - La Nuova Isola",
+    description: "Explore La Nuova Isola's authentic Italian menu featuring traditional dishes.",
+    url: "https://lanuovaisola.im/menu",
+  },
+};
 
 export default function Menu() {
   const menuCategories = [
