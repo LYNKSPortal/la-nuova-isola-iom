@@ -47,7 +47,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Get in Touch</h2>
+              <h2 className="font-bold text-gray-900 mb-8">Get in Touch</h2>
               
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -149,7 +149,7 @@ export default function Contact() {
             
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Send us a Message</h2>
+              <h2 className="font-bold text-gray-900 mb-8">Send us a Message</h2>
               
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -211,7 +211,7 @@ export default function Contact() {
       <section className="py-20 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Find Us</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Find Us</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Conveniently located in the heart of downtown with easy access to parking and public transportation
             </p>

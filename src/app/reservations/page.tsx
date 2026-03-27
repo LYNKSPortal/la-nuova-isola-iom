@@ -45,7 +45,7 @@ export default function Reservations() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gray-50 rounded-lg shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
             
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -228,7 +228,7 @@ export default function Reservations() {
       <section className="py-20 bg-white">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Private Events & Large Parties</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Private Events & Large Parties</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               For parties of 8 or more, or for private events, please contact us directly for personalized service
             </p>
@@ -236,7 +236,7 @@ export default function Reservations() {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="bg-gray-50 rounded-lg p-8">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Private Dining Room</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Private Dining Room</h3>
               <p className="text-gray-600 mb-6">
                 Our elegant private dining room accommodates up to 50 guests and is perfect for:
               </p>
@@ -272,7 +272,7 @@ export default function Reservations() {
             </div>
             
             <div className="bg-gray-50 rounded-lg p-8">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Large Party Reservations</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Large Party Reservations</h3>
               <p className="text-gray-600 mb-6">
                 For groups of 8 or more, we offer special services and menu options:
               </p>

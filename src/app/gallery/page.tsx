@@ -145,7 +145,7 @@ export default function Gallery() {
       <section className="py-20 bg-white">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Virtual Tour</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Virtual Tour</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Take a virtual walkthrough of our restaurant and experience the ambiance before you visit
             </p>
@@ -158,7 +158,7 @@ export default function Gallery() {
               </div>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Explore Our Space</h3>
+              <h3 className="font-bold text-gray-900 mb-4">Explore Our Space</h3>
               <p className="text-gray-600 mb-6">
                 Step inside La Nuova Isola through our immersive virtual tour. Experience the warm, 
                 inviting atmosphere of our dining rooms, the elegant private event spaces, and the 
@@ -217,7 +217,7 @@ export default function Gallery() {
       <section className="py-20 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Follow Our Journey</h2>
+            <h2 className="font-bold text-gray-900 mb-4">Follow Our Journey</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               See what's happening at La Nuova Isola through our social media channels
             </p>

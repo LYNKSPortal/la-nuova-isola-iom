@@ -51,7 +51,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <h2 className="font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
                 La Nuova Isola was born from a dream to bring the authentic flavors of Italy to the heart of our city. 
                 Founded in 2020 by Chef Marco Rossi, our restaurant represents a culmination of over 20 years of 
@@ -77,7 +77,7 @@ export default function About() {
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Chef</h2>
+              <h2 className="font-bold text-gray-900 mb-6">Our Chef</h2>
               <p className="text-gray-600 mb-4">
                 Chef Marco Rossi brings a wealth of experience from working in some of Italy's most prestigious 
                 restaurants. Trained in the classic techniques of Italian cuisine while embracing modern 
