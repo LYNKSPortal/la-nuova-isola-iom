@@ -51,7 +51,7 @@ export default function Menu() {
               <img 
                 src="/menu/Isola Lunch Menu Mar26_page-0001 2.jpg" 
                 alt="La Nuova Isola Lunch Menu"
-                className="w-full h-auto shadow-xl rounded-lg border border-black"
+                className="w-full h-auto shadow-xl border border-black"
               />
             </div>
 
@@ -81,7 +81,7 @@ export default function Menu() {
               <img 
                 src="/menu/Isola-Menu-Feb26_page-0001.jpg" 
                 alt="La Nuova Isola Menu Page 1"
-                className="w-full h-auto shadow-xl rounded-lg border border-black"
+                className="w-full h-auto shadow-xl border border-black"
               />
             </div>
             
@@ -90,7 +90,7 @@ export default function Menu() {
               <img 
                 src="/menu/Isola-Menu-Feb26_page-0002.jpg" 
                 alt="La Nuova Isola Menu Page 2"
-                className="w-full h-auto shadow-xl rounded-lg border border-black"
+                className="w-full h-auto shadow-xl border border-black"
               />
             </div>
 
