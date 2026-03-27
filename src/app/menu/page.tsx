@@ -86,7 +86,7 @@ export default function Menu() {
               View PDF Menu
             </a>
             <p className="text-sm text-gray-500 mt-6">
-              Last Updated: 27.02.2026
+              Last Updated: 27.03.2026
             </p>
           </div>
         </div>
