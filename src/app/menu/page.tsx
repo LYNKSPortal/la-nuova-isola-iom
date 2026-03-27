@@ -44,28 +44,24 @@ export default function Menu() {
 
       {/* Menu Images */}
       <section className="py-20 bg-white">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="max-w-6xl mx-auto space-y-12">
+        <div className="px-[100px]">
+          <div className="space-y-12">
             {/* Menu Page 1 */}
-            <div className="text-center">
-              <div className="w-full max-w-4xl mx-auto">
-                <img 
-                  src="/menu/Isola-Menu-Feb26_page-0001.jpg" 
-                  alt="La Nuova Isola Menu Page 1"
-                  className="w-full h-auto shadow-xl rounded-lg"
-                />
-              </div>
+            <div className="w-full">
+              <img 
+                src="/menu/Isola-Menu-Feb26_page-0001.jpg" 
+                alt="La Nuova Isola Menu Page 1"
+                className="w-full h-auto shadow-xl rounded-lg"
+              />
             </div>
             
             {/* Menu Page 2 */}
-            <div className="text-center">
-              <div className="w-full max-w-4xl mx-auto">
-                <img 
-                  src="/menu/Isola-Menu-Feb26_page-0002.jpg" 
-                  alt="La Nuova Isola Menu Page 2"
-                  className="w-full h-auto shadow-xl rounded-lg"
-                />
-              </div>
+            <div className="w-full">
+              <img 
+                src="/menu/Isola-Menu-Feb26_page-0002.jpg" 
+                alt="La Nuova Isola Menu Page 2"
+                className="w-full h-auto shadow-xl rounded-lg"
+              />
             </div>
           </div>
         </div>
