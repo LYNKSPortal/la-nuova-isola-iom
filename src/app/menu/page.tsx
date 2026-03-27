@@ -43,7 +43,7 @@ export default function Menu() {
       </section>
 
       {/* Download Section */}
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="px-[20px] md:px-[50px] lg:px-[100px]">
           <div className="text-center">
             <p className="text-gray-700 mb-6">
