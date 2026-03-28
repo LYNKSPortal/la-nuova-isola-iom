@@ -12,6 +12,6 @@ const smtpConfig = {
 };
 
 // Create transporter
-const transporter = nodemailer.createTransporter(smtpConfig);
+const transporter = nodemailer.createTransport(smtpConfig);
 
 export default transporter;
