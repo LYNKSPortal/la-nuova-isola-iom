@@ -102,16 +102,7 @@ export default function Footer() {
                 <time>11:00 AM - 9:00 PM</time>
               </div>
             </div>
-            <div className="mt-4">
-              <a 
-                href="/reservations" 
-                className="inline-block bg-white text-[#7A2325] px-4 py-2 hover:bg-gray-200 transition-colors text-sm font-medium"
-                aria-label="Make a reservation - Navigate to reservations page"
-              >
-                Make Reservation
-              </a>
-            </div>
-          </section>
+                      </section>
         </div>
         
         <div className="mt-8 pt-8 border-t border-white/20">
