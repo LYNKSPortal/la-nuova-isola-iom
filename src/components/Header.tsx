@@ -60,7 +60,7 @@ export default function Header() {
                 {/* Book Now Button */}
                 <Link 
                   href="/reservations" 
-                  className="bg-white text-[#7A2325] px-6 py-2 hover:bg-gray-200 transition-colors font-medium"
+                  className="bg-[#7A2325] text-white px-6 py-2 hover:bg-red-700 transition-colors font-medium"
                   aria-label="Make a reservation now"
                 >
                   Book Now
@@ -157,7 +157,7 @@ export default function Header() {
               <div className="pt-4 pb-3 border-t border-white/20">
                 <Link
                   href="/reservations"
-                  className="block w-full bg-white text-[#7A2325] px-6 py-3 hover:bg-gray-200 transition-colors font-medium text-center"
+                  className="block w-full bg-[#7A2325] text-white px-6 py-3 hover:bg-red-700 transition-colors font-medium text-center"
                   onClick={() => setIsMenuOpen(false)}
                   aria-label="Make a reservation now"
                 >
