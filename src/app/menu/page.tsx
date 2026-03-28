@@ -55,7 +55,7 @@ export default function Menu() {
             {/* Left Column - Lunch Menu */}
             <div className="space-y-8">
               <div className="text-center">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Lunch Menu</h2>
+                <h2 className="font-bold text-gray-900 mb-6">Lunch Menu</h2>
               </div>
               
               {/* Lunch Menu Image */}
@@ -92,7 +92,7 @@ export default function Menu() {
             {/* Right Column - Evening Menu */}
             <div className="space-y-8">
               <div className="text-center">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Evening Menu</h2>
+                <h2 className="font-bold text-gray-900 mb-6">Evening Menu</h2>
               </div>
               
               {/* Menu Page 1 */}
