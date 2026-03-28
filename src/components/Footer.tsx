@@ -88,26 +88,26 @@ export default function Footer() {
           {/* Hours */}
           <section className="text-center" aria-labelledby="hours-heading">
             <h2 id="hours-heading" className="font-semibold mb-4">Hours</h2>
-            <div className="space-y-2 text-white">
-              <div className="flex flex-col items-center">
-                <span>Sunday, Monday & Tuesday</span>
-                <time>Closed</time>
+            <div className="text-white space-y-1">
+              <div className="flex justify-between items-center">
+                <span className="flex-1 text-left">Sun, Mon & Tue:</span>
+                <span className="flex-1 text-right font-medium">Closed</span>
               </div>
-              <div className="flex flex-col items-center">
-                <span>Wednesday</span>
-                <time>12:00 PM - 2:00 PM, 5:00 PM - 9:00 PM</time>
+              <div className="flex justify-between items-center">
+                <span className="flex-1 text-left">Wednesday:</span>
+                <span className="flex-1 text-right">12:00-14:00, 17:00-21:00</span>
               </div>
-              <div className="flex flex-col items-center">
-                <span>Thursday</span>
-                <time>12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</time>
+              <div className="flex justify-between items-center">
+                <span className="flex-1 text-left">Thursday:</span>
+                <span className="flex-1 text-right">12:00-14:00, 17:00-21:30</span>
               </div>
-              <div className="flex flex-col items-center">
-                <span>Friday</span>
-                <time>12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</time>
+              <div className="flex justify-between items-center">
+                <span className="flex-1 text-left">Friday:</span>
+                <span className="flex-1 text-right">12:00-14:00, 17:00-21:30</span>
               </div>
-              <div className="flex flex-col items-center">
-                <span>Saturday</span>
-                <time>6:00 PM - 9:30 PM</time>
+              <div className="flex justify-between items-center">
+                <span className="flex-1 text-left">Saturday:</span>
+                <span className="flex-1 text-right">18:00-21:30</span>
               </div>
             </div>
                       </section>
