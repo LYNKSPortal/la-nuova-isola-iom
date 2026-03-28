@@ -55,9 +55,11 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="w-full h-96 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-600">Restaurant Interior</span>
-              </div>
+              <img 
+                src="/the-chefs.jpg" 
+                alt="La Nuova Isola Restaurant Interior" 
+                className="w-full h-96 object-cover rounded-lg"
+              />
             </div>
             <div>
               <p className="text-gray-600 mb-4">
