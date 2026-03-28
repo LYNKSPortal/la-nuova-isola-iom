@@ -20,7 +20,7 @@ export default function About() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-96 w-full overflow-hidden" aria-labelledby="about-hero-heading">
+      <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden" aria-labelledby="about-hero-heading">
         <img 
           src="/homepage-slider/Isola_01-scaled.jpg" 
           alt="Restaurant background"
@@ -36,11 +36,11 @@ export default function About() {
         />
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
-          <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-            <h1 id="about-hero-heading" className="font-bold text-white mb-4">
+          <div className="text-center px-4 sm:px-6 md:px-8">
+            <h1 id="about-hero-heading" className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
               About La Nuova Isola
             </h1>
-            <p className="text-xl text-white">
+            <p className="text-base sm:text-lg md:text-xl text-white">
               Our story, our passion, our commitment to excellence
             </p>
           </div>
@@ -48,9 +48,9 @@ export default function About() {
       </section>
 
       {/* Our Story Section */}
-      <section className="py-20 bg-white">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="py-8 md:py-12 lg:py-16 bg-white">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
             <div>
               <img 
                 src="/outside-restaurant.jpg" 
@@ -59,18 +59,18 @@ export default function About() {
               />
             </div>
             <div>
-              <h2 className="font-bold text-gray-900 mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-4">
+              <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Story</h2>
+              <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 La Nuova Isola was born from a dream to bring the authentic flavors of Italy to the heart of our city. 
                 Founded in 2020 by Chef Marco Rossi, our restaurant represents a culmination of over 20 years of 
                 culinary experience and a deep passion for Italian cuisine.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 Our name, "The New Island," symbolizes our mission to create an oasis of Italian culture and cuisine 
                 - a place where guests can escape the everyday and immerse themselves in the warmth and hospitality 
                 that Italy is famous for.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm md:text-base">
                 Every dish we serve tells a story of tradition, innovation, and love for food. We source the finest 
                 ingredients, many from local farms, and work closely with Italian producers to ensure authenticity 
                 in every bite.
@@ -81,22 +81,22 @@ export default function About() {
       </section>
 
       {/* Chef Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="py-8 md:py-12 lg:py-16 bg-gray-50">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="font-bold text-gray-900 mb-6">Our Chef</h2>
-              <p className="text-gray-600 mb-4">
+              <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Chef</h2>
+              <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 Chef Marco Rossi brings a wealth of experience from working in some of Italy's most prestigious 
                 restaurants. Trained in the classic techniques of Italian cuisine while embracing modern 
                 culinary innovations, Chef Marco creates dishes that honour tradition while delighting the modern palate.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 His philosophy is simple: let the ingredients speak for themselves. By focusing on quality, 
                 seasonality, and respect for traditional methods, he creates menus that are both authentic and 
                 exciting.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm md:text-base">
                 "Cooking is not just about feeding people," says Chef Marco. "It's about creating memories, 
                 bringing families together, and sharing the joy of Italian hospitality."
               </p>

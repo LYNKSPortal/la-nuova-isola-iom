@@ -359,7 +359,7 @@ export default function Gallery() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-96 w-full overflow-hidden">
+      <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
         <img 
           src="/homepage-slider/Isola_15-scaled.jpg" 
           alt="Restaurant background"
@@ -375,11 +375,11 @@ export default function Gallery() {
         />
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
-          <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-            <h1 className="font-bold text-white mb-4">
+          <div className="text-center px-4 sm:px-6 md:px-8">
+            <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
               Gallery
             </h1>
-            <p className="text-xl text-white">
+            <p className="text-base sm:text-lg md:text-xl text-white">
               Experience the ambiance and flavors of La Nuova Isola
             </p>
           </div>
@@ -387,9 +387,9 @@ export default function Gallery() {
       </section>
 
       {/* Gallery Grid */}
-      <section className="py-12 bg-gray-50">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <section className="py-8 md:py-10 lg:py-12 bg-gray-50">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {galleryImages.map((image) => (
               <div key={image.id} className="bg-white shadow-lg">
                 <div className="relative aspect-square">

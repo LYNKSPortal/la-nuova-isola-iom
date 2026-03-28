@@ -22,21 +22,21 @@ export default function Reservations() {
       
       
       {/* Private Events */}
-      <section className="py-20 bg-white">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="text-center mb-12">
-            <h2 className="font-bold text-gray-900 mb-4">Private Events & Large Parties</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+      <section className="py-8 md:py-12 lg:py-16 bg-white">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="text-center mb-6 md:mb-8 lg:mb-12">
+            <h2 className="font-bold text-gray-900 mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl">Private Events & Large Parties</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
               For parties of 8 or more, or for private events, please contact us directly for personalized service
             </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-lg p-8">
-              <div className="text-center mb-6">
-                <h3 className="font-semibold text-gray-900">Private Dining Room</h3>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+            <div className="bg-gray-50 rounded-lg p-4 sm:p-6 md:p-8">
+              <div className="text-center mb-4 md:mb-6">
+                <h3 className="font-semibold text-gray-900 text-lg md:text-xl">Private Dining Room</h3>
               </div>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-4 md:mb-6 text-sm md:text-base">
                 Our elegant private dining room accommodates up to 50 guests and is perfect for:
               </p>
               <ul className="text-gray-600 space-y-3 mb-6">
