@@ -54,7 +54,7 @@ export default function Footer() {
           </section>
           {/* Quick Links */}
           <section className="text-center" aria-labelledby="quick-links-heading">
-            <h2 id="quick-links-heading" className="text-lg font-semibold mb-4">Quick Links</h2>
+            <h2 id="quick-links-heading" className="font-semibold mb-4">Quick Links</h2>
             <nav aria-label="Quick navigation links">
               <ul className="space-y-2 text-white">
                 <li><a href="/" className="hover:text-gray-300 transition-colors">Home</a></li>
@@ -68,7 +68,7 @@ export default function Footer() {
           </section>
           {/* Contact */}
           <section className="text-center" aria-labelledby="contact-heading">
-            <h2 id="contact-heading" className="text-lg font-semibold mb-4">Contact</h2>
+            <h2 id="contact-heading" className="font-semibold mb-4">Contact</h2>
             <address className="space-y-2 text-white not-italic">
               <p>10–12 Prospect Hill</p>
               <p>Douglas, Isle of Man, IM1 1EJ</p>
@@ -87,7 +87,7 @@ export default function Footer() {
           </section>
           {/* Hours */}
           <section className="text-center" aria-labelledby="hours-heading">
-            <h2 id="hours-heading" className="text-lg font-semibold mb-4">Hours</h2>
+            <h2 id="hours-heading" className="font-semibold mb-4">Hours</h2>
             <div className="space-y-2 text-white">
               <div className="flex flex-col items-center">
                 <span>Monday - Thursday</span>
