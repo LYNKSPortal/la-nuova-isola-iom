@@ -2,8 +2,10 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 export default function ReservationForm() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     guests: '',
@@ -44,17 +46,8 @@ export default function ReservationForm() {
       const data = await response.json();
 
       if (response.ok) {
-        setSubmitStatus('success');
-        setFormData({
-          name: '',
-          guests: '',
-          date: '',
-          time: '',
-          flexible: 'no',
-          email: '',
-          phone: '',
-          specialRequests: ''
-        });
+        // Redirect to confirmation page
+        router.push('/reservation-confirmation');
       } else {
         setSubmitStatus('error');
         setErrorMessage(data.error || 'Failed to send reservation request. Please try again.');
