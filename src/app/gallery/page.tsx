@@ -395,8 +395,6 @@ export default function Gallery() {
               src="/gallery/Isola_01-scaled.jpg.jpeg" 
               alt="Test image"
               className="w-64 h-64 object-cover mx-auto"
-              onError={(e) => console.log('Image failed to load', e)}
-              onLoad={() => console.log('Image loaded successfully')}
             />
           </div>
         </div>
