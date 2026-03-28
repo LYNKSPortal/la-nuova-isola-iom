@@ -386,20 +386,6 @@ export default function Gallery() {
         </header>
       </section>
 
-      {/* Test Image */}
-      <section className="py-12 bg-white">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="text-center mb-8">
-            <h3 className="text-lg font-semibold mb-4">Test Image Loading</h3>
-            <img 
-              src="/gallery/Isola_01-scaled.jpg.jpeg" 
-              alt="Test image"
-              className="w-64 h-64 object-cover mx-auto"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Filter Categories */}
       <section className="py-12 bg-white">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
