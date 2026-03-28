@@ -165,9 +165,11 @@ export default function ContactForm() {
                   <div className="ml-6">
                     <h3 className="font-medium text-gray-900 mb-2">Hours</h3>
                     <div className="text-gray-600">
-                      <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
-                      <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
-                      <p>Sunday: 12:00 PM - 9:00 PM</p>
+                      <p>Sunday, Monday & Tuesday: Closed</p>
+                      <p>Wednesday: 12:00 PM - 2:00 PM, 5:00 PM - 9:00 PM</p>
+                      <p>Thursday: 12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</p>
+                      <p>Friday: 12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</p>
+                      <p>Saturday: 6:00 PM - 9:30 PM</p>
                     </div>
                   </div>
                 </div>

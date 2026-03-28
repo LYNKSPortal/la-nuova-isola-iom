@@ -90,16 +90,24 @@ export default function Footer() {
             <h2 id="hours-heading" className="font-semibold mb-4">Hours</h2>
             <div className="space-y-2 text-white">
               <div className="flex flex-col items-center">
-                <span>Monday - Thursday</span>
-                <time>11:00 AM - 10:00 PM</time>
+                <span>Sunday, Monday & Tuesday</span>
+                <time>Closed</time>
               </div>
               <div className="flex flex-col items-center">
-                <span>Friday - Saturday</span>
-                <time>11:00 AM - 11:00 PM</time>
+                <span>Wednesday</span>
+                <time>12:00 PM - 2:00 PM, 5:00 PM - 9:00 PM</time>
               </div>
               <div className="flex flex-col items-center">
-                <span>Sunday</span>
-                <time>11:00 AM - 9:00 PM</time>
+                <span>Thursday</span>
+                <time>12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</time>
+              </div>
+              <div className="flex flex-col items-center">
+                <span>Friday</span>
+                <time>12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</time>
+              </div>
+              <div className="flex flex-col items-center">
+                <span>Saturday</span>
+                <time>6:00 PM - 9:30 PM</time>
               </div>
             </div>
                       </section>
