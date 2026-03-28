@@ -69,36 +69,36 @@ export default function HomepageSlider() {
       id: 0,
       image: '/homepage-slider/Isola_01-scaled.jpg',
       title: 'Welcome to La Nuova Isola',
-      description: 'Authentic Italian dining experience in the heart of the city',
+      description: 'Authentic Italian dining in the heart of the Isle of Man',
       buttonText: 'Reserve a Table'
     },
     {
       id: 1,
       image: '/homepage-slider/Isola_11-scaled.jpg',
-      title: 'Welcome to La Nuova Isola',
-      description: 'Authentic Italian dining experience in the heart of the city',
-      buttonText: 'Reserve a Table'
+      title: 'Traditional Italian Cuisine',
+      description: 'Experience the flavors of Italy with our authentic recipes',
+      buttonText: 'View Our Menu'
     },
     {
       id: 2,
       image: '/homepage-slider/Isola_13-scaled.jpg',
-      title: 'Welcome to La Nuova Isola',
-      description: 'Authentic Italian dining experience in the heart of the city',
-      buttonText: 'Reserve a Table'
+      title: 'Fresh, Local Ingredients',
+      description: 'Quality ingredients prepared with passion and expertise',
+      buttonText: 'Discover Our Story'
     },
     {
       id: 3,
       image: '/homepage-slider/Isola_15-scaled.jpg',
-      title: 'Welcome to La Nuova Isola',
-      description: 'Authentic Italian dining experience in the heart of the city',
-      buttonText: 'Reserve a Table'
+      title: 'Perfect for Every Occasion',
+      description: 'From intimate dinners to celebrations, we make every moment special',
+      buttonText: 'Book Your Table'
     },
     {
       id: 4,
       image: '/homepage-slider/Isola_16-scaled.jpg',
-      title: 'Welcome to La Nuova Isola',
-      description: 'Authentic Italian dining experience in the heart of the city',
-      buttonText: 'Reserve a Table'
+      title: 'Warm Italian Hospitality',
+      description: 'Where every guest is treated like family',
+      buttonText: 'Make a Reservation'
     }
   ];
 

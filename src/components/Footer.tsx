@@ -4,9 +4,9 @@ export default function Footer() {
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
           {/* Brand */}
-          <section className="text-center" aria-labelledby="brand-heading">
+          <section className="text-center sm:text-left" aria-labelledby="brand-heading">
             <h2 id="brand-heading" className="sr-only">La Nuova Isola Brand</h2>
-            <div className="flex justify-center mb-3 md:mb-4">
+            <div className="flex justify-center sm:justify-start mb-3 md:mb-4">
               <img 
                 src="/white-logo.png" 
                 alt="La Nuova Isola Restaurant Logo" 
@@ -19,7 +19,7 @@ export default function Footer() {
               Authentic Italian cuisine in the heart of the Isle of Man
             </p>
             <nav aria-label="Social media links">
-              <div className="flex justify-center space-x-3 md:space-x-4">
+              <div className="flex justify-center sm:justify-start space-x-3 md:space-x-4">
                 <a 
                   href="https://www.facebook.com/manxisola" 
                   className="text-white hover:text-gray-300 transition-colors"
@@ -67,20 +67,19 @@ export default function Footer() {
           <section className="text-center sm:text-left" aria-labelledby="quick-links-heading">
             <h2 id="quick-links-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Quick Links</h2>
             <nav aria-label="Quick navigation links">
-              <ul className="space-y-2 text-white">
+              <ul className="space-y-2 text-white text-sm md:text-base">
                 <li><a href="/" className="hover:text-gray-300 transition-colors">Home</a></li>
                 <li><a href="/about" className="hover:text-gray-300 transition-colors">About</a></li>
                 <li><a href="/menu" className="hover:text-gray-300 transition-colors">Menu</a></li>
                 <li><a href="/gallery" className="hover:text-gray-300 transition-colors">Gallery</a></li>
                 <li><a href="/reservations" className="hover:text-gray-300 transition-colors">Reservations</a></li>
-                <li><a href="/contact" className="hover:text-gray-300 transition-colors">Contact</a></li>
               </ul>
             </nav>
           </section>
           {/* Contact */}
-          <section className="text-center" aria-labelledby="contact-heading">
-            <h2 id="contact-heading" className="font-semibold mb-4">Contact</h2>
-            <address className="space-y-2 text-white not-italic">
+          <section className="text-center sm:text-left" aria-labelledby="contact-heading">
+            <h2 id="contact-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Contact</h2>
+            <address className="space-y-2 text-white not-italic text-sm md:text-base">
               <p>10–12 Prospect Hill</p>
               <p>Douglas, Isle of Man, IM1 1EJ</p>
               <p>(accessible via the steps)</p>
@@ -97,9 +96,9 @@ export default function Footer() {
             </address>
           </section>
           {/* Hours */}
-          <section className="text-center" aria-labelledby="hours-heading">
-            <h2 id="hours-heading" className="font-semibold mb-4">Hours</h2>
-            <div className="text-white space-y-1">
+          <section className="text-center sm:text-left" aria-labelledby="hours-heading">
+            <h2 id="hours-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Hours</h2>
+            <div className="text-white space-y-1 text-sm md:text-base">
               <div className="flex justify-between items-center">
                 <span className="flex-1 text-left">Sun, Mon & Tue:</span>
                 <span className="flex-1 text-right font-medium">Closed</span>
@@ -124,19 +123,19 @@ export default function Footer() {
                       </section>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-white/20">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-white text-sm">
+        <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+            <p className="text-white text-sm order-2 md:order-1">
               &copy; 2026 La Nuova Isola. All rights reserved.
             </p>
-            <div className="flex items-center justify-center my-4 md:my-0">
+            <div className="flex items-center justify-center order-1 md:order-2">
               <img 
                 src="/powered-by-lynks.png" 
                 alt="Powered by LYNKS" 
                 className="w-[200px] h-auto opacity-75 hover:opacity-100 transition-opacity"
               />
             </div>
-            <div className="flex space-x-6">
+            <div className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 order-3">
               <a href="/privacy" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
               <a href="/terms" className="text-white hover:text-gray-300 text-sm transition-colors">Terms of Service</a>
               <a href="/accessibility" className="text-white hover:text-gray-300 text-sm transition-colors">Accessibility</a>
