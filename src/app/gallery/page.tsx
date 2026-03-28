@@ -18,57 +18,339 @@ export default function Gallery() {
   const galleryImages = [
     {
       id: 1,
+      src: "/gallery/Isola_06-scaled.jpg",
       category: "interior",
-      title: "Dining Area",
-      description: "Our main dining room with elegant ambiance"
+      title: "Restaurant Interior",
+      description: "Elegant dining atmosphere"
     },
     {
       id: 2,
-      category: "food",
-      title: "Signature Dish",
-      description: "Chef's special pasta creation"
+      src: "/gallery/Isola_01-scaled.jpg",
+      category: "interior",
+      title: "Main Dining Area",
+      description: "Spacious and welcoming"
     },
     {
       id: 3,
+      src: "/gallery/Isola_02-scaled.jpg",
       category: "interior",
-      title: "Private Dining",
-      description: "Intimate space for special occasions"
+      title: "Restaurant View",
+      description: "Modern Italian decor"
     },
     {
       id: 4,
-      category: "food",
-      title: "Antipasti Platter",
-      description: "Fresh Italian appetizers"
+      src: "/gallery/Isola_03-scaled.jpg",
+      category: "interior",
+      title: "Dining Room",
+      description: "Comfortable seating area"
     },
     {
       id: 5,
-      category: "events",
-      title: "Wine Tasting",
-      description: "Exclusive wine pairing events"
+      src: "/gallery/Isola_04-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Space",
+      description: "Warm and inviting"
     },
     {
       id: 6,
+      src: "/gallery/Isola_05-scaled.jpg",
       category: "interior",
-      title: "Bar Area",
-      description: "Cozy bar for pre-dinner drinks"
+      title: "Interior Design",
+      description: "Contemporary Italian style"
     },
     {
       id: 7,
-      category: "food",
-      title: "Dessert Selection",
-      description: "Traditional Italian sweets"
+      src: "/gallery/Isola_07-scaled.jpg",
+      category: "interior",
+      title: "Dining Area",
+      description: "Elegant table setting"
     },
     {
       id: 8,
-      category: "events",
-      title: "Private Event",
-      description: "Corporate dinner setup"
+      src: "/gallery/Isola_08-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Ambiance",
+      description: "Sophisticated atmosphere"
     },
     {
       id: 9,
+      src: "/gallery/Isola_09-scaled.jpg",
       category: "interior",
-      title: "Restaurant Exterior",
-      description: "Beautiful facade at sunset"
+      title: "Main Room",
+      description: "Spacious dining hall"
+    },
+    {
+      id: 10,
+      src: "/gallery/Isola_11-scaled.jpg",
+      category: "interior",
+      title: "Restaurant View",
+      description: "Modern Italian restaurant"
+    },
+    {
+      id: 11,
+      src: "/gallery/Isola_12-scaled.jpg",
+      category: "interior",
+      title: "Dining Space",
+      description: "Comfortable and stylish"
+    },
+    {
+      id: 12,
+      src: "/gallery/Isola_13-scaled.jpg",
+      category: "interior",
+      title: "Interior",
+      description: "Warm lighting and decor"
+    },
+    {
+      id: 13,
+      src: "/gallery/Isola_14-scaled.jpg",
+      category: "interior",
+      title: "Restaurant",
+      description: "Authentic Italian setting"
+    },
+    {
+      id: 14,
+      src: "/gallery/Isola_15-scaled.jpg",
+      category: "interior",
+      title: "Dining Area",
+      description: "Elegant restaurant space"
+    },
+    {
+      id: 15,
+      src: "/gallery/Isola_16-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Interior",
+      description: "Modern Italian design"
+    },
+    {
+      id: 16,
+      src: "/gallery/Isola_17-scaled.jpg",
+      category: "interior",
+      title: "Dining Room",
+      description: "Sophisticated atmosphere"
+    },
+    {
+      id: 17,
+      src: "/gallery/Isola_18-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Space",
+      description: "Comfortable dining"
+    },
+    {
+      id: 18,
+      src: "/gallery/Isola_19-scaled.jpg",
+      category: "interior",
+      title: "Interior Design",
+      description: "Contemporary style"
+    },
+    {
+      id: 19,
+      src: "/gallery/Isola_20-scaled.jpg",
+      category: "interior",
+      title: "Dining Area",
+      description: "Modern Italian restaurant"
+    },
+    {
+      id: 20,
+      src: "/gallery/Isola_21-scaled.jpg",
+      category: "interior",
+      title: "Restaurant",
+      description: "Elegant and welcoming"
+    },
+    {
+      id: 21,
+      src: "/gallery/Isola_22-scaled.jpg",
+      category: "interior",
+      title: "Main Dining",
+      description: "Spacious and comfortable"
+    },
+    {
+      id: 22,
+      src: "/gallery/Isola_23-scaled.jpg",
+      category: "interior",
+      title: "Restaurant View",
+      description: "Modern Italian decor"
+    },
+    {
+      id: 23,
+      src: "/gallery/Isola_24-scaled.jpg",
+      category: "interior",
+      title: "Dining Space",
+      description: "Warm and inviting"
+    },
+    {
+      id: 24,
+      src: "/gallery/Isola_25-scaled.jpg",
+      category: "interior",
+      title: "Interior",
+      description: "Sophisticated dining"
+    },
+    {
+      id: 25,
+      src: "/gallery/Isola_26-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Area",
+      description: "Modern Italian style"
+    },
+    {
+      id: 26,
+      src: "/gallery/Isola_27-scaled.jpg",
+      category: "interior",
+      title: "Dining Room",
+      description: "Comfortable and elegant"
+    },
+    {
+      id: 27,
+      src: "/gallery/Isola_28-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Interior",
+      description: "Contemporary design"
+    },
+    {
+      id: 28,
+      src: "/gallery/Isola_29-scaled.jpg",
+      category: "interior",
+      title: "Dining Area",
+      description: "Modern and stylish"
+    },
+    {
+      id: 29,
+      src: "/gallery/Isola_30-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Space",
+      description: "Elegant atmosphere"
+    },
+    {
+      id: 30,
+      src: "/gallery/Isola_31-scaled.jpg",
+      category: "interior",
+      title: "Interior Design",
+      description: "Contemporary Italian"
+    },
+    {
+      id: 31,
+      src: "/gallery/Isola_32-scaled.jpg",
+      category: "interior",
+      title: "Dining Room",
+      description: "Modern and comfortable"
+    },
+    {
+      id: 32,
+      src: "/gallery/Isola_33-scaled.jpg",
+      category: "interior",
+      title: "Restaurant",
+      description: "Sophisticated dining"
+    },
+    {
+      id: 33,
+      src: "/gallery/Isola_34-scaled.jpg",
+      category: "interior",
+      title: "Dining Area",
+      description: "Elegant and modern"
+    },
+    {
+      id: 34,
+      src: "/gallery/Isola_35-scaled.jpg",
+      category: "interior",
+      title: "Interior",
+      description: "Contemporary Italian style"
+    },
+    {
+      id: 35,
+      src: "/gallery/Isola_36-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Space",
+      description: "Modern and inviting"
+    },
+    {
+      id: 36,
+      src: "/gallery/Isola_37-scaled.jpg",
+      category: "interior",
+      title: "Dining Room",
+      description: "Comfortable and stylish"
+    },
+    {
+      id: 37,
+      src: "/gallery/Isola_38-scaled.jpg",
+      category: "interior",
+      title: "Restaurant Interior",
+      description: "Elegant atmosphere"
+    },
+    {
+      id: 38,
+      src: "/gallery/Isola_39-scaled.jpg",
+      category: "interior",
+      title: "Dining Area",
+      description: "Modern Italian design"
+    },
+    {
+      id: 39,
+      src: "/gallery/Isola_40-scaled.jpg",
+      category: "interior",
+      title: "Restaurant",
+      description: "Sophisticated and welcoming"
+    },
+    {
+      id: 40,
+      src: "/gallery/Isola_41-scaled.jpg",
+      category: "interior",
+      title: "Interior Space",
+      description: "Contemporary dining"
+    },
+    {
+      id: 41,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_0f04fbac.jpg",
+      category: "events",
+      title: "Restaurant Event",
+      description: "Special occasion setup"
+    },
+    {
+      id: 42,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_7e3cb458.jpg",
+      category: "events",
+      title: "Event Space",
+      description: "Private dining event"
+    },
+    {
+      id: 43,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_92d37b01.jpg",
+      category: "events",
+      title: "Celebration",
+      description: "Special event setup"
+    },
+    {
+      id: 44,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_b8afc200.jpg",
+      category: "events",
+      title: "Gathering",
+      description: "Group dining event"
+    },
+    {
+      id: 45,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_d7830242.jpg",
+      category: "events",
+      title: "Restaurant Function",
+      description: "Event setup"
+    },
+    {
+      id: 46,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_e7d097ce.jpg",
+      category: "events",
+      title: "Private Event",
+      description: "Exclusive dining"
+    },
+    {
+      id: 47,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_e22fbc5c.jpg",
+      category: "events",
+      title: "Special Event",
+      description: "Event arrangement"
+    },
+    {
+      id: 48,
+      src: "/gallery/WhatsApp-Image-2025-03-25-at-16.17.33_e44a8a8c.jpg",
+      category: "events",
+      title: "Restaurant Party",
+      description: "Celebration setup"
     }
   ];
 
@@ -131,9 +413,11 @@ export default function Gallery() {
             {galleryImages.map((image) => (
               <div key={image.id} className="group relative overflow-hidden shadow-lg">
                 <div className="aspect-w-16 aspect-h-12">
-                  <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-600">{image.title}</span>
-                  </div>
+                  <img 
+                    src={image.src} 
+                    alt={image.title}
+                    className="w-full h-64 object-cover"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-300 flex items-center justify-center">
                   <div className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
