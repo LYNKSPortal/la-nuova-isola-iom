@@ -31,29 +31,29 @@ export default function Home() {
       <HomepageSlider />
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white" aria-labelledby="about-heading">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
+      <section id="about" className="py-10 md:py-16 lg:py-20 bg-white" aria-labelledby="about-heading">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="max-w-4xl mx-auto text-center">
             <div>
-              <h2 id="about-heading" className="font-bold text-gray-900 mb-6">Our Story</h2>
-              <div className="space-y-4">
-                <p className="text-gray-600">
+              <h2 id="about-heading" className="font-bold text-gray-900 mb-4 md:mb-6 text-2xl md:text-3xl lg:text-4xl">Our Story</h2>
+              <div className="space-y-3 md:space-y-4">
+                <p className="text-gray-600 text-sm md:text-base">
                   La Nuova Isola brings the authentic taste of Italy to your table. Founded in 2020, 
                   our restaurant is a celebration of traditional Italian cuisine with a modern twist.
                 </p>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-sm md:text-base">
                   Our chef, with over 20 years of experience, creates dishes that honour the rich 
                   culinary heritage of Italy while incorporating fresh, locally sourced ingredients.
                 </p>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-sm md:text-base">
                   Whether you're joining us for a romantic dinner, family gathering, or business lunch, 
                   we promise an unforgettable dining experience.
                 </p>
               </div>
-              <div className="mt-6">
+              <div className="mt-6 md:mt-8">
                 <a 
                   href="/about" 
-                  className="inline-block bg-[#7A2325] text-white px-6 py-3 hover:bg-[#8B2E35] transition-colors font-medium"
+                  className="inline-block bg-[#7A2325] text-white px-6 md:px-8 py-2.5 md:py-3 hover:bg-[#8B2E35] transition-colors font-medium text-sm md:text-base"
                   aria-label="Learn more about our story - Navigate to About page"
                 >
                   Learn More

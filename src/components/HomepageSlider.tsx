@@ -104,7 +104,7 @@ export default function HomepageSlider() {
 
   return (
     <section 
-      className="relative w-full h-screen overflow-hidden"
+      className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden"
       role="region"
       aria-label="Restaurant image carousel"
       aria-roledescription="carousel"
@@ -128,16 +128,16 @@ export default function HomepageSlider() {
             aria-label={`Restaurant image ${index + 1}: ${slide.title}`}
           >
             <div className="w-full h-full flex items-center justify-center bg-black/30">
-              <div className="text-center text-white px-4">
-                <h1 className="font-bold text-white mb-6">
+              <div className="text-center text-white px-4 sm:px-6 md:px-8">
+                <h1 className="font-bold text-white mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                   {slide.title}
                 </h1>
-                <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
+                <p className="text-base sm:text-lg md:text-xl text-white mb-6 md:mb-8 max-w-3xl mx-auto">
                   {slide.description}
                 </p>
                 <Link 
                   href="/reservations"
-                  className="inline-block bg-[#7A2325] text-white px-8 py-3 hover:bg-[#8B2E35] transition-colors font-medium"
+                  className="inline-block bg-[#7A2325] text-white px-6 md:px-8 py-2.5 md:py-3 hover:bg-[#8B2E35] transition-colors font-medium text-sm md:text-base"
                   aria-label={`${slide.buttonText} - Navigate to reservations page`}
                 >
                   {slide.buttonText}
@@ -150,12 +150,12 @@ export default function HomepageSlider() {
 
       
       {/* Slide Indicators */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+      <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
         {[0, 1, 2, 3, 4].map((index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-colors ${
+            className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-colors ${
               index === currentSlide ? 'bg-white' : 'bg-white/50'
             }`}
             aria-label={`Go to slide ${index + 1}`}

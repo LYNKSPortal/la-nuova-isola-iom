@@ -63,7 +63,7 @@ export default function ReservationForm() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-96 w-full overflow-hidden">
+      <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
         <img 
           src="/homepage-slider/Isola_13-scaled.jpg" 
           alt="Restaurant background"
@@ -79,11 +79,11 @@ export default function ReservationForm() {
         />
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
-          <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-            <h1 className="font-bold text-white mb-4">
+          <div className="text-center px-4 sm:px-6 md:px-8">
+            <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
               Make a Reservation
             </h1>
-            <p className="text-xl text-white">
+            <p className="text-base sm:text-lg md:text-xl text-white">
               Book your table for an unforgettable dining experience
             </p>
           </div>
@@ -91,11 +91,11 @@ export default function ReservationForm() {
       </section>
 
       {/* Reservation Form */}
-      <section className="py-20 bg-white">
+      <section className="py-8 md:py-12 lg:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
-            <form onSubmit={handleSubmit} className="space-y-6">
+          <h2 className="font-bold text-gray-900 mb-6 md:mb-8 text-center text-xl md:text-2xl lg:text-3xl">Reservation Details</h2>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 md:p-8">
+            <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
               {/* Name For The Table */}
               <div className="space-y-2">
                 <label className="block text-sm font-semibold text-gray-700">Name For The Table?</label>
