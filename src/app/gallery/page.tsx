@@ -401,11 +401,7 @@ export default function Gallery() {
                     className="object-cover"
                   />
                 </div>
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold mb-2">{image.title}</h3>
-                  <p className="text-sm text-gray-600">{image.description}</p>
-                </div>
-              </div>
+                              </div>
             ))}
           </div>
         </div>
