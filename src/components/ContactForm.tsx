@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -69,10 +70,12 @@ export default function ContactForm() {
       {/* Hero Section */}
       <section className="relative h-96 w-full" aria-labelledby="contact-hero-heading">
         <div className="absolute inset-0">
-          <img 
+          <Image 
             src="/homepage-slider/Isola_01-scaled.jpg" 
             alt="La Nuova Isola Restaurant Contact" 
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
           />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>

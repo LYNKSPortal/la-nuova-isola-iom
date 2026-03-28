@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -22,10 +23,12 @@ export default function Menu() {
       {/* Hero Section */}
       <section className="relative h-96 w-full">
         <div className="absolute inset-0">
-          <img 
+          <Image 
             src="/homepage-slider/Isola_01-scaled.jpg" 
             alt="La Nuova Isola Restaurant Menu" 
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
           />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
