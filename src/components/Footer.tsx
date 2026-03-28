@@ -32,7 +32,7 @@ export default function Footer() {
                   </svg>
                 </a>
                                 <a 
-                  href="tel:+441624123456" 
+                  href="tel:00441624623764" 
                   className="text-white hover:text-gray-300 transition-colors"
                   aria-label="Call La Nuova Isola restaurant"
                 >
@@ -74,8 +74,8 @@ export default function Footer() {
               <p>City, State 12345</p>
               <p>Downtown District</p>
               <p className="pt-2">
-                <a href="tel:5551234567" className="hover:text-gray-300 transition-colors">
-                  (555) 123-4567
+                <a href="tel:00441624623764" className="hover:text-gray-300 transition-colors">
+                  0044 1624 623764
                 </a>
               </p>
               <p>
