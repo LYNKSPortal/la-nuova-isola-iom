@@ -77,17 +77,22 @@ export default function Gallery() {
       <Header />
 
       {/* Hero Section */}
-      <section 
-        className="relative h-96 w-full"
-        style={{
-          backgroundImage: 'url(/homepage-slider/Isola_01-scaled.jpg?v=1)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <header className="relative h-full flex items-center justify-center">
+      <section className="relative h-96 w-full overflow-hidden">
+        <img 
+          src="/homepage-slider/Isola_01-scaled.jpg" 
+          alt="Restaurant background"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: 0
+          }}
+        />
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
+        <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
           <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
             <h1 className="font-bold text-white mb-4">
               Gallery
