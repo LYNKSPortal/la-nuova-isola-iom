@@ -175,11 +175,12 @@ export default function ContactForm() {
             </div>
             
             {/* Contact Form */}
-            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
-              <h2 className="font-bold text-gray-900 mb-4">Send us a Message</h2>
-              <p className="text-gray-600 mb-8 text-left">
-                This is an enquiry form for feedback or questions. Please use the <a href="/reservations" className="text-[#7A2325] hover:text-[#7A2325] font-medium underline">booking form</a> if you would like to make a booking.
-              </p>
+            <div>
+              <h2 className="font-bold text-gray-900 mb-8">Send us a Message</h2>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
+                <p className="text-gray-600 mb-8 text-left">
+                  This is an enquiry form for feedback or questions. Please use the <a href="/reservations" className="text-[#7A2325] hover:text-[#7A2325] font-medium underline">booking form</a> if you would like to make a booking.
+                </p>
               
               <form onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -309,6 +310,7 @@ export default function ContactForm() {
                   </div>
                 )}
               </form>
+              </div>
             </div>
           </div>
         </div>
