@@ -105,7 +105,7 @@ export default function ReservationForm() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
-            <h2 className="font-bold text-2xl text-gray-900 mb-8 text-center">Reservation Details</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
             
             <form onSubmit={handleSubmit} className="space-y-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
