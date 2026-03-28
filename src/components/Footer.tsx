@@ -133,7 +133,7 @@ export default function Footer() {
               <img 
                 src="/powered-by-lynks.png" 
                 alt="Powered by LYNKS" 
-                className="h-8 w-auto opacity-75 hover:opacity-100 transition-opacity"
+                className="w-[300px] h-auto opacity-75 hover:opacity-100 transition-opacity"
               />
             </div>
             <div className="flex space-x-6">
