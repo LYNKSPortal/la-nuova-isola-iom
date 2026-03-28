@@ -72,7 +72,7 @@ export default function ReservationForm() {
       {/* Hero Section */}
       <section className="relative h-96 w-full overflow-hidden">
         <img 
-          src="/homepage-slider/Isola_01-scaled.jpg" 
+          src="/homepage-slider/Isola_13-scaled.jpg" 
           alt="Restaurant background"
           style={{
             position: 'absolute',
