@@ -180,7 +180,7 @@ export default function ContactForm() {
             
             {/* Contact Form */}
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
-              <h2 className="font-bold text-2xl text-gray-900 mb-8">Send us a Message</h2>
+              <h2 className="font-bold text-gray-900 mb-8">Send us a Message</h2>
               
               <form onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
