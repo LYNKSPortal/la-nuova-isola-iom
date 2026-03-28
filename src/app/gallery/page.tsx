@@ -389,7 +389,7 @@ export default function Gallery() {
       {/* Gallery Grid */}
       <section className="py-12 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {galleryImages.map((image) => (
               <div key={image.id} className="bg-white shadow-lg">
                 <div className="relative aspect-square">
