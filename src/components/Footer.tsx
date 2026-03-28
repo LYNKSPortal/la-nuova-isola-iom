@@ -125,11 +125,11 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-white/20">
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white text-sm">
               &copy; 2026 La Nuova Isola. All rights reserved.
             </p>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center my-4 md:my-0">
               <img 
                 src="/powered-by-lynks.png" 
                 alt="Powered by LYNKS" 
