@@ -61,15 +61,38 @@ export default function Accessibility() {
               At La Nuova Isola, we are committed to ensuring that our restaurant and website are accessible to everyone, including people with disabilities. We believe in providing an inclusive dining experience where all guests feel welcome and comfortable.
             </p>
 
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Restaurant Accessibility</h3>
-            <p className="text-gray-700 mb-4">Our restaurant features include:</p>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Restaurant Location & Access</h3>
+            <p className="text-gray-700 mb-6">
+              La Nuova Isola is located in the heart of Douglas town centre. Please note that our restaurant is situated in a historic building with some physical limitations:
+            </p>
             <ul className="list-disc pl-6 text-gray-700 mb-6">
-              <li>Step-free entrance and wheelchair access</li>
-              <li>Accessible restroom facilities</li>
-              <li>Spacious dining areas for easy navigation</li>
-              <li>Accessible seating options available</li>
-              <li>Staff trained to assist guests with disabilities</li>
-              <li>Assistance available for menu reading</li>
+              <li>Access via stairs from Marks & Spencer (upstairs) or Isle of Man Bank (downstairs)</li>
+              <li>Due to our central location and historic setting, wheelchair access is limited</li>
+              <li>Our restaurant is intimate in size, focusing on quality over quantity</li>
+              <li>Space is somewhat limited due to our commitment to an authentic, cozy Italian atmosphere</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Commitment to Accommodation</h3>
+            <p className="text-gray-700 mb-6">
+              While our physical space has limitations, we are absolutely committed to doing everything possible to accommodate guests with disabilities. We believe everyone deserves to experience authentic Italian dining, and we will work with you to make your visit as comfortable as possible.
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-6">
+              <li>Staff trained to assist guests with mobility challenges</li>
+              <li>Priority seating arrangements available when possible</li>
+              <li>Assistance with navigation within the restaurant</li>
+              <li>Menu reading and ordering assistance</li>
+              <li>Flexible seating arrangements to accommodate specific needs</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Pre-Visit Communication</h3>
+            <p className="text-gray-700 mb-6">
+              We strongly recommend contacting us in advance to discuss your specific accessibility needs. This allows us to:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-6">
+              <li>Arrange the most suitable seating for your requirements</li>
+              <li>Prepare staff to provide appropriate assistance</li>
+              <li>Discuss alternative arrangements if needed</li>
+              <li>Ensure we can provide the best possible experience within our physical constraints</li>
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Website Accessibility</h3>
@@ -85,19 +108,25 @@ export default function Accessibility() {
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Reservations and Assistance</h3>
             <p className="text-gray-700 mb-6">
-              When making a reservation, please let us know if you have any specific accessibility requirements. We are happy to accommodate:
+              When making a reservation, please let us know about any accessibility requirements. This helps us prepare and ensure we can provide the best possible experience:
             </p>
             <ul className="list-disc pl-6 text-gray-700 mb-6">
-              <li>Wheelchair-accessible table placement</li>
-              <li>Assistance with seating</li>
-              <li>Menu modifications for dietary restrictions</li>
-              <li>Special parking arrangements if needed</li>
+              <li>Mobility assistance needs</li>
+              <li>Seating preferences and requirements</li>
+              <li>Menu reading or ordering assistance</li>
+              <li>Any other accommodations that would enhance your visit</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Parking</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Parking and Location</h3>
             <p className="text-gray-700 mb-6">
-              We provide accessible parking spaces near the restaurant entrance. Please contact us in advance if you require specific parking arrangements or assistance from your vehicle to the restaurant.
+              Our central Douglas location means parking is available in nearby public car parks. Due to our town centre location and the need to navigate stairs from either Marks & Spencer or Isle of Man Bank, we recommend:
             </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-6">
+              <li>Calling ahead to discuss the best approach for your specific needs</li>
+              <li>Planning extra time for navigation to our restaurant</li>
+              <li>Considering having a companion assist if mobility is a concern</li>
+              <li>Contacting us to explore the most suitable options for your visit</li>
+            </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Service Animals</h3>
             <p className="text-gray-700 mb-6">
@@ -109,10 +138,17 @@ export default function Accessibility() {
               Our staff receives regular training on disability awareness and accessibility best practices. They are prepared to assist guests with various needs and are committed to providing respectful and helpful service.
             </p>
 
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Feedback and Continuous Improvement</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Honest Feedback and Limitations</h3>
             <p className="text-gray-700 mb-6">
-              We are continuously working to improve our accessibility. If you encounter any barriers or have suggestions for improvement, please let us know. Your feedback helps us enhance our accessibility for all guests.
+              We believe in being transparent about our limitations while maintaining our commitment to excellent service. Our historic town centre location presents physical challenges that we cannot always overcome, but we promise to:
             </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-6">
+              <li>Be honest about what we can and cannot accommodate</li>
+              <li>Suggest alternatives when our physical space presents barriers</li>
+              <li>Provide exceptional service within our constraints</li>
+              <li>Listen to feedback and improve where possible</li>
+              <li>Treat every guest with dignity and respect</li>
+            </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Contact Information</h3>
             <p className="text-gray-700 mb-6">
