@@ -1,6 +1,9 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Metadata } from 'next';
+import { useState } from 'react';
 
 export const metadata: Metadata = {
   title: "Contact La Nuova Isola | Italian Restaurant Isle of Man",
@@ -14,6 +17,67 @@ export const metadata: Metadata = {
 };
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
+    newsletter: false
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value, type } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+    setErrorMessage('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: '',
+          newsletter: false
+        });
+      } else {
+        setSubmitStatus('error');
+        setErrorMessage(data.error || 'Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+      setErrorMessage('An error occurred. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -151,32 +215,65 @@ export default function Contact() {
             <div>
               <h2 className="font-bold text-gray-900 mb-8">Send us a Message</h2>
               
-              <form className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
-                    <input type="text" required className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                    <input 
+                      type="text" 
+                      name="firstName"
+                      value={formData.firstName}
+                      onChange={handleChange}
+                      required 
+                      className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
-                    <input type="text" required className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                    <input 
+                      type="text" 
+                      name="lastName"
+                      value={formData.lastName}
+                      onChange={handleChange}
+                      required 
+                      className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    />
                   </div>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Email *</label>
-                    <input type="email" required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                    <input 
+                      type="email" 
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required 
+                      className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
-                    <input type="tel" className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                    <input 
+                      type="tel" 
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    />
                   </div>
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Subject *</label>
-                  <select required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                  <select 
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required 
+                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                  >
                     <option value="">Select a subject</option>
                     <option value="reservation">Reservation Inquiry</option>
                     <option value="private-event">Private Event</option>
@@ -188,19 +285,49 @@ export default function Contact() {
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Message *</label>
-                  <textarea required rows={6} className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"></textarea>
+                  <textarea 
+                    required 
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={6} 
+                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                  ></textarea>
                 </div>
                 
                 <div className="flex items-start">
-                  <input type="checkbox" id="newsletter" className="mt-1 w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500" />
+                  <input 
+                    type="checkbox" 
+                    id="newsletter" 
+                    name="newsletter"
+                    checked={formData.newsletter}
+                    onChange={handleChange}
+                    className="mt-1 w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500" 
+                  />
                   <label htmlFor="newsletter" className="ml-3 text-sm text-gray-600">
                     I would like to receive updates and special offers from La Nuova Isola
                   </label>
                 </div>
                 
-                <button type="submit" className="w-full bg-red-600 text-white py-3 hover:bg-red-700 transition-colors font-medium">
-                  Send Message
+                <button 
+                  type="submit" 
+                  disabled={isSubmitting}
+                  className="w-full bg-red-600 text-white py-3 hover:bg-red-700 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
+                
+                {submitStatus === 'success' && (
+                  <div className="p-4 bg-green-50 border border-green-200 text-green-800">
+                    Message sent successfully! We'll get back to you soon.
+                  </div>
+                )}
+                
+                {submitStatus === 'error' && (
+                  <div className="p-4 bg-red-50 border border-red-200 text-red-800">
+                    {errorMessage}
+                  </div>
+                )}
               </form>
             </div>
           </div>

@@ -1,6 +1,9 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Metadata } from 'next';
+import { useState } from 'react';
 
 export const metadata: Metadata = {
   title: "Reservations - La Nuova Isola | Book Table Isle of Man",
@@ -14,6 +17,73 @@ export const metadata: Metadata = {
 };
 
 export default function Reservations() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    date: '',
+    time: '',
+    guests: '',
+    occasion: '',
+    specialRequests: '',
+    terms: false
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value, type } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+    setErrorMessage('');
+
+    try {
+      const response = await fetch('/api/reservations', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          date: '',
+          time: '',
+          guests: '',
+          occasion: '',
+          specialRequests: '',
+          terms: false
+        });
+      } else {
+        setSubmitStatus('error');
+        setErrorMessage(data.error || 'Failed to send reservation request. Please try again.');
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+      setErrorMessage('An error occurred. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -47,15 +117,29 @@ export default function Reservations() {
           <div className="bg-gray-50 shadow-lg p-8">
             <h2 className="font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
             
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
-                  <input type="text" required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                  <input 
+                    type="text" 
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    required 
+                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
-                  <input type="text" required className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" />
+                  <input 
+                    type="text" 
+                    name="lastName"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                    required 
+                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                  />
                 </div>
               </div>
               
