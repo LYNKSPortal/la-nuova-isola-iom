@@ -73,7 +73,7 @@ export default function Menu() {
                   Download or print the Lunch Menu:
                 </p>
                 <a 
-                  href="/menu/Isola Lunch Menu Mar26_page-0001 2.jpg" 
+                  href="/menu/lunch-menu.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-[#7A2325] text-white px-6 py-2 hover:bg-[#8B2E35] transition-colors font-medium"
@@ -119,7 +119,7 @@ export default function Menu() {
                   Download or print the Evening Menu:
                 </p>
                 <a 
-                  href="/menu/Isola-Menu-Feb26.pdf" 
+                  href="/menu/evening-menu.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-[#7A2325] text-white px-6 py-2 hover:bg-[#8B2E35] transition-colors font-medium"
