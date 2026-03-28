@@ -58,7 +58,7 @@ export default function About() {
               <img 
                 src="/the-chefs.jpg" 
                 alt="La Nuova Isola Restaurant Interior" 
-                className="w-full object-cover rounded-lg"
+                className="w-full object-cover rounded-none"
               />
             </div>
             <div>
