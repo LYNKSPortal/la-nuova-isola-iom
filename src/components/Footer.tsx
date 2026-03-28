@@ -120,9 +120,9 @@ export default function Footer() {
               &copy; 2026 La Nuova Isola. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-white hover:text-gray-300 text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-white hover:text-gray-300 text-sm transition-colors">Accessibility</a>
+              <a href="/privacy" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
+              <a href="/terms" className="text-white hover:text-gray-300 text-sm transition-colors">Terms of Service</a>
+              <a href="/accessibility" className="text-white hover:text-gray-300 text-sm transition-colors">Accessibility</a>
             </div>
           </div>
         </div>
