@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white mb-4">
-              Authentic Italian dining experience in the heart of the city
+              Authentic Italian dining experience in the heart of Douglas, Isle of Man
             </p>
             <nav aria-label="Social media links">
               <div className="flex justify-center space-x-4">
