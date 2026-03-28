@@ -80,14 +80,14 @@ export default function Reservations() {
               </a>
             </div>
             
-            <div className="bg-gray-50 rounded-lg p-8">
-              <div className="text-center mb-6">
-                <h3 className="font-semibold text-gray-900">Large Party Reservations</h3>
+            <div className="bg-gray-50 rounded-lg p-4 sm:p-6 md:p-8">
+              <div className="text-center mb-4 md:mb-6">
+                <h3 className="font-semibold text-gray-900 text-lg md:text-xl">Large Party Reservations</h3>
               </div>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-4 md:mb-6 text-sm md:text-base">
                 For groups of 8 or more, we offer special services and menu options:
               </p>
-              <ul className="text-gray-600 space-y-3 mb-6">
+              <ul className="text-gray-600 space-y-2 md:space-y-3 mb-4 md:mb-6 text-sm md:text-base">
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-[#7A2325] mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -132,16 +132,16 @@ export default function Reservations() {
       </section>
 
       {/* Find Us Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="text-center mb-12">
-            <h2 className="font-bold text-gray-900 mb-4">Find Us</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+      <section className="py-8 md:py-12 lg:py-16 bg-gray-50">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="text-center mb-6 md:mb-8 lg:mb-12">
+            <h2 className="font-bold text-gray-900 mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl">Find Us</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
               Conveniently located in the heart of downtown with easy access to parking and public transportation
             </p>
           </div>
           
-          <div className="bg-gray-200 h-96 rounded-lg overflow-hidden">
+          <div className="bg-gray-200 h-64 md:h-80 lg:h-96 rounded-lg overflow-hidden">
             <iframe 
               src="https://www.google.com/maps?q=54.149906,-4.480396&z=16&output=embed"
               width="100%" 
