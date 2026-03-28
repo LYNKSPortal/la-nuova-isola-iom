@@ -70,7 +70,7 @@ export default function ContactForm() {
       {/* Hero Section */}
       <section className="relative h-96 w-full overflow-hidden" aria-labelledby="contact-hero-heading">
         <img 
-          src="/homepage-slider/Isola_01-scaled.jpg" 
+          src="/homepage-slider/Isola_16-scaled.jpg" 
           alt="Restaurant background"
           style={{
             position: 'absolute',
