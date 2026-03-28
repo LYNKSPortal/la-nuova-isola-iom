@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-6 text-gray-700 mb-6">
               <li>Personal data such as name, email address, phone number, and payment information</li>
               <li>Reservation details including date, time, and party size</li>
-              <li>Website usage data and browsing behavior</li>
+              <li>Website usage data and browsing behaviour</li>
               <li>Cookies and similar tracking technologies</li>
             </ul>
 
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Cookies</h3>
             <p className="text-gray-700 mb-6">
-              Our website uses cookies to enhance your experience. Cookies are small files stored on your device that help us analyze website traffic and improve our services. You can choose to reject cookies via your browser settings.
+              Our website uses cookies to enhance your experience. Cookies are small files stored on your device that help us analyse website traffic and improve our services. You can choose to reject cookies via your browser settings.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Third-Party Services</h3>

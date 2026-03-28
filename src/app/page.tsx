@@ -42,7 +42,7 @@ export default function Home() {
                   our restaurant is a celebration of traditional Italian cuisine with a modern twist.
                 </p>
                 <p className="text-gray-600">
-                  Our chef, with over 20 years of experience, creates dishes that honor the rich 
+                  Our chef, with over 20 years of experience, creates dishes that honour the rich 
                   culinary heritage of Italy while incorporating fresh, locally sourced ingredients.
                 </p>
                 <p className="text-gray-600">

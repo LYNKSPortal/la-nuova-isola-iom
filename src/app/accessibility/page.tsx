@@ -101,7 +101,7 @@ export default function Accessibility() {
               <li>Following WCAG 2.1 accessibility guidelines</li>
               <li>Providing alternative text for images</li>
               <li>Ensuring keyboard navigation support</li>
-              <li>Maintaining clear color contrast ratios</li>
+              <li>Maintaining clear colour contrast ratios</li>
               <li>Using semantic HTML for screen readers</li>
               <li>Providing resizable text</li>
             </ul>

@@ -89,7 +89,7 @@ export default function About() {
               <p className="text-gray-600 mb-4">
                 Chef Marco Rossi brings a wealth of experience from working in some of Italy's most prestigious 
                 restaurants. Trained in the classic techniques of Italian cuisine while embracing modern 
-                culinary innovations, Chef Marco creates dishes that honor tradition while delighting the modern palate.
+                culinary innovations, Chef Marco creates dishes that honour tradition while delighting the modern palate.
               </p>
               <p className="text-gray-600 mb-4">
                 His philosophy is simple: let the ingredients speak for themselves. By focusing on quality, 
