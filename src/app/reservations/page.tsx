@@ -66,8 +66,10 @@ export default function Reservations() {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-lg p-8 text-center">
-              <h3 className="font-semibold text-gray-900 mb-4">Private Dining Room</h3>
+            <div className="bg-gray-50 rounded-lg p-8">
+              <div className="text-center mb-6">
+                <h3 className="font-semibold text-gray-900">Private Dining Room</h3>
+              </div>
               <p className="text-gray-600 mb-6">
                 Our elegant private dining room accommodates up to 50 guests and is perfect for:
               </p>
@@ -102,8 +104,10 @@ export default function Reservations() {
               </button>
             </div>
             
-            <div className="bg-gray-50 rounded-lg p-8 text-center">
-              <h3 className="font-semibold text-gray-900 mb-4">Large Party Reservations</h3>
+            <div className="bg-gray-50 rounded-lg p-8">
+              <div className="text-center mb-6">
+                <h3 className="font-semibold text-gray-900">Large Party Reservations</h3>
+              </div>
               <p className="text-gray-600 mb-6">
                 For groups of 8 or more, we offer special services and menu options:
               </p>
