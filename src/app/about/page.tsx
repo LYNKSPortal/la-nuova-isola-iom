@@ -50,9 +50,6 @@ export default function About() {
       {/* Our Story Section */}
       <section className="py-20 bg-white">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="text-center mb-12">
-            <h2 className="font-bold text-gray-900 mb-6">Our Story</h2>
-          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
@@ -62,6 +59,7 @@ export default function About() {
               />
             </div>
             <div>
+              <h2 className="font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
                 La Nuova Isola was born from a dream to bring the authentic flavors of Italy to the heart of our city. 
                 Founded in 2020 by Chef Marco Rossi, our restaurant represents a culmination of over 20 years of 
