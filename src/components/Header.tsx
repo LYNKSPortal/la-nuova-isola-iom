@@ -47,11 +47,6 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/reservations" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium transition-colors">
-                  Reservations
-                </Link>
-              </li>
-              <li>
                 <Link href="/contact" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium transition-colors">
                   Contact
                 </Link>
@@ -60,7 +55,7 @@ export default function Header() {
                 {/* Book Now Button */}
                 <Link 
                   href="/reservations" 
-                  className="bg-[#7A2325] 600 text-white px-6 py-2 hover:bg-[#7A2325] 700 transition-colors font-medium"
+                  className="bg-white text-[#7A2325] px-6 py-2 hover:bg-gray-100 transition-colors font-medium"
                   aria-label="Make a reservation now"
                 >
                   Book Now
@@ -137,15 +132,6 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/reservations"
-                    className="block px-3 py-2 text-base font-medium text-white hover:text-gray-200 hover:bg-white/10"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Reservations
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/contact"
                     className="block px-3 py-2 text-base font-medium text-white hover:text-gray-200 hover:bg-white/10"
                     onClick={() => setIsMenuOpen(false)}
@@ -157,7 +143,7 @@ export default function Header() {
               <div className="pt-4 pb-3 border-t border-white/20">
                 <Link
                   href="/reservations"
-                  className="block w-full bg-[#7A2325] 600 text-white px-6 py-3 hover:bg-[#7A2325] 700 transition-colors font-medium text-center"
+                  className="block w-full bg-white text-[#7A2325] px-6 py-3 hover:bg-gray-100 transition-colors font-medium text-center"
                   onClick={() => setIsMenuOpen(false)}
                   aria-label="Make a reservation now"
                 >
