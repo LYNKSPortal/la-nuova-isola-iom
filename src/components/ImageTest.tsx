@@ -46,7 +46,7 @@ export default function ImageTest() {
       <div className="mb-8">
         <h2 className="font-semibold mb-2">Test 4: CSS Background</h2>
         <div 
-          className="w-64 h-48 border-2 border-gray-300 bg-red-500 bg-cover bg-center"
+          className="w-64 h-48 border-2 border-gray-300 bg-brand-500 bg-cover bg-center"
           style={{ 
             backgroundImage: 'url(/homepage-slider/Isola_01-scaled.jpg)',
             backgroundSize: 'cover',
