@@ -390,7 +390,7 @@ export default function Gallery() {
       <section className="py-12 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {galleryImages.slice(0, 12).map((image) => (
+            {galleryImages.map((image) => (
               <div key={image.id} className="bg-white shadow-lg">
                 <div className="relative h-64">
                   <Image 
