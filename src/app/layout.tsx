@@ -26,6 +26,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/favicons/favicon.ico", sizes: "any" },
+      { url: "/favicons/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicons/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/favicons/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      { rel: "manifest", url: "/favicons/site.webmanifest" },
+      { rel: "apple-touch-icon", sizes: "192x192", url: "/favicons/web-app-manifest-192x192.png" },
+      { rel: "apple-touch-icon", sizes: "512x512", url: "/favicons/web-app-manifest-512x512.png" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_GB",
