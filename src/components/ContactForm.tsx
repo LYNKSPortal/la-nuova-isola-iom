@@ -151,10 +151,6 @@ export default function ContactForm() {
                   <div className="ml-6">
                     <h3 className="font-medium text-gray-900 mb-2">Email</h3>
                     <p className="text-gray-600">bookings@lanuovaisola.com</p>
-                    <p className="text-gray-600 mt-2">
-                      For reservations: bookings@lanuovaisola.com<br />
-                      For general inquiries: admin@lanuovaisola.com
-                    </p>
                   </div>
                 </div>
                 
