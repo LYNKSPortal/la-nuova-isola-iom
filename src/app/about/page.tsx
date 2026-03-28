@@ -53,8 +53,8 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/the-chefs.jpg" 
-                alt="La Nuova Isola Restaurant Interior" 
+                src="/outside-restaurant.jpg" 
+                alt="La Nuova Isola Restaurant Exterior" 
                 className="w-full object-cover rounded-none"
               />
             </div>
