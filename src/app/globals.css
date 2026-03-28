@@ -146,6 +146,18 @@ h6 {
   h6 { font-size: 22px; line-height: 1.4; }
 }
 
+/* Date input placeholder styling */
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: #6b7280; /* gray-500 */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.7;
+}
+
 /* Override any specific font-size classes for non-heading text */
 .text-xs, .text-sm, .text-base, .text-lg, .text-xl, .text-2xl, .text-3xl, .text-4xl, .text-5xl, .text-6xl {
   font-size: inherit !important;
