@@ -20,12 +20,7 @@ export default function Reservations() {
       <Header />
       <ReservationForm />
       
-      {/* Reservation Info */}
-      <section className="py-20 bg-gray-50">
-        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-        </div>
-      </section>
-
+      
       {/* Private Events */}
       <section className="py-20 bg-white">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
