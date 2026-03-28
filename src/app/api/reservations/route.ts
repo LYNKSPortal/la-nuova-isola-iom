@@ -49,6 +49,7 @@ export async function POST(request: NextRequest) {
     const customerEmail = {
       from: process.env.SMTP_USER,
       to: email,
+      replyTo: 'bookings@lanuovaisola.com',
       subject: 'Reservation Request Received - La Nuova Isola',
       html: `
         <h2>Reservation Request Received</h2>
@@ -65,7 +66,7 @@ export async function POST(request: NextRequest) {
         
         <p>We will confirm your reservation shortly. Please note that reservations are held for 15 minutes past the scheduled time.</p>
         
-        <p>If you need to make any changes or have questions, please call us at (555) 123-4567.</p>
+        <p>If you need to make any changes or have questions, please call us at 0044 1624 623764.</p>
         
         <hr>
         <p>Best regards,<br>La Nuova Isola Team</p>

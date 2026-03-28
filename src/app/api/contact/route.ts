@@ -46,6 +46,7 @@ export async function POST(request: NextRequest) {
     const customerEmail = {
       from: process.env.SMTP_USER,
       to: email,
+      replyTo: 'bookings@lanuovaisola.com',
       subject: 'Thank you for contacting La Nuova Isola',
       html: `
         <h2>Thank you for contacting La Nuova Isola</h2>
@@ -57,7 +58,7 @@ export async function POST(request: NextRequest) {
         <p>${message}</p>
         <hr>
         <p>Best regards,<br>La Nuova Isola Team</p>
-        <p><small>If you need immediate assistance, please call us at (555) 123-4567</small></p>
+        <p><small>If you need immediate assistance, please call us at 0044 1624 623764</small></p>
       `,
     };
 
