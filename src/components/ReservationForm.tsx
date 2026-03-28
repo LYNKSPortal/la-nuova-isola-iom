@@ -73,7 +73,7 @@ export default function ReservationForm() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-96">
+      <section className="relative h-96 w-full">
         <div className="absolute inset-0 bg-gray-900">
           {/* Placeholder for hero image */}
           <div className="w-full h-full bg-gray-800 flex items-center justify-center">
@@ -81,16 +81,14 @@ export default function ReservationForm() {
           </div>
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <header className="relative h-full flex items-center">
-          <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-            <div className="text-center">
-              <h1 className="font-bold text-white mb-4">
-                Make a Reservation
-              </h1>
-              <p className="text-xl text-white">
-                Book your table for an unforgettable dining experience
-              </p>
-            </div>
+        <header className="relative h-full flex items-center justify-center">
+          <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
+            <h1 className="font-bold text-white mb-4">
+              Make a Reservation
+            </h1>
+            <p className="text-xl text-white">
+              Book your table for an unforgettable dining experience
+            </p>
           </div>
         </header>
       </section>
