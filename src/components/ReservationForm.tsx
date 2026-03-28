@@ -258,7 +258,7 @@ export default function ReservationForm() {
               
               <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Reservation Policy</h3>
-                <ul className="text-sm text-red-600 space-y-3">
+                <ul className="text-sm text-gray-600 space-y-3">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -289,7 +289,7 @@ export default function ReservationForm() {
                   onChange={handleChange}
                   className="mt-1 w-5 h-5 text-red-600 border-gray-300 rounded focus:ring-red-500" 
                 />
-                <label htmlFor="terms" className="text-sm text-red-600 leading-relaxed">
+                <label htmlFor="terms" className="text-sm text-gray-600 leading-relaxed">
                   I agree to the reservation policy and understand that my table will be held for 15 minutes
                 </label>
               </div>
@@ -314,7 +314,7 @@ export default function ReservationForm() {
               )}
               
               {submitStatus === 'error' && (
-                <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-red-800">
+                <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-gray-800">
                   <div className="flex items-center space-x-3">
                     <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />

@@ -119,7 +119,7 @@ export default function ContactForm() {
                       Douglas, Isle of Man, IM1 1EJ<br />
                       (accessible via the steps)
                     </p>
-                    <p className="text-red-600 mt-2">
+                    <p className="text-gray-600 mt-2">
                       Located in the heart of Douglas town centre
                     </p>
                   </div>
@@ -299,7 +299,7 @@ export default function ContactForm() {
                 )}
                 
                 {submitStatus === 'error' && (
-                  <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-red-800">
+                  <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-gray-800">
                     <div className="flex items-center space-x-3">
                       <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
@@ -319,7 +319,7 @@ export default function ContactForm() {
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="text-center mb-12">
             <h2 className="font-bold text-gray-900 mb-4">Find Us</h2>
-            <p className="text-red-600 max-w-2xl mx-auto">
+            <p className="text-gray-600 max-w-2xl mx-auto">
               Conveniently located in the heart of downtown with easy access to parking and public transportation
             </p>
           </div>
