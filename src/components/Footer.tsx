@@ -21,7 +21,7 @@ export default function Footer() {
             <nav aria-label="Social media links">
               <div className="flex justify-center space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.facebook.com/manxisola" 
                   className="text-white hover:text-gray-300 transition-colors"
                   aria-label="Visit La Nuova Isola on Facebook"
                   target="_blank"
