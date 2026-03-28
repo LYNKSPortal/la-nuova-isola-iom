@@ -131,6 +131,32 @@ export default function Reservations() {
         </div>
       </section>
 
+      {/* Find Us Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
+          <div className="text-center mb-12">
+            <h2 className="font-bold text-gray-900 mb-4">Find Us</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Conveniently located in the heart of downtown with easy access to parking and public transportation
+            </p>
+          </div>
+          
+          <div className="bg-gray-200 h-96 rounded-lg overflow-hidden">
+            <iframe 
+              src="https://www.google.com/maps?q=54.149906,-4.480396&z=16&output=embed"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen={true} 
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="La Nuova Isola Restaurant Location - 10-12 Prospect Hill, Douglas, Isle of Man, IM1 1EJ"
+              className="w-full h-full"
+            />
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
