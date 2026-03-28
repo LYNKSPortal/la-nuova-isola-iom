@@ -98,80 +98,84 @@ export default function ReservationForm() {
       {/* Reservation Form */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gray-50 shadow-lg p-8">
-            <h2 className="font-bold text-gray-900 mb-8 text-center">Reservation Details</h2>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
+            <h2 className="font-bold text-2xl text-gray-900 mb-8 text-center">Reservation Details</h2>
             
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
+            <form onSubmit={handleSubmit} className="space-y-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">First Name *</label>
                   <input 
                     type="text" 
                     name="firstName"
                     value={formData.firstName}
                     onChange={handleChange}
                     required 
-                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    placeholder="John"
                   />
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">Last Name *</label>
                   <input 
                     type="text" 
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleChange}
                     required 
-                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    placeholder="Doe"
                   />
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">Email *</label>
                   <input 
                     type="email" 
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
                     required 
-                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    placeholder="john@example.com"
                   />
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Phone *</label>
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">Phone *</label>
                   <input 
                     type="tel" 
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
                     required 
-                    className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    placeholder="+1 (555) 123-4567"
                   />
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Date *</label>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">Date *</label>
                   <input 
                     type="date" 
                     name="date"
                     value={formData.date}
                     onChange={handleChange}
                     required 
-                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
                   />
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Time *</label>
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">Time *</label>
                   <select 
                     name="time"
                     value={formData.time}
                     onChange={handleChange}
                     required 
-                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                   >
                     <option value="">Select time</option>
                     <option value="11:30">11:30 AM</option>
@@ -191,14 +195,14 @@ export default function ReservationForm() {
                     <option value="21:00">9:00 PM</option>
                   </select>
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Number of Guests *</label>
+                <div className="space-y-2">
+                  <label className="block text-sm font-semibold text-gray-700">Number of Guests *</label>
                   <select 
                     name="guests"
                     value={formData.guests}
                     onChange={handleChange}
                     required 
-                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                   >
                     <option value="">Select guests</option>
                     <option value="1">1 Guest</option>
@@ -216,13 +220,13 @@ export default function ReservationForm() {
                 </div>
               </div>
               
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Occasion (Optional)</label>
+              <div className="space-y-2">
+                <label className="block text-sm font-semibold text-gray-700">Occasion (Optional)</label>
                 <select 
                   name="occasion"
                   value={formData.occasion}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                 >
                   <option value="">Select occasion</option>
                   <option value="birthday">Birthday</option>
@@ -234,52 +238,52 @@ export default function ReservationForm() {
                 </select>
               </div>
               
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Special Requests (Optional)</label>
+              <div className="space-y-2">
+                <label className="block text-sm font-semibold text-gray-700">Special Requests (Optional)</label>
                 <textarea 
                   name="specialRequests"
                   value={formData.specialRequests}
                   onChange={handleChange}
                   rows={4} 
-                  className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent" 
+                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all resize-none" 
                   placeholder="Any dietary restrictions, seating preferences, or special occasions..."
                 ></textarea>
               </div>
               
-              <div className="bg-white p-4 border border-gray-200">
-                <h3 className="text-lg font-medium text-gray-900 mb-3">Reservation Policy</h3>
-                <ul className="text-sm text-gray-600 space-y-2">
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Reservation Policy</h3>
+                <ul className="text-sm text-gray-600 space-y-3">
                   <li className="flex items-start">
-                    <svg className="w-4 h-4 text-red-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Reservations are held for 15 minutes past the scheduled time
+                    <span>Reservations are held for 15 minutes past the scheduled time</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-4 h-4 text-red-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Cancellations must be made at least 4 hours in advance
+                    <span>Cancellations must be made at least 4 hours in advance</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-4 h-4 text-red-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    For parties of 8 or more, please call us directly
+                    <span>For parties of 8 or more, please call us directly</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="flex items-start">
+              <div className="flex items-start space-x-3">
                 <input 
                   type="checkbox" 
                   id="terms" 
                   name="terms"
                   checked={formData.terms}
                   onChange={handleChange}
-                  className="mt-1 w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500" 
+                  className="mt-1 w-5 h-5 text-red-600 border-gray-300 rounded focus:ring-red-500" 
                 />
-                <label htmlFor="terms" className="ml-3 text-sm text-gray-600">
+                <label htmlFor="terms" className="text-sm text-gray-600 leading-relaxed">
                   I agree to the reservation policy and understand that my table will be held for 15 minutes
                 </label>
               </div>
@@ -287,20 +291,30 @@ export default function ReservationForm() {
               <button 
                 type="submit" 
                 disabled={isSubmitting}
-                className="w-full bg-red-600 text-white py-4 hover:bg-red-700 transition-colors font-medium text-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-red-600 text-white py-4 px-6 rounded-lg hover:bg-red-700 transition-all font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
               >
                 {isSubmitting ? 'Submitting...' : 'Confirm Reservation'}
               </button>
               
               {submitStatus === 'success' && (
-                <div className="p-4 bg-green-50 border border-green-200 text-green-800">
-                  Reservation request sent successfully! We'll confirm your booking shortly.
+                <div className="p-6 bg-green-50 border border-green-200 rounded-lg text-green-800">
+                  <div className="flex items-center space-x-3">
+                    <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <p className="font-medium">Reservation request sent successfully! We'll confirm your booking shortly.</p>
+                  </div>
                 </div>
               )}
               
               {submitStatus === 'error' && (
-                <div className="p-4 bg-red-50 border border-red-200 text-red-800">
-                  {errorMessage}
+                <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-red-800">
+                  <div className="flex items-center space-x-3">
+                    <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                    </svg>
+                    <p className="font-medium">{errorMessage}</p>
+                  </div>
                 </div>
               )}
             </form>
