@@ -411,19 +411,15 @@ export default function Gallery() {
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {galleryImages.map((image) => (
-              <div key={image.id} className="group relative overflow-hidden shadow-lg">
-                <div className="aspect-w-16 aspect-h-12">
-                  <img 
-                    src={image.src} 
-                    alt={image.title}
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-300 flex items-center justify-center">
-                  <div className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="text-white text-xl font-semibold mb-2">{image.title}</h3>
-                    <p className="text-white text-sm px-4">{image.description}</p>
-                  </div>
+              <div key={image.id} className="bg-white shadow-lg">
+                <img 
+                  src={image.src} 
+                  alt={image.title}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold mb-2">{image.title}</h3>
+                  <p className="text-sm text-gray-600">{image.description}</p>
                 </div>
               </div>
             ))}
