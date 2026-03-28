@@ -113,7 +113,7 @@ export default function ContactForm() {
                     </div>
                   </div>
                   <div className="ml-6">
-                    <h3 className="text-lg font-medium text-gray-900 mb-2">Location</h3>
+                    <h3 className="font-medium text-gray-900 mb-2">Location</h3>
                     <p className="text-gray-600">
                       10–12 Prospect Hill<br />
                       Douglas, Isle of Man, IM1 1EJ<br />
@@ -134,7 +134,7 @@ export default function ContactForm() {
                     </div>
                   </div>
                   <div className="ml-6">
-                    <h3 className="text-lg font-medium text-gray-900 mb-2">Phone</h3>
+                    <h3 className="font-medium text-gray-900 mb-2">Phone</h3>
                     <p className="text-gray-600">0044 1624 623764</p>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function ContactForm() {
                     </div>
                   </div>
                   <div className="ml-6">
-                    <h3 className="text-lg font-medium text-gray-900 mb-2">Email</h3>
+                    <h3 className="font-medium text-gray-900 mb-2">Email</h3>
                     <p className="text-gray-600">bookings@lanuovaisola.com</p>
                     <p className="text-gray-600 mt-2">
                       For reservations: bookings@lanuovaisola.com<br />
@@ -167,7 +167,7 @@ export default function ContactForm() {
                     </div>
                   </div>
                   <div className="ml-6">
-                    <h3 className="text-lg font-medium text-gray-900 mb-2">Hours</h3>
+                    <h3 className="font-medium text-gray-900 mb-2">Hours</h3>
                     <div className="text-gray-600">
                       <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
                       <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
