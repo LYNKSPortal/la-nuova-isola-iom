@@ -180,9 +180,9 @@ export default function ReservationForm() {
                     value={formData.time}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all text-gray-500"
                   >
-                    <option value="">Select time</option>
+                    <option value="" className="text-gray-500">Select time</option>
                     <option value="11:30">11:30 AM</option>
                     <option value="12:00">12:00 PM</option>
                     <option value="12:30">12:30 PM</option>
@@ -207,9 +207,9 @@ export default function ReservationForm() {
                     value={formData.guests}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all text-gray-500"
                   >
-                    <option value="">Select guests</option>
+                    <option value="" className="text-gray-500">Select guests</option>
                     <option value="1">1 Guest</option>
                     <option value="2">2 Guests</option>
                     <option value="3">3 Guests</option>
@@ -231,9 +231,9 @@ export default function ReservationForm() {
                   name="occasion"
                   value={formData.occasion}
                   onChange={handleChange}
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
+                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all text-gray-500"
                 >
-                  <option value="">Select occasion</option>
+                  <option value="" className="text-gray-500">Select occasion</option>
                   <option value="birthday">Birthday</option>
                   <option value="anniversary">Anniversary</option>
                   <option value="date-night">Date Night</option>
