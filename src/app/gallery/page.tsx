@@ -392,7 +392,7 @@ export default function Gallery() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {galleryImages.map((image) => (
               <div key={image.id} className="bg-white shadow-lg">
-                <div className="relative h-64">
+                <div className="relative aspect-square">
                   <Image 
                     src={image.src} 
                     alt={image.title}
