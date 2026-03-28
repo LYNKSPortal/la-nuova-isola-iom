@@ -71,7 +71,7 @@ export default function Reservations() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                WhatsApp Private Events
+                Contact via WhatsApp
               </a>
             </div>
             
@@ -114,7 +114,7 @@ export default function Reservations() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                WhatsApp Large Party Booking
+                Contact via WhatsApp
               </a>
             </div>
           </div>
