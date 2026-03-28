@@ -117,7 +117,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white text-sm">
-              &copy; 2024 La Nuova Isola. All rights reserved.
+              &copy; 2026 La Nuova Isola. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
