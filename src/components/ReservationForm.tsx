@@ -76,10 +76,13 @@ export default function ReservationForm() {
       {/* Hero Section */}
       <section className="relative h-96 w-full">
         <div className="absolute inset-0">
-          <img 
+          <Image 
             src="/homepage-slider/Isola_01-scaled.jpg" 
             alt="La Nuova Isola Restaurant Reservations" 
-            className="w-full h-full object-cover"
+            fill
+            unoptimized
+            className="object-cover"
+            priority
           />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
