@@ -106,7 +106,7 @@ export default function ContactForm() {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-[#7A2325] 600 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                       </svg>
@@ -127,7 +127,7 @@ export default function ContactForm() {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-[#7A2325] 600 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                       </svg>
@@ -141,7 +141,7 @@ export default function ContactForm() {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-[#7A2325] 600 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -156,7 +156,7 @@ export default function ContactForm() {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-[#7A2325] 600 rounded-full flex items-center justify-center">
                       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
@@ -178,7 +178,7 @@ export default function ContactForm() {
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
               <h2 className="font-bold text-gray-900 mb-4">Send us a Message</h2>
               <p className="text-gray-600 mb-8 text-left">
-                This is an enquiry form for feedback or questions. Please use the <a href="/reservations" className="text-red-600 hover:text-red-700 font-medium underline">booking form</a> if you would like to make a booking.
+                This is an enquiry form for feedback or questions. Please use the <a href="/reservations" className="text-[#7A2325] hover:text-[#7A2325] font-medium underline">booking form</a> if you would like to make a booking.
               </p>
               
               <form onSubmit={handleSubmit} className="space-y-8">
@@ -191,7 +191,7 @@ export default function ContactForm() {
                       value={formData.firstName}
                       onChange={handleChange}
                       required 
-                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                       placeholder="John"
                     />
                   </div>
@@ -203,7 +203,7 @@ export default function ContactForm() {
                       value={formData.lastName}
                       onChange={handleChange}
                       required 
-                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                       placeholder="Doe"
                     />
                   </div>
@@ -218,7 +218,7 @@ export default function ContactForm() {
                       value={formData.email}
                       onChange={handleChange}
                       required 
-                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                       placeholder="john@example.com"
                     />
                   </div>
@@ -229,7 +229,7 @@ export default function ContactForm() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                      className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                       placeholder="+1 (555) 123-4567"
                     />
                   </div>
@@ -242,7 +242,7 @@ export default function ContactForm() {
                     value={formData.subject}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
                   >
                     <option value="">Select a subject</option>
                     <option value="reservation">Reservation Inquiry</option>
@@ -260,7 +260,7 @@ export default function ContactForm() {
                     value={formData.message}
                     onChange={handleChange}
                     rows={6} 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all resize-none"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all resize-none"
                     placeholder="Tell us more about your inquiry..."
                   ></textarea>
                 </div>
@@ -272,7 +272,7 @@ export default function ContactForm() {
                     name="newsletter"
                     checked={formData.newsletter}
                     onChange={handleChange}
-                    className="mt-1 w-5 h-5 text-red-600 border-gray-300 rounded focus:ring-red-500" 
+                    className="mt-1 w-5 h-5 text-[#7A2325] border-gray-300 rounded focus:ring-[#7A2325] 500" 
                   />
                   <label htmlFor="newsletter" className="text-sm text-gray-600 leading-relaxed">
                     I would like to receive updates and special offers from La Nuova Isola
@@ -282,7 +282,7 @@ export default function ContactForm() {
                 <button 
                   type="submit" 
                   disabled={isSubmitting}
-                  className="w-full bg-red-600 text-white py-4 px-6 rounded-lg hover:bg-red-700 transition-all font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+                  className="w-full bg-[#7A2325] 600 text-white py-4 px-6 rounded-lg hover:bg-[#7A2325] 700 transition-all font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
                 >
                   {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
@@ -299,9 +299,9 @@ export default function ContactForm() {
                 )}
                 
                 {submitStatus === 'error' && (
-                  <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-gray-800">
+                  <div className="p-6 bg-[#7A2325] 50 border border-[#7A2325] 200 rounded-lg text-gray-800">
                     <div className="flex items-center space-x-3">
-                      <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                      <svg className="w-6 h-6 text-[#7A2325]" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                       </svg>
                       <p className="font-medium">{errorMessage}</p>

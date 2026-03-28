@@ -117,7 +117,7 @@ export default function ReservationForm() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                     placeholder="John"
                   />
                 </div>
@@ -129,7 +129,7 @@ export default function ReservationForm() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                     placeholder="Doe"
                   />
                 </div>
@@ -144,7 +144,7 @@ export default function ReservationForm() {
                     value={formData.email}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                     placeholder="john@example.com"
                   />
                 </div>
@@ -156,7 +156,7 @@ export default function ReservationForm() {
                     value={formData.phone}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                     placeholder="+1 (555) 123-4567"
                   />
                 </div>
@@ -171,7 +171,7 @@ export default function ReservationForm() {
                     value={formData.date}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
                   />
                 </div>
                 <div className="space-y-2">
@@ -181,7 +181,7 @@ export default function ReservationForm() {
                     value={formData.time}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
                   >
                     <option value="">Select time</option>
                     <option value="11:30">11:30 AM</option>
@@ -208,7 +208,7 @@ export default function ReservationForm() {
                     value={formData.guests}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
                   >
                     <option value="">Select guests</option>
                     <option value="1">1 Guest</option>
@@ -232,7 +232,7 @@ export default function ReservationForm() {
                   name="occasion"
                   value={formData.occasion}
                   onChange={handleChange}
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all"
                 >
                   <option value="">Select occasion</option>
                   <option value="birthday">Birthday</option>
@@ -251,7 +251,7 @@ export default function ReservationForm() {
                   value={formData.specialRequests}
                   onChange={handleChange}
                   rows={4} 
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all resize-none" 
+                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all resize-none" 
                   placeholder="Any dietary restrictions, seating preferences, or special occasions..."
                 ></textarea>
               </div>
@@ -260,19 +260,19 @@ export default function ReservationForm() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Reservation Policy</h3>
                 <ul className="text-sm text-gray-600 space-y-3">
                   <li className="flex items-start">
-                    <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#7A2325] mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span>Reservations are held for 15 minutes past the scheduled time</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#7A2325] mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span>Cancellations must be made at least 4 hours in advance</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-5 h-5 text-red-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#7A2325] mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span>For parties of 8 or more, please call us directly</span>
@@ -287,7 +287,7 @@ export default function ReservationForm() {
                   name="terms"
                   checked={formData.terms}
                   onChange={handleChange}
-                  className="mt-1 w-5 h-5 text-red-600 border-gray-300 rounded focus:ring-red-500" 
+                  className="mt-1 w-5 h-5 text-[#7A2325] border-gray-300 rounded focus:ring-[#7A2325] 500" 
                 />
                 <label htmlFor="terms" className="text-sm text-gray-600 leading-relaxed">
                   I agree to the reservation policy and understand that my table will be held for 15 minutes
@@ -297,7 +297,7 @@ export default function ReservationForm() {
               <button 
                 type="submit" 
                 disabled={isSubmitting}
-                className="w-full bg-red-600 text-white py-4 px-6 rounded-lg hover:bg-red-700 transition-all font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+                className="w-full bg-[#7A2325] 600 text-white py-4 px-6 rounded-lg hover:bg-[#7A2325] 700 transition-all font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
               >
                 {isSubmitting ? 'Submitting...' : 'Confirm Reservation'}
               </button>
@@ -314,9 +314,9 @@ export default function ReservationForm() {
               )}
               
               {submitStatus === 'error' && (
-                <div className="p-6 bg-red-50 border border-red-200 rounded-lg text-gray-800">
+                <div className="p-6 bg-[#7A2325] 50 border border-[#7A2325] 200 rounded-lg text-gray-800">
                   <div className="flex items-center space-x-3">
-                    <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 text-[#7A2325]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                     </svg>
                     <p className="font-medium">{errorMessage}</p>
