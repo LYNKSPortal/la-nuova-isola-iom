@@ -21,7 +21,7 @@ export default function Menu() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-96 w-full overflow-hidden">
+      <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
         <img 
           src="/homepage-slider/Isola_13-scaled.jpg" 
           alt="Restaurant background"
@@ -37,11 +37,11 @@ export default function Menu() {
         />
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
-          <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-            <h1 className="font-bold text-white mb-4">
+          <div className="text-center px-4 sm:px-6 md:px-8">
+            <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
               Our Menu
             </h1>
-            <p className="text-xl text-white">
+            <p className="text-base sm:text-lg md:text-xl text-white">
               Authentic Italian cuisine crafted with passion and tradition
             </p>
           </div>
@@ -49,13 +49,13 @@ export default function Menu() {
       </section>
 
       {/* Menu Images */}
-      <section className="py-20 bg-white">
-        <div className="px-[20px] md:px-[50px] lg:px-[100px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <section className="py-8 md:py-12 lg:py-16 bg-white">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
             {/* Left Column - Lunch Menu */}
-            <div className="space-y-8">
+            <div className="space-y-4 md:space-y-6 lg:space-y-8">
               <div className="text-center">
-                <h2 className="font-bold text-gray-900 mb-6">Lunch Menu</h2>
+                <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Lunch Menu</h2>
               </div>
               
               {/* Lunch Menu Image */}
@@ -68,31 +68,31 @@ export default function Menu() {
               </div>
 
               {/* Lunch Menu Download */}
-              <div className="text-center py-4">
-                <p className="text-gray-700 mb-4">
+              <div className="text-center py-3 md:py-4">
+                <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
                   Download or print the Lunch Menu:
                 </p>
                 <a 
                   href="/menu/lunch-menu.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#7A2325] text-white px-6 py-2 hover:bg-[#8B2E35] transition-colors font-medium"
+                  className="inline-flex items-center bg-[#7A2325] text-white px-5 md:px-6 py-2 md:py-2.5 hover:bg-[#8B2E35] transition-colors font-medium text-sm md:text-base"
                 >
-                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 md:w-5 md:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                   View Lunch Menu
                 </a>
-                <p className="text-sm text-gray-500 mt-4">
+                <p className="text-xs md:text-sm text-gray-500 mt-3 md:mt-4">
                   Last Updated: 27.03.2026
                 </p>
               </div>
             </div>
 
             {/* Right Column - Evening Menu */}
-            <div className="space-y-8">
+            <div className="space-y-4 md:space-y-6 lg:space-y-8">
               <div className="text-center">
-                <h2 className="font-bold text-gray-900 mb-6">Evening Menu</h2>
+                <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Evening Menu</h2>
               </div>
               
               {/* Menu Page 1 */}
@@ -114,22 +114,22 @@ export default function Menu() {
               </div>
 
               {/* Evening Menu Download */}
-              <div className="text-center py-4">
-                <p className="text-gray-700 mb-4">
+              <div className="text-center py-3 md:py-4">
+                <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
                   Download or print the Evening Menu:
                 </p>
                 <a 
                   href="/menu/evening-menu.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#7A2325] text-white px-6 py-2 hover:bg-[#8B2E35] transition-colors font-medium"
+                  className="inline-flex items-center bg-[#7A2325] text-white px-5 md:px-6 py-2 md:py-2.5 hover:bg-[#8B2E35] transition-colors font-medium text-sm md:text-base"
                 >
-                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 md:w-5 md:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                   View Evening Menu
                 </a>
-                <p className="text-sm text-gray-500 mt-4">
+                <p className="text-xs md:text-sm text-gray-500 mt-3 md:mt-4">
                   Last Updated: 27.03.2026
                 </p>
               </div>
