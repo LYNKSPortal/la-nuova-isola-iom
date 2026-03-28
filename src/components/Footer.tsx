@@ -125,11 +125,18 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-white/20">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col items-center space-y-4">
             <p className="text-white text-sm">
               &copy; 2026 La Nuova Isola. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            <div className="flex items-center justify-center">
+              <img 
+                src="/powered-by-lynks.png" 
+                alt="Powered by LYNKS" 
+                className="h-8 w-auto opacity-75 hover:opacity-100 transition-opacity"
+              />
+            </div>
+            <div className="flex space-x-6">
               <a href="/privacy" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
               <a href="/terms" className="text-white hover:text-gray-300 text-sm transition-colors">Terms of Service</a>
               <a href="/accessibility" className="text-white hover:text-gray-300 text-sm transition-colors">Accessibility</a>
