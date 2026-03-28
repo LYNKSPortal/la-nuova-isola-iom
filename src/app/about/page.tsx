@@ -102,9 +102,11 @@ export default function About() {
               </p>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="w-full h-96 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-600">Chef Portrait</span>
-              </div>
+              <img 
+                src="/the-chefs.jpg" 
+                alt="Chef Marco Rossi" 
+                className="w-full object-cover rounded-none"
+              />
             </div>
           </div>
         </div>
