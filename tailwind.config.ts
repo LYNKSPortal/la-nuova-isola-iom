@@ -19,7 +19,7 @@ const config: Config = {
         'lg': ['18px', '1.5'],   // Desktop
       },
       colors: {
-        brand: {
+        red: {
           50: '#FEF2F2',
           100: '#FEE2E2',
           200: '#FECACA',
@@ -27,9 +27,9 @@ const config: Config = {
           400: '#F87171',
           500: '#EF4444',
           600: '#7A2325',
-          700: '#B91C1C',
-          800: '#991B1B',
-          900: '#7F1D1D',
+          700: '#5A1B1B',
+          800: '#4A1515',
+          900: '#3A1010',
         }
       }
     },
