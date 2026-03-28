@@ -23,10 +23,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Email to restaurant
+    // Email to restaurant (both bookings and admin)
     const restaurantEmail = {
       from: process.env.SMTP_USER,
-      to: process.env.RESTAURANT_EMAIL || 'info@lanuovaisola.im',
+      to: ['bookings@lanuovaisola.com', 'admin@lanuovaisola.com'],
       subject: `New Contact Form Submission: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>
