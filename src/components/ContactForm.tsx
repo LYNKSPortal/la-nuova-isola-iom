@@ -136,10 +136,6 @@ export default function ContactForm() {
                   <div className="ml-6">
                     <h3 className="text-lg font-medium text-gray-900 mb-2">Phone</h3>
                     <p className="text-gray-600">0044 1624 623764</p>
-                    <p className="text-gray-600 mt-2">
-                      For reservations: bookings@lanuovaisola.com<br />
-                      For general inquiries: admin@lanuovaisola.com
-                    </p>
                   </div>
                 </div>
                 
