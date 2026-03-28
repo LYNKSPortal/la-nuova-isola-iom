@@ -83,11 +83,9 @@ export default function About() {
       {/* Chef Section */}
       <section className="py-20 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="text-center mb-12">
-            <h2 className="font-bold text-gray-900 mb-6">Our Chef</h2>
-          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
+              <h2 className="font-bold text-gray-900 mb-6">Our Chef</h2>
               <p className="text-gray-600 mb-4">
                 Chef Marco Rossi brings a wealth of experience from working in some of Italy's most prestigious 
                 restaurants. Trained in the classic techniques of Italian cuisine while embracing modern 
