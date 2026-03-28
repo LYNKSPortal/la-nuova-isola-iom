@@ -244,8 +244,7 @@ export default function ContactForm() {
                     <option value="">Select a subject</option>
                     <option value="reservation">Reservation Inquiry</option>
                     <option value="private-event">Private Event</option>
-                    <option value="catering">Catering</option>
-                    <option value="general">General Question</option>
+                                        <option value="general">General Question</option>
                     <option value="feedback">Feedback</option>
                   </select>
                 </div>
