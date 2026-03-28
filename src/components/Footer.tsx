@@ -70,9 +70,9 @@ export default function Footer() {
           <section className="text-center" aria-labelledby="contact-heading">
             <h2 id="contact-heading" className="text-lg font-semibold mb-4">Contact</h2>
             <address className="space-y-2 text-white not-italic">
-              <p>123 Restaurant Street</p>
-              <p>City, State 12345</p>
-              <p>Downtown District</p>
+              <p>10–12 Prospect Hill</p>
+              <p>Douglas, Isle of Man, IM1 1EJ</p>
+              <p>(accessible via the steps)</p>
               <p className="pt-2">
                 <a href="tel:00441624623764" className="hover:text-gray-300 transition-colors">
                   0044 1624 623764

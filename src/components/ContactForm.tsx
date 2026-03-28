@@ -115,12 +115,12 @@ export default function ContactForm() {
                   <div className="ml-6">
                     <h3 className="text-lg font-medium text-gray-900 mb-2">Location</h3>
                     <p className="text-gray-600">
-                      123 Restaurant Street<br />
-                      City, State 12345<br />
-                      United States
+                      10–12 Prospect Hill<br />
+                      Douglas, Isle of Man, IM1 1EJ<br />
+                      (accessible via the steps)
                     </p>
                     <p className="text-gray-600 mt-2">
-                      Located in the heart of downtown, easily accessible by public transportation
+                      Located in the heart of Douglas town centre
                     </p>
                   </div>
                 </div>
@@ -135,10 +135,10 @@ export default function ContactForm() {
                   </div>
                   <div className="ml-6">
                     <h3 className="text-lg font-medium text-gray-900 mb-2">Phone</h3>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">0044 1624 623764</p>
                     <p className="text-gray-600 mt-2">
-                      For reservations: (555) 123-4568<br />
-                      For private events: (555) 123-4569
+                      For reservations: bookings@lanuovaisola.com<br />
+                      For general inquiries: admin@lanuovaisola.com
                     </p>
                   </div>
                 </div>
@@ -154,10 +154,10 @@ export default function ContactForm() {
                   </div>
                   <div className="ml-6">
                     <h3 className="text-lg font-medium text-gray-900 mb-2">Email</h3>
-                    <p className="text-gray-600">info@lanuovaisola.im</p>
+                    <p className="text-gray-600">bookings@lanuovaisola.com</p>
                     <p className="text-gray-600 mt-2">
-                      For general inquiries: info@lanuovaisola.im<br />
-                      For reservations: reservations@lanuovaisola.im
+                      For reservations: bookings@lanuovaisola.com<br />
+                      For general inquiries: admin@lanuovaisola.com
                     </p>
                   </div>
                 </div>
@@ -332,14 +332,14 @@ export default function ContactForm() {
           
           <div className="bg-gray-200 h-96 rounded-lg overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50606.54137886429!2d-4.482431687444645!3d54.149610979999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48643d8c5b3b3b3b%3A0x8b3b3b3b3b3b3b3b!2sDouglas%2C+Isle+of+Man!5e0!3m2!1sen!2suk!4v1481234567890!5m2!1sen!2suk"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.837123456789!2d-4.482431687444645!3d54.149610979999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s10-12+Prospect+Hill%2C+Douglas%2C+Isle+of+Man+IM1+1EJ!5e0!3m2!1sen!2suk!4v1481234567890!5m2!1sen!2suk"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
               allowFullScreen={true} 
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="La Nuova Isola Restaurant Location - Douglas, Isle of Man"
+              title="La Nuova Isola Restaurant Location - 10-12 Prospect Hill, Douglas, Isle of Man, IM1 1EJ"
               className="w-full h-full"
             />
           </div>
