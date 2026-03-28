@@ -65,9 +65,14 @@ export default function Reservations() {
                   Holiday parties and family gatherings
                 </li>
               </ul>
-              <button className="w-full bg-[#7A2325] 600 text-white py-3 rounded-lg hover:bg-[#7A2325] 700 transition-colors">
-                Inquire About Private Events
-              </button>
+              <a 
+                href="https://wa.me/447624482007" 
+                className="block w-full bg-[#7A2325] 600 text-white py-3 rounded-lg hover:bg-[#7A2325] 700 transition-colors text-center font-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp Private Events
+              </a>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-8">
@@ -103,9 +108,14 @@ export default function Reservations() {
                   Flexible seating arrangements
                 </li>
               </ul>
-              <button className="w-full bg-[#7A2325] 600 text-white py-3 rounded-lg hover:bg-[#7A2325] 700 transition-colors">
-                Call for Large Party Booking
-              </button>
+              <a 
+                href="https://wa.me/447624482007" 
+                className="block w-full bg-[#7A2325] 600 text-white py-3 rounded-lg hover:bg-[#7A2325] 700 transition-colors text-center font-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp Large Party Booking
+              </a>
             </div>
           </div>
         </div>
