@@ -116,7 +116,7 @@ export default function ReservationForm() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all placeholder:text-gray-500" 
                     placeholder="John"
                   />
                 </div>
@@ -128,7 +128,7 @@ export default function ReservationForm() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all placeholder:text-gray-500" 
                     placeholder="Doe"
                   />
                 </div>
@@ -143,7 +143,7 @@ export default function ReservationForm() {
                     value={formData.email}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all placeholder:text-gray-500" 
                     placeholder="john@example.com"
                   />
                 </div>
@@ -155,7 +155,7 @@ export default function ReservationForm() {
                     value={formData.phone}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all placeholder:text-gray-500" 
                     placeholder="+1 (555) 123-4567"
                   />
                 </div>
@@ -250,7 +250,7 @@ export default function ReservationForm() {
                   value={formData.specialRequests}
                   onChange={handleChange}
                   rows={4} 
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all resize-none" 
+                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all resize-none placeholder:text-gray-500" 
                   placeholder="Any dietary restrictions, seating preferences, or special occasions..."
                 ></textarea>
               </div>
