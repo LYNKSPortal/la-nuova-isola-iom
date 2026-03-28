@@ -20,13 +20,14 @@ export default function About() {
 
       {/* Hero Section */}
       <section className="relative h-96 w-full" aria-labelledby="about-hero-heading">
-        <div className="absolute inset-0 bg-gray-900">
-          {/* Placeholder for hero image */}
-          <div className="w-full h-full bg-gray-800 flex items-center justify-center" role="img" aria-label="La Nuova Isola Restaurant Interior">
-            <span className="text-white text-xl">About Hero Image</span>
-          </div>
+        <div className="absolute inset-0">
+          <img 
+            src="/homepage-slider/Isola_01-scaled.jpg" 
+            alt="La Nuova Isola Restaurant Interior" 
+            className="w-full h-full object-cover"
+          />
         </div>
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <header className="relative h-full flex items-center justify-center">
           <div className="text-center px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
             <h1 id="about-hero-heading" className="font-bold text-white mb-4">
