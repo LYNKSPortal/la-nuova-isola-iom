@@ -7,16 +7,16 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#7A2325] shadow-sm" role="banner">
-      <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-        <div className="flex justify-between items-center py-4">
+    <header className="bg-[#7A2325] shadow-sm sticky top-0 z-50" role="banner">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="flex justify-between items-center py-2 md:py-3">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center py-[20px]" aria-label="La Nuova Isola - Home">
+            <Link href="/" className="flex items-center py-2 md:py-4" aria-label="La Nuova Isola - Home">
               <img 
                 src="/white-logo.png" 
                 alt="La Nuova Isola Restaurant Logo" 
-                className="w-[200px] h-auto"
+                className="w-32 sm:w-40 md:w-44 lg:w-48 h-auto"
                 width="200"
                 height="auto"
               />
@@ -24,8 +24,8 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:block" role="navigation" aria-label="Main navigation">
-            <ul className="flex items-center space-x-8">
+          <nav className="hidden lg:block" role="navigation" aria-label="Main navigation">
+            <ul className="flex items-center space-x-4 xl:space-x-6">
               <li>
                 <Link href="/" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium transition-colors">
                   Home
@@ -60,7 +60,7 @@ export default function Header() {
           </nav>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-200 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -83,12 +83,12 @@ export default function Header() {
         {isMenuOpen && (
           <div 
             id="mobile-menu"
-            className="md:hidden bg-[#7A2325] border-t border-white/20"
+            className="lg:hidden bg-[#7A2325] border-t border-white/20"
             role="navigation"
             aria-label="Mobile navigation"
           >
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              <ul className="space-y-1">
+            <div className="px-2 pt-1 pb-2 space-y-0.5">
+              <ul className="space-y-0.5">
                 <li>
                   <Link
                     href="/"
@@ -126,10 +126,10 @@ export default function Header() {
                   </Link>
                 </li>
               </ul>
-              <div className="pt-4 pb-3 border-t border-white/20">
+              <div className="pt-2 pb-2 border-t border-white/20 mt-1">
                 <Link
                   href="/reservations"
-                  className="block w-full bg-white text-[#7A2325] px-6 py-3 hover:bg-gray-100 transition-colors font-medium text-center"
+                  className="block w-full bg-white text-[#7A2325] px-6 py-2.5 hover:bg-gray-100 transition-colors font-medium text-center"
                   onClick={() => setIsMenuOpen(false)}
                   aria-label="Make a reservation now"
                 >

@@ -1,25 +1,25 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#7A2325] text-white py-12" role="contentinfo">
-      <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-[#7A2325] text-white py-8 md:py-10 lg:py-12" role="contentinfo">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
           {/* Brand */}
           <section className="text-center" aria-labelledby="brand-heading">
             <h2 id="brand-heading" className="sr-only">La Nuova Isola Brand</h2>
-            <div className="flex justify-center mb-4">
+            <div className="flex justify-center mb-3 md:mb-4">
               <img 
                 src="/white-logo.png" 
                 alt="La Nuova Isola Restaurant Logo" 
-                className="w-[300px] h-auto"
+                className="w-48 sm:w-56 md:w-64 lg:w-72 h-auto"
                 width="300"
                 height="auto"
               />
             </div>
-            <p className="text-white mb-4">
-              Experience authentic Italian dining in the heart of Douglas, Isle of Man, where traditional flavors meet warm hospitality
+            <p className="text-white mb-3 md:mb-4 text-sm md:text-base">
+              Authentic Italian cuisine in the heart of the Isle of Man
             </p>
             <nav aria-label="Social media links">
-              <div className="flex justify-center space-x-4">
+              <div className="flex justify-center space-x-3 md:space-x-4">
                 <a 
                   href="https://www.facebook.com/manxisola" 
                   className="text-white hover:text-gray-300 transition-colors"
@@ -64,8 +64,8 @@ export default function Footer() {
             </nav>
           </section>
           {/* Quick Links */}
-          <section className="text-center" aria-labelledby="quick-links-heading">
-            <h2 id="quick-links-heading" className="font-semibold mb-4">Links</h2>
+          <section className="text-center sm:text-left" aria-labelledby="quick-links-heading">
+            <h2 id="quick-links-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Quick Links</h2>
             <nav aria-label="Quick navigation links">
               <ul className="space-y-2 text-white">
                 <li><a href="/" className="hover:text-gray-300 transition-colors">Home</a></li>
