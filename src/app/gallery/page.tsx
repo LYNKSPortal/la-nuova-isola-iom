@@ -386,22 +386,27 @@ export default function Gallery() {
         </header>
       </section>
 
-      {/* Filter Categories */}
-      <section className="py-12 bg-white">
+      {/* Gallery Grid */}
+      <section className="py-12 bg-gray-50">
         <div className="px-[20px] sm:px-[20px] md:px-[50px] lg:px-[50px] xl:px-[50px]">
-          <div className="flex justify-center space-x-4">
-            <button className="px-6 py-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors">
-              All
-            </button>
-            <button className="px-6 py-2 bg-gray-200 text-gray-700 rounded-full hover:bg-gray-300 transition-colors">
-              Interior
-            </button>
-            <button className="px-6 py-2 bg-gray-200 text-gray-700 rounded-full hover:bg-gray-300 transition-colors">
-              Food
-            </button>
-            <button className="px-6 py-2 bg-gray-200 text-gray-700 rounded-full hover:bg-gray-300 transition-colors">
-              Events
-            </button>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {galleryImages.slice(0, 12).map((image) => (
+              <div key={image.id} className="bg-white shadow-lg">
+                <div className="relative h-64">
+                  <Image 
+                    src={image.src} 
+                    alt={image.title}
+                    fill
+                    unoptimized
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold mb-2">{image.title}</h3>
+                  <p className="text-sm text-gray-600">{image.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
