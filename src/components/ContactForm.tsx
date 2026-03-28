@@ -330,8 +330,18 @@ export default function ContactForm() {
             </p>
           </div>
           
-          <div className="bg-gray-200 h-96 flex items-center justify-center rounded-lg">
-            <span className="text-gray-600">Interactive Map</span>
+          <div className="bg-gray-200 h-96 rounded-lg overflow-hidden">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50606.54137886429!2d-4.482431687444645!3d54.149610979999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48643d8c5b3b3b3b%3A0x8b3b3b3b3b3b3b3b!2sDouglas%2C+Isle+of+Man!5e0!3m2!1sen!2suk!4v1481234567890!5m2!1sen!2suk"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen={true} 
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="La Nuova Isola Restaurant Location - Douglas, Isle of Man"
+              className="w-full h-full"
+            />
           </div>
         </div>
       </section>
