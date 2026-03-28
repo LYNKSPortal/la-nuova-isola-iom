@@ -170,7 +170,7 @@ export default function ReservationForm() {
                     value={formData.date}
                     onChange={handleChange}
                     required 
-                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all" 
+                    className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] 500 focus:border-transparent transition-all placeholder:text-gray-500" 
                   />
                 </div>
                 <div className="space-y-2">
