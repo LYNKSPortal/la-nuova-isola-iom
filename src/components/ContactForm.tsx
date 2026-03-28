@@ -177,7 +177,7 @@ export default function ContactForm() {
             {/* Contact Form */}
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
               <h2 className="font-bold text-gray-900 mb-4">Send us a Message</h2>
-              <p className="text-gray-600 mb-8 text-center">
+              <p className="text-gray-600 mb-8 text-left">
                 This is an enquiry form for feedback or questions. Please use the <a href="/reservations" className="text-red-600 hover:text-red-700 font-medium underline">booking form</a> if you would like to make a booking.
               </p>
               
