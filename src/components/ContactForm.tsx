@@ -332,7 +332,7 @@ export default function ContactForm() {
           
           <div className="bg-gray-200 h-96 rounded-lg overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.837123456789!2d-4.482431687444645!3d54.149610979999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s10-12+Prospect+Hill%2C+Douglas%2C+Isle+of+Man+IM1+1EJ!5e0!3m2!1sen!2suk!4v1481234567890!5m2!1sen!2suk"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.837123456789!2d-4.480396!3d54.149906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s10-12+Prospect+Hill%2C+Douglas%2C+Isle+of+Man+IM1+1EJ!5e0!3m2!1sen!2suk!4v1481234567890!5m2!1sen!2suk"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
