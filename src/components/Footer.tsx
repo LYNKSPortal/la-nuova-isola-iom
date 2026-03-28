@@ -41,7 +41,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a 
-                  href="mailto:info@lanuovaisola.im" 
+                  href="mailto:bookings@lanuovaisola.com" 
                   className="text-white hover:text-gray-300 transition-colors"
                   aria-label="Email La Nuova Isola restaurant"
                 >
@@ -79,8 +79,8 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="mailto:info@lanuovaisola.com" className="hover:text-gray-300 transition-colors">
-                  info@lanuovaisola.com
+                <a href="mailto:bookings@lanuovaisola.com" className="hover:text-gray-300 transition-colors">
+                  bookings@lanuovaisola.com
                 </a>
               </p>
             </address>
