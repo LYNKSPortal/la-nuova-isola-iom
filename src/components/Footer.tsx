@@ -15,8 +15,8 @@ export default function Footer() {
                 height="auto"
               />
             </div>
-            <p className="text-white mb-3 md:mb-4 text-sm md:text-base">
-              Authentic Italian cuisine in the heart of the Isle of Man
+            <p className="text-white mb-3 md:mb-4 text-sm md:text-base max-w-md mx-auto">
+              Experience authentic Italian cuisine crafted with passion and tradition in the heart of the Isle of Man
             </p>
             <nav aria-label="Social media links">
               <div className="flex justify-center space-x-3 md:space-x-4">
