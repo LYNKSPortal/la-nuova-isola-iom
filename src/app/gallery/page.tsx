@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FadeIn from '@/components/FadeIn';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
@@ -390,18 +391,20 @@ export default function Gallery() {
       <section className="py-8 md:py-10 lg:py-12 bg-gray-50">
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-            {galleryImages.map((image) => (
-              <div key={image.id} className="bg-white shadow-lg">
-                <div className="relative aspect-square">
-                  <Image 
-                    src={image.src} 
-                    alt={image.title}
-                    fill
-                    unoptimized
-                    className="object-cover"
-                  />
+            {galleryImages.map((image, index) => (
+              <FadeIn key={image.id} delay={index * 0.05}>
+                <div className="bg-white shadow-lg">
+                  <div className="relative aspect-square">
+                    <Image 
+                      src={image.src} 
+                      alt={image.title}
+                      fill
+                      unoptimized
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
-                              </div>
+              </FadeIn>
             ))}
           </div>
         </div>
