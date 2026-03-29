@@ -1,10 +1,15 @@
+'use client';
+
+import FadeIn from './FadeIn';
+
 export default function Footer() {
   return (
     <footer className="bg-[#7A2325] text-white py-8 md:py-10 lg:py-12" role="contentinfo">
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-6 md:gap-8 mb-6 md:mb-8">
           {/* Brand */}
-          <section className="text-center" aria-labelledby="brand-heading">
+          <FadeIn>
+            <section className="text-center" aria-labelledby="brand-heading">
             <h2 id="brand-heading" className="sr-only">La Nuova Isola Brand</h2>
             <div className="flex justify-center mb-3 md:mb-4">
               <img 
@@ -63,8 +68,10 @@ export default function Footer() {
               </div>
             </nav>
           </section>
+          </FadeIn>
           {/* Links */}
-          <section className="text-center" aria-labelledby="links-heading">
+          <FadeIn delay={0.1}>
+            <section className="text-center" aria-labelledby="links-heading">
             <h2 id="links-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Links</h2>
             <nav aria-label="Navigation links">
               <ul className="space-y-2 text-white text-sm md:text-base">
@@ -76,8 +83,10 @@ export default function Footer() {
               </ul>
             </nav>
           </section>
+          </FadeIn>
           {/* Contact */}
-          <section className="text-center" aria-labelledby="contact-heading">
+          <FadeIn delay={0.2}>
+            <section className="text-center" aria-labelledby="contact-heading">
             <h2 id="contact-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Contact</h2>
             <address className="space-y-2 text-white not-italic text-sm md:text-base">
               <p>10–12 Prospect Hill</p>
@@ -95,8 +104,10 @@ export default function Footer() {
               </p>
             </address>
           </section>
+          </FadeIn>
           {/* Hours */}
-          <section className="text-center" aria-labelledby="hours-heading">
+          <FadeIn delay={0.3}>
+            <section className="text-center" aria-labelledby="hours-heading">
             <h2 id="hours-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Hours</h2>
             <div className="text-white space-y-1 text-sm md:text-base">
               <p><span className="font-medium">Sun, Mon & Tue:</span> Closed</p>
@@ -106,6 +117,7 @@ export default function Footer() {
               <p><span className="font-medium">Saturday:</span> 18:00-21:30</p>
             </div>
           </section>
+          </FadeIn>
         </div>
         
         <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
