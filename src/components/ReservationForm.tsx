@@ -98,9 +98,12 @@ export default function ReservationForm() {
       {/* Reservation Form */}
       <section className="py-8 md:py-12 lg:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-bold text-gray-900 mb-6 md:mb-8 text-center text-xl md:text-2xl lg:text-3xl">Reservation Details</h2>
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 md:p-8">
-            <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
+          <FadeIn>
+            <h2 className="font-bold text-gray-900 mb-6 md:mb-8 text-center text-xl md:text-2xl lg:text-3xl">Reservation Details</h2>
+          </FadeIn>
+          <FadeIn delay={0.2}>
+            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 md:p-8">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
               {/* Name For The Table */}
               <div className="space-y-2">
                 <label className="block text-sm font-semibold text-gray-700">Name For The Table?</label>
@@ -264,6 +267,7 @@ export default function ReservationForm() {
               )}
             </form>
           </div>
+          </FadeIn>
         </div>
       </section>
     </>
