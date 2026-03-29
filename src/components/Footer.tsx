@@ -120,25 +120,27 @@ export default function Footer() {
           </FadeIn>
         </div>
         
-        <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
-            <p className="text-white text-sm order-2 md:order-1">
-              &copy; 2026 La Nuova Isola. All rights reserved.
-            </p>
-            <div className="flex items-center justify-center order-1 md:order-2">
-              <img 
-                src="/powered-by-lynks.png" 
-                alt="Powered by LYNKS" 
-                className="w-[200px] h-auto opacity-75 hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 order-3">
-              <a href="/privacy" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
-              <a href="/terms" className="text-white hover:text-gray-300 text-sm transition-colors">Terms of Service</a>
-              <a href="/accessibility" className="text-white hover:text-gray-300 text-sm transition-colors">Accessibility</a>
+        <FadeIn delay={0.4}>
+          <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+              <p className="text-white text-sm order-2 md:order-1">
+                &copy; 2026 La Nuova Isola. All rights reserved.
+              </p>
+              <div className="flex items-center justify-center order-1 md:order-2">
+                <img 
+                  src="/powered-by-lynks.png" 
+                  alt="Powered by LYNKS" 
+                  className="w-[200px] h-auto opacity-75 hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <div className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 order-3">
+                <a href="/privacy" className="text-white hover:text-gray-300 text-sm transition-colors">Privacy Policy</a>
+                <a href="/terms" className="text-white hover:text-gray-300 text-sm transition-colors">Terms of Service</a>
+                <a href="/accessibility" className="text-white hover:text-gray-300 text-sm transition-colors">Accessibility</a>
+              </div>
             </div>
           </div>
-        </div>
+        </FadeIn>
       </div>
     </footer>
   );
