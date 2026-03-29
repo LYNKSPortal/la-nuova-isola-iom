@@ -19,6 +19,20 @@ export default function FadeIn({
   const elementRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const element = elementRef.current;
+    
+    // Check if element is already in viewport on mount
+    if (element) {
+      const rect = element.getBoundingClientRect();
+      const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
+      
+      if (isInViewport) {
+        // Element is already visible, trigger animation immediately
+        setTimeout(() => setIsVisible(true), 100);
+        return;
+      }
+    }
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -29,18 +43,18 @@ export default function FadeIn({
         });
       },
       {
-        threshold: 0.1,
-        rootMargin: '50px'
+        threshold: 0.05,
+        rootMargin: '0px'
       }
     );
 
-    if (elementRef.current) {
-      observer.observe(elementRef.current);
+    if (element) {
+      observer.observe(element);
     }
 
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, []);
