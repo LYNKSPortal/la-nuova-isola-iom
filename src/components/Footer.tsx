@@ -63,10 +63,10 @@ export default function Footer() {
               </div>
             </nav>
           </section>
-          {/* Quick Links */}
-          <section className="text-center" aria-labelledby="quick-links-heading">
-            <h2 id="quick-links-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Quick Links</h2>
-            <nav aria-label="Quick navigation links">
+          {/* Links */}
+          <section className="text-center" aria-labelledby="links-heading">
+            <h2 id="links-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Links</h2>
+            <nav aria-label="Navigation links">
               <ul className="space-y-2 text-white text-sm md:text-base">
                 <li><a href="/" className="hover:text-gray-300 transition-colors">Home</a></li>
                 <li><a href="/about" className="hover:text-gray-300 transition-colors">About</a></li>
