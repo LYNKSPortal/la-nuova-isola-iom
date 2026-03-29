@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#7A2325] text-white py-8 md:py-10 lg:py-12" role="contentinfo">
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-6 md:gap-8 mb-6 md:mb-8">
           {/* Brand */}
           <section className="text-center" aria-labelledby="brand-heading">
             <h2 id="brand-heading" className="sr-only">La Nuova Isola Brand</h2>
