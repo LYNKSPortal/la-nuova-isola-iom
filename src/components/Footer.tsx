@@ -64,7 +64,7 @@ export default function Footer() {
             </nav>
           </section>
           {/* Quick Links */}
-          <section className="text-center sm:text-left" aria-labelledby="quick-links-heading">
+          <section className="text-center" aria-labelledby="quick-links-heading">
             <h2 id="quick-links-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Quick Links</h2>
             <nav aria-label="Quick navigation links">
               <ul className="space-y-2 text-white text-sm md:text-base">
@@ -77,7 +77,7 @@ export default function Footer() {
             </nav>
           </section>
           {/* Contact */}
-          <section className="text-center sm:text-left" aria-labelledby="contact-heading">
+          <section className="text-center" aria-labelledby="contact-heading">
             <h2 id="contact-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Contact</h2>
             <address className="space-y-2 text-white not-italic text-sm md:text-base">
               <p>10–12 Prospect Hill</p>
@@ -96,7 +96,7 @@ export default function Footer() {
             </address>
           </section>
           {/* Hours */}
-          <section className="text-center sm:text-left" aria-labelledby="hours-heading">
+          <section className="text-center" aria-labelledby="hours-heading">
             <h2 id="hours-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Hours</h2>
             <div className="text-white space-y-1 text-sm md:text-base">
               <div className="flex justify-between items-center">
