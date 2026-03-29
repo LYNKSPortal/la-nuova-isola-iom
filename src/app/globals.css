@@ -66,13 +66,84 @@ p, span, div, li, a, button, input, textarea, select, label, td, th, blockquote,
 }
 
 /* =========================
-   Heading Base Styles
-   Note: Font sizes are controlled by Tailwind classes in components
+   Mobile (Base styles)
 ========================= */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* =========================
+   Tablet (768px and up)
+========================= */
+@media (min-width: 768px) {
+  h1 { font-size: 44px; line-height: 1.1; }
+  h2 { font-size: 36px; line-height: 1.15; }
+  h3 { font-size: 30px; line-height: 1.2; }
+  h4 { font-size: 24px; line-height: 1.25; }
+  h5 { font-size: 20px; line-height: 1.3; }
+  h6 { font-size: 18px; line-height: 1.4; }
+}
+
+/* =========================
+   Desktop (1024px and up)
+========================= */
+@media (min-width: 1024px) {
+  h1 { font-size: 60px; line-height: 1.1; }
+  h2 { font-size: 48px; line-height: 1.15; }
+  h3 { font-size: 38px; line-height: 1.2; }
+  h4 { font-size: 30px; line-height: 1.25; }
+  h5 { font-size: 24px; line-height: 1.3; }
+  h6 { font-size: 20px; line-height: 1.4; }
+}
+
+/* =========================
+   Large Desktop (1440px and up)
+========================= */
+@media (min-width: 1440px) {
+  h1 { font-size: 72px; line-height: 1.1; }
+  h2 { font-size: 56px; line-height: 1.15; }
+  h3 { font-size: 44px; line-height: 1.2; }
+  h4 { font-size: 36px; line-height: 1.25; }
+  h5 { font-size: 28px; line-height: 1.3; }
+  h6 { font-size: 22px; line-height: 1.4; }
 }
 
 /* Date input placeholder styling */
