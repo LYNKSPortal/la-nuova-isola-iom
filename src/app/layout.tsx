@@ -51,9 +51,9 @@ export const metadata: Metadata = {
     siteName: "La Nuova Isola",
     images: [
       {
-        url: "/homepage-slider/Isola_01-scaled.jpg",
+        url: "/meta-image.jpg",
         width: 1200,
-        height: 800,
+        height: 630,
         alt: "La Nuova Isola Restaurant - Authentic Italian Dining",
       },
     ],
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "La Nuova Isola - Authentic Italian Dining",
     description: "Experience authentic Italian dining at La Nuova Isola in the Isle of Man. Traditional recipes, fresh ingredients, and warm hospitality.",
-    images: ["/homepage-slider/Isola_01-scaled.jpg"],
+    images: ["/meta-image.jpg"],
   },
   robots: {
     index: true,
