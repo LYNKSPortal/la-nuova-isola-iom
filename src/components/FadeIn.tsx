@@ -12,7 +12,7 @@ interface FadeInProps {
 export default function FadeIn({ 
   children, 
   delay = 0, 
-  duration = 0.6,
+  duration = 1,
   className = '' 
 }: FadeInProps) {
   const [isVisible, setIsVisible] = useState(false);
