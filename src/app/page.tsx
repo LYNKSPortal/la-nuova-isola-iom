@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HomepageSlider from '@/components/HomepageSlider';
+import FadeIn from '@/components/FadeIn';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -34,8 +35,10 @@ export default function Home() {
       <section id="about" className="py-10 md:py-16 lg:py-20 bg-white" aria-labelledby="about-heading">
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="max-w-4xl mx-auto text-center">
-            <div>
+            <FadeIn>
               <h2 id="about-heading" className="font-bold text-gray-900 mb-4 md:mb-6 text-2xl md:text-3xl lg:text-4xl">Our Story</h2>
+            </FadeIn>
+            <FadeIn delay={0.2}>
               <div className="space-y-3 md:space-y-4">
                 <p className="text-gray-600 text-sm md:text-base">
                   La Nuova Isola brings the authentic taste of Italy to your table. Founded in 2020, 
@@ -50,6 +53,8 @@ export default function Home() {
                   we promise an unforgettable dining experience.
                 </p>
               </div>
+            </FadeIn>
+            <FadeIn delay={0.4}>
               <div className="mt-6 md:mt-8">
                 <a 
                   href="/about" 
@@ -59,7 +64,7 @@ export default function Home() {
                   Learn More
                 </a>
               </div>
-            </div>
+            </FadeIn>
           </div>
         </div>
       </section>

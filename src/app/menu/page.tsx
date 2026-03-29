@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FadeIn from '@/components/FadeIn';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
@@ -54,21 +55,26 @@ export default function Menu() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
             {/* Left Column - Lunch Menu */}
             <div className="space-y-4 md:space-y-6 lg:space-y-8">
-              <div className="text-center">
-                <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Lunch Menu</h2>
-              </div>
+              <FadeIn>
+                <div className="text-center">
+                  <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Lunch Menu</h2>
+                </div>
+              </FadeIn>
               
               {/* Lunch Menu Image */}
-              <div className="w-full">
-                <img 
-                  src="/menu/Isola Lunch Menu Mar26_page-0001 2.jpg" 
-                  alt="La Nuova Isola Lunch Menu"
-                  className="w-full h-auto shadow-xl border border-black"
-                />
-              </div>
+              <FadeIn delay={0.2}>
+                <div className="w-full">
+                  <img 
+                    src="/menu/Isola Lunch Menu Mar26_page-0001 2.jpg" 
+                    alt="La Nuova Isola Lunch Menu"
+                    className="w-full h-auto shadow-xl border border-black"
+                  />
+                </div>
+              </FadeIn>
 
               {/* Lunch Menu Download */}
-              <div className="text-center py-3 md:py-4">
+              <FadeIn delay={0.3}>
+                <div className="text-center py-3 md:py-4">
                 <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
                   Download or print the Lunch Menu:
                 </p>
@@ -87,52 +93,61 @@ export default function Menu() {
                   Last Updated: 27.03.2026
                 </p>
               </div>
+              </FadeIn>
             </div>
 
             {/* Right Column - Evening Menu */}
             <div className="space-y-4 md:space-y-6 lg:space-y-8">
-              <div className="text-center">
-                <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Evening Menu</h2>
-              </div>
+              <FadeIn>
+                <div className="text-center">
+                  <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Evening Menu</h2>
+                </div>
+              </FadeIn>
               
               {/* Menu Page 1 */}
-              <div className="w-full">
-                <img 
-                  src="/menu/Isola-Menu-Feb26_page-0001.jpg" 
-                  alt="La Nuova Isola Menu Page 1"
-                  className="w-full h-auto shadow-xl border border-black"
-                />
-              </div>
+              <FadeIn delay={0.2}>
+                <div className="w-full">
+                  <img 
+                    src="/menu/Isola-Menu-Feb26_page-0001.jpg" 
+                    alt="La Nuova Isola Menu Page 1"
+                    className="w-full h-auto shadow-xl border border-black"
+                  />
+                </div>
+              </FadeIn>
               
               {/* Menu Page 2 */}
-              <div className="w-full">
-                <img 
-                  src="/menu/Isola-Menu-Feb26_page-0002.jpg" 
-                  alt="La Nuova Isola Menu Page 2"
-                  className="w-full h-auto shadow-xl border border-black"
-                />
-              </div>
+              <FadeIn delay={0.3}>
+                <div className="w-full">
+                  <img 
+                    src="/menu/Isola-Menu-Feb26_page-0002.jpg" 
+                    alt="La Nuova Isola Menu Page 2"
+                    className="w-full h-auto shadow-xl border border-black"
+                  />
+                </div>
+              </FadeIn>
 
               {/* Evening Menu Download */}
-              <div className="text-center py-3 md:py-4">
-                <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
-                  Download or print the Evening Menu:
-                </p>
-                <a 
-                  href="/menu/evening-menu.pdf" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#7A2325] text-white px-5 md:px-6 py-2 md:py-2.5 hover:bg-[#8B2E35] transition-colors font-medium text-sm md:text-base"
-                >
-                  <svg className="w-4 h-4 md:w-5 md:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                  View Evening Menu
-                </a>
-                <p className="text-xs md:text-sm text-gray-500 mt-3 md:mt-4">
-                  Last Updated: 27.03.2026
-                </p>
-              </div>
+              <FadeIn delay={0.4}>
+                <div className="text-center py-3 md:py-4">
+                  <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
+                    Download or print the Evening Menu:
+                  </p>
+                  <a 
+                    href="/menu/evening-menu.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center bg-[#7A2325] text-white px-5 md:px-6 py-2 md:py-2.5 hover:bg-[#8B2E35] transition-colors font-medium text-sm md:text-base"
+                  >
+                    <svg className="w-4 h-4 md:w-5 md:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    View Evening Menu
+                  </a>
+                  <p className="text-xs md:text-sm text-gray-500 mt-3 md:mt-4">
+                    Last Updated: 27.03.2026
+                  </p>
+                </div>
+              </FadeIn>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FadeIn from '@/components/FadeIn';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
@@ -51,14 +52,14 @@ export default function About() {
       <section className="py-8 md:py-12 lg:py-16 bg-white">
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
-            <div className="order-2 lg:order-1">
+            <FadeIn delay={0.2} className="order-2 lg:order-1">
               <img 
                 src="/outside-restaurant.jpg" 
                 alt="La Nuova Isola Restaurant Exterior" 
                 className="w-full object-cover rounded-none"
               />
-            </div>
-            <div className="order-1 lg:order-2">
+            </FadeIn>
+            <FadeIn className="order-1 lg:order-2">
               <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Story</h2>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 La Nuova Isola was born from a dream to bring the authentic flavors of Italy to the heart of our city. 
@@ -75,7 +76,7 @@ export default function About() {
                 ingredients, many from local farms, and work closely with Italian producers to ensure authenticity 
                 in every bite.
               </p>
-            </div>
+            </FadeIn>
           </div>
         </div>
       </section>
@@ -84,7 +85,7 @@ export default function About() {
       <section className="py-8 md:py-12 lg:py-16 bg-gray-50">
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
-            <div className="order-1 lg:order-1">
+            <FadeIn className="order-1 lg:order-1">
               <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Chef</h2>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 Chef Marco Rossi brings a wealth of experience from working in some of Italy's most prestigious 
@@ -100,14 +101,14 @@ export default function About() {
                 "Cooking is not just about feeding people," says Chef Marco. "It's about creating memories, 
                 bringing families together, and sharing the joy of Italian hospitality."
               </p>
-            </div>
-            <div className="order-2 lg:order-2">
+            </FadeIn>
+            <FadeIn delay={0.2} className="order-2 lg:order-2">
               <img 
                 src="/the-chefs.jpg" 
                 alt="Chef Marco Rossi" 
                 className="w-full object-cover rounded-none"
               />
-            </div>
+            </FadeIn>
           </div>
         </div>
       </section>

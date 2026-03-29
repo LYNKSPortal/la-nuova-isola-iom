@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ReservationForm from '@/components/ReservationForm';
+import FadeIn from '@/components/FadeIn';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -24,15 +25,18 @@ export default function Reservations() {
       {/* Private Events */}
       <section className="py-8 md:py-12 lg:py-16 bg-white">
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-          <div className="text-center mb-6 md:mb-8 lg:mb-12">
-            <h2 className="font-bold text-gray-900 mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl">Private Events & Large Parties</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-              For parties of 8 or more, or for private events, please contact us directly for personalized service
-            </p>
-          </div>
+          <FadeIn>
+            <div className="text-center mb-6 md:mb-8 lg:mb-12">
+              <h2 className="font-bold text-gray-900 mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl">Private Events & Large Parties</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+                For parties of 8 or more, or for private events, please contact us directly for personalized service
+              </p>
+            </div>
+          </FadeIn>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
-            <div className="bg-gray-50 rounded-lg p-4 sm:p-6 md:p-8">
+            <FadeIn delay={0.2}>
+              <div className="bg-gray-50 rounded-lg p-4 sm:p-6 md:p-8">
               <div className="text-center mb-4 md:mb-6">
                 <h3 className="font-semibold text-gray-900 text-lg md:text-xl">Private Dining Room</h3>
               </div>
@@ -79,8 +83,10 @@ export default function Reservations() {
                 </span>
               </a>
             </div>
+            </FadeIn>
             
-            <div className="bg-gray-50 rounded-lg p-4 sm:p-6 md:p-8">
+            <FadeIn delay={0.3}>
+              <div className="bg-gray-50 rounded-lg p-4 sm:p-6 md:p-8">
               <div className="text-center mb-4 md:mb-6">
                 <h3 className="font-semibold text-gray-900 text-lg md:text-xl">Large Party Reservations</h3>
               </div>
@@ -127,6 +133,7 @@ export default function Reservations() {
                 </span>
               </a>
             </div>
+            </FadeIn>
           </div>
         </div>
       </section>
@@ -134,12 +141,14 @@ export default function Reservations() {
       {/* Find Us Section */}
       <section className="py-8 md:py-12 lg:py-16 bg-gray-50">
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-          <div className="text-center mb-6 md:mb-8 lg:mb-12">
-            <h2 className="font-bold text-gray-900 mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl">Find Us</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-              Conveniently located in the heart of downtown with easy access to parking and public transportation
-            </p>
-          </div>
+          <FadeIn>
+            <div className="text-center mb-6 md:mb-8 lg:mb-12">
+              <h2 className="font-bold text-gray-900 mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl">Find Us</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+                Conveniently located in the heart of downtown with easy access to parking and public transportation
+              </p>
+            </div>
+          </FadeIn>
           
           <div className="bg-gray-200 h-64 md:h-80 lg:h-96 rounded-lg overflow-hidden">
             <iframe 
