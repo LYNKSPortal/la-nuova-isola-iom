@@ -99,28 +99,13 @@ export default function Footer() {
           <section className="text-center" aria-labelledby="hours-heading">
             <h2 id="hours-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Hours</h2>
             <div className="text-white space-y-1 text-sm md:text-base">
-              <div className="flex justify-between items-center">
-                <span className="flex-1 text-left">Sun, Mon & Tue:</span>
-                <span className="flex-1 text-right font-medium">Closed</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="flex-1 text-left">Wednesday:</span>
-                <span className="flex-1 text-right">12:00-14:00, 17:00-21:00</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="flex-1 text-left">Thursday:</span>
-                <span className="flex-1 text-right">12:00-14:00, 17:00-21:30</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="flex-1 text-left">Friday:</span>
-                <span className="flex-1 text-right">12:00-14:00, 17:00-21:30</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="flex-1 text-left">Saturday:</span>
-                <span className="flex-1 text-right">18:00-21:30</span>
-              </div>
+              <p><span className="font-medium">Sun, Mon & Tue:</span> Closed</p>
+              <p><span className="font-medium">Wednesday:</span> 12:00-14:00, 17:00-21:00</p>
+              <p><span className="font-medium">Thursday:</span> 12:00-14:00, 17:00-21:30</p>
+              <p><span className="font-medium">Friday:</span> 12:00-14:00, 17:00-21:30</p>
+              <p><span className="font-medium">Saturday:</span> 18:00-21:30</p>
             </div>
-                      </section>
+          </section>
         </div>
         
         <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
