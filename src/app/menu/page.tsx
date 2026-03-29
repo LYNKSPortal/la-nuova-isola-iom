@@ -39,12 +39,16 @@ export default function Menu() {
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
           <div className="text-center px-4 sm:px-6 md:px-8">
-            <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
-              Our Menu
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl text-white">
-              Authentic Italian cuisine crafted with passion and tradition
-            </p>
+            <FadeIn>
+              <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
+                Our Menu
+              </h1>
+            </FadeIn>
+            <FadeIn delay={0.2}>
+              <p className="text-base sm:text-lg md:text-xl text-white">
+                Authentic Italian cuisine crafted with passion and tradition
+              </p>
+            </FadeIn>
           </div>
         </header>
       </section>

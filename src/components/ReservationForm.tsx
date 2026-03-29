@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import FadeIn from './FadeIn';
 
 export default function ReservationForm() {
   const router = useRouter();
@@ -80,12 +81,16 @@ export default function ReservationForm() {
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
           <div className="text-center px-4 sm:px-6 md:px-8">
-            <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
-              Make a Reservation
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl text-white">
-              Book your table for an unforgettable dining experience
-            </p>
+            <FadeIn>
+              <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
+                Make a Reservation
+              </h1>
+            </FadeIn>
+            <FadeIn delay={0.2}>
+              <p className="text-base sm:text-lg md:text-xl text-white">
+                Book your table for an unforgettable dining experience
+              </p>
+            </FadeIn>
           </div>
         </header>
       </section>
