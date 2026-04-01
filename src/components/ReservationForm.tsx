@@ -216,6 +216,7 @@ export default function ReservationForm() {
                   value={formData.phone}
                   onChange={handleChange}
                   required 
+                  autoComplete="off"
                   className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
                   placeholder="07624 000000"
                 />
@@ -229,6 +230,8 @@ export default function ReservationForm() {
                   value={formData.specialRequests}
                   onChange={handleChange}
                   rows={4} 
+                  spellCheck="false"
+                  autoComplete="off"
                   className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all resize-none placeholder:text-gray-700" 
                   placeholder="Any special requests or dietary requirements..."
                 ></textarea>
