@@ -23,18 +23,16 @@ export default function Menu() {
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
-        <img 
+        <Image 
           src="/homepage-slider/Isola_13-scaled.jpg" 
           alt="Restaurant background"
+          fill
           style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
             objectFit: 'cover',
             zIndex: 0
           }}
+          priority={false}
+          loading="lazy"
         />
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
