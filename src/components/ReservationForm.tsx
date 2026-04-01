@@ -111,7 +111,7 @@ export default function ReservationForm() {
                   value={formData.name}
                   onChange={handleChange}
                   required 
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
+                  className="w-full px-5 py-3 text-black border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
                   placeholder="Joe Smith"
                 />
               </div>
@@ -146,7 +146,7 @@ export default function ReservationForm() {
                   value={formData.date}
                   onChange={handleChange}
                   required 
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
+                  className="w-full px-5 py-3 text-black border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
                 />
               </div>
 
@@ -202,7 +202,7 @@ export default function ReservationForm() {
                   value={formData.email}
                   onChange={handleChange}
                   required 
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
+                  className="w-full px-5 py-3 text-black border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
                   placeholder="joesmith@example.com"
                 />
               </div>
@@ -217,7 +217,7 @@ export default function ReservationForm() {
                   onChange={handleChange}
                   required 
                   autoComplete="off"
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
+                  className="w-full px-5 py-3 text-black border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all placeholder:text-gray-700" 
                   placeholder="07624 000000"
                 />
               </div>
@@ -232,7 +232,7 @@ export default function ReservationForm() {
                   rows={4} 
                   spellCheck="false"
                   autoComplete="off"
-                  className="w-full px-5 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all resize-none placeholder:text-gray-700" 
+                  className="w-full px-5 py-3 text-black border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7A2325] focus:border-transparent transition-all resize-none placeholder:text-gray-700" 
                   placeholder="Any special requests or dietary requirements..."
                 ></textarea>
               </div>
