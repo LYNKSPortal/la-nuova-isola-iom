@@ -22,18 +22,16 @@ export default function About() {
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden" aria-labelledby="about-hero-heading">
-        <img 
+        <Image 
           src="/homepage-slider/Isola_01-scaled.jpg" 
           alt="Restaurant background"
+          fill
           style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
             objectFit: 'cover',
             zIndex: 0
           }}
+          priority={false}
+          loading="lazy"
         />
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1 }}></div>
         <header className="relative h-full flex items-center justify-center" style={{ zIndex: 2 }}>
@@ -57,10 +55,14 @@ export default function About() {
         <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
             <FadeIn delay={0.2} className="order-2 lg:order-1">
-              <img 
+              <Image 
                 src="/outside-restaurant.jpg" 
                 alt="La Nuova Isola Restaurant Exterior" 
+                width={800}
+                height={600}
                 className="w-full object-cover rounded-none"
+                priority={false}
+                loading="lazy"
               />
             </FadeIn>
             <FadeIn className="order-1 lg:order-2">
@@ -107,10 +109,14 @@ export default function About() {
               </p>
             </FadeIn>
             <FadeIn delay={0.2} className="order-2 lg:order-2">
-              <img 
+              <Image 
                 src="/the-chefs.jpg" 
                 alt="Chef Marco Rossi" 
+                width={800}
+                height={600}
                 className="w-full object-cover rounded-none"
+                priority={false}
+                loading="lazy"
               />
             </FadeIn>
           </div>
