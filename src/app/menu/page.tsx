@@ -68,10 +68,14 @@ export default function Menu() {
               {/* Lunch Menu Image */}
               <FadeIn delay={0.2}>
                 <div className="w-full">
-                  <img 
+                  <Image 
                     src="/menu/Isola Lunch Menu Mar26_page-0001 2.jpg" 
                     alt="La Nuova Isola Lunch Menu"
+                    width={800}
+                    height={1200}
                     className="w-full h-auto shadow-xl border border-black"
+                    priority={false}
+                    loading="lazy"
                   />
                 </div>
               </FadeIn>
@@ -111,10 +115,14 @@ export default function Menu() {
               {/* Menu Page 1 */}
               <FadeIn delay={0.2}>
                 <div className="w-full">
-                  <img 
+                  <Image 
                     src="/menu/Isola-Menu-Feb26_page-0001.jpg" 
                     alt="La Nuova Isola Menu Page 1"
+                    width={800}
+                    height={1200}
                     className="w-full h-auto shadow-xl border border-black"
+                    priority={false}
+                    loading="lazy"
                   />
                 </div>
               </FadeIn>
@@ -122,10 +130,14 @@ export default function Menu() {
               {/* Menu Page 2 */}
               <FadeIn delay={0.3}>
                 <div className="w-full">
-                  <img 
+                  <Image 
                     src="/menu/Isola-Menu-Feb26_page-0002.jpg" 
                     alt="La Nuova Isola Menu Page 2"
+                    width={800}
+                    height={1200}
                     className="w-full h-auto shadow-xl border border-black"
+                    priority={false}
+                    loading="lazy"
                   />
                 </div>
               </FadeIn>
