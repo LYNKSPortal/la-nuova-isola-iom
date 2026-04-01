@@ -37,6 +37,7 @@ export async function POST(request: NextRequest) {
     const restaurantEmail = {
       from: process.env.SMTP_USER,
       to: ['bookings@lanuovaisola.com', 'admin@lanuovaisola.com'],
+      replyTo: email, // Customer's email for easy replies
       subject: `New Reservation Request - ${date} at ${time}`,
       html: `
         <h2>New Reservation Request</h2>
@@ -50,6 +51,7 @@ export async function POST(request: NextRequest) {
         <p><strong>Special Requests:</strong> ${specialRequests || 'None'}</p>
         <hr>
         <p><small>Sent from La Nuova Isola website reservation form</small></p>
+        <p><em><strong>Note:</strong> You can reply directly to this email to contact the customer.</em></p>
       `,
     };
 
