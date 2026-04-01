@@ -3,6 +3,15 @@ import transporter from '@/lib/email';
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if SMTP credentials are configured
+    if (!process.env.SMTP_USER || !process.env.SMTP_PASS) {
+      console.error('SMTP credentials not configured');
+      return NextResponse.json(
+        { error: 'Email service not configured. Please contact administrator.' },
+        { status: 503 }
+      );
+    }
+
     const body = await request.json();
     
     const {

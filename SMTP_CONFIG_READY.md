@@ -7,14 +7,14 @@ Create a file named `.env.local` in the root of your project with the following 
 SMTP_HOST=smtp.stackmail.com
 SMTP_PORT=465
 SMTP_SECURE=true
-SMTP_USER=admin@lanuovaisola.com
-SMTP_PASS=Admin!928384
+SMTP_USER=your_email@lanuovaisola.com
+SMTP_PASS=your_email_password
 
 # Restaurant Email (where notifications are sent)
 RESTAURANT_EMAIL=admin@lanuovaisola.com
 
 # Next.js Configuration
-NEXT_PUBLIC_APP_URL=https://la-nuovaisola-iom-git-main-lynks-portal-projects.vercel.app
+NEXT_PUBLIC_APP_URL=https://your-production-url.vercel.app
 ```
 
 Steps to create the file:
@@ -34,7 +34,7 @@ SMTP Configuration Details:
 - Host: smtp.stackmail.com ✅
 - Port: 465 (SSL) ✅
 - Authentication: Enabled ✅
-- Username: admin@lanuovaisola.com ✅
+- Username: [Your email address] ✅
 - Password: [Your secure password] ✅
 - Encryption: SSL/TLS ✅
 
