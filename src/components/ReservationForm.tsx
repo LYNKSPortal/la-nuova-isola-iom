@@ -112,7 +112,7 @@ export default function ReservationForm() {
                   <p>If you're looking to make a booking within the next 24-48 hours, please contact us via WhatsApp. For short notice bookings, we can respond quickly and let you know straight away whether availability remains. For bookings more than 24-48 hours in advance, simply complete the form below and we'll get back to you as soon as possible.</p>
                   <a 
                     href="https://wa.me/447624482007" 
-                    className="inline-flex items-center mt-2 bg-[#7A2325] hover:bg-[#5a1a1c] text-white py-2 px-4 rounded-lg transition-colors font-medium shadow-sm"
+                    className="inline-flex items-center mt-4 bg-[#7A2325] hover:bg-[#5a1a1c] text-white py-2 px-4 rounded-lg transition-colors font-medium shadow-sm"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
