@@ -68,7 +68,7 @@ export default function About() {
             <FadeIn className="order-1 lg:order-2">
               <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Story</h2>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
-                Our journey began in 2005 when Chef Paolo Piccoli first opened the original Isola restaurant, bringing authentic 
+                Our journey began in 2005 when Peter and Paolo first opened the original Isola restaurant, bringing authentic 
                 Italian flavors to the Isle of Man. After years of success and culinary excellence, we're proud to announce 
                 the rebirth of La Nuova Isola in our new location in 2025, continuing our legacy with renewed passion and vision.
               </p>
