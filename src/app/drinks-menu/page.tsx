@@ -181,7 +181,7 @@ export default function DrinksMenu() {
             {/* Premium House Whites */}
             <div className="mb-12">
               <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Premium House Whites (£29)</h3>
-              <div className="space-y-3">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
                   <p className="text-sm text-gray-900">Viognier</p>
                 </div>
@@ -209,7 +209,7 @@ export default function DrinksMenu() {
             {/* Premium House Reds */}
             <div className="mb-12">
               <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Premium House Reds (£29)</h3>
-              <div className="space-y-3">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
                   <p className="text-sm text-gray-900">Pinot Noir</p>
                 </div>
