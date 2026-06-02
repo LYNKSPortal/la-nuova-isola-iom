@@ -57,32 +57,32 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Starters (First Course Dishes)</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Classic Bruschetta <span className="text-gray-600" style={{fontSize: '22px'}}>(V)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Classic Bruschetta <span className="text-gray-600" style={{fontSize: '24px'}}>(V)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Toasted bread topped with fresh tomatoes, red onion, garlic, basil and drizzled with olive oil</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Aubergine alla Parmigiana <span className="text-gray-600" style={{fontSize: '22px'}}>(V)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£10</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Aubergine alla Parmigiana <span className="text-gray-600" style={{fontSize: '24px'}}>(V)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£10</span></h3>
                 <p className="text-sm text-gray-700">Layers of baked aubergine with tomato, basil and melted mozzarella cheese</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Garlic King Prawns <span className="text-gray-600" style={{fontSize: '22px'}}>(GF)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£10</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Garlic King Prawns <span className="text-gray-600" style={{fontSize: '24px'}}>(GF)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£10</span></h3>
                 <p className="text-sm text-gray-700">Succulent king prawns in a spicy tomato sauce with rocket leaves and toasted bread</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Meatballs Arrabbiata — <span style={{fontSize: '24px', color: '#7A2325'}}>£9</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Meatballs Arrabbiata — <span style={{fontSize: '26px', color: '#7A2325'}}>£9</span></h3>
                 <p className="text-sm text-gray-700">Homemade Roman-style meatballs in a chilli garlic tomato sauce with rocket leaves and toasted bread</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Minestrone Soup <span className="text-gray-600" style={{fontSize: '22px'}}>(V)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Minestrone Soup <span className="text-gray-600" style={{fontSize: '24px'}}>(V)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Traditional Italian vegetable soup with seasonal vegetables and herbs</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Cozze Alla Romana — <span style={{fontSize: '24px', color: '#7A2325'}}>£10</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Cozze Alla Romana — <span style={{fontSize: '26px', color: '#7A2325'}}>£10</span></h3>
                 <p className="text-sm text-gray-700">Fresh mussels cooked in white wine with garlic, chilli, parsley and pecorino sauce, served with toasted bread</p>
               </div>
             </div>
@@ -97,37 +97,37 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Pasta & Gnocchi</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Penne all'Amatriciana — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Penne all'Amatriciana — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Penne pasta with guanciale (cured pork cheek), tomato sauce, pecorino romano and chilli</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Rigatoni Carbonara — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Rigatoni Carbonara — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Classic Roman carbonara with rigatoni, guanciale, pecorino cheese, egg and black pepper</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Tagliatelle Bolognese — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Tagliatelle Bolognese — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Fresh tagliatelle with rich meat ragù, tomato, herbs and garlic</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Lasagne al Forno — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Lasagne al Forno — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Traditional oven-baked lasagne with beef & tomato ragù, béchamel sauce and cheese</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Tortellini alla Panna <span className="text-gray-600" style={{fontSize: '22px'}}>(V)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Tortellini alla Panna <span className="text-gray-600" style={{fontSize: '24px'}}>(V)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Ricotta & spinach tortellini in a creamy sauce with sage and pecorino cheese</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Gnocchi Isola <span className="text-gray-600" style={{fontSize: '22px'}}>(Vegan)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Gnocchi Isola <span className="text-gray-600" style={{fontSize: '24px'}}>(Vegan)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Homemade gnocchi with tomato & basil sauce and fried aubergine</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Spaghetti alla Puttanesca — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Spaghetti alla Puttanesca — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Spaghetti with tomato passata, olives, anchovy, chilli and capers</p>
               </div>
             </div>
@@ -148,27 +148,27 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Main Courses</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Chicken alla Milanese — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Chicken alla Milanese — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Breadcrumbed chicken escalope, pan fried and served with chips and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Mixed Vegetable Omelette — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Mixed Vegetable Omelette — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Fresh vegetable omelette served with chips and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Deep Fried Calamari — <span style={{fontSize: '24px', color: '#7A2325'}}>£16</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Deep Fried Calamari — <span style={{fontSize: '26px', color: '#7A2325'}}>£16</span></h3>
                 <p className="text-sm text-gray-700">Crispy deep fried calamari served with chips and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Swordfish alla Milanese — <span style={{fontSize: '24px', color: '#7A2325'}}>£25</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Swordfish alla Milanese — <span style={{fontSize: '26px', color: '#7A2325'}}>£25</span></h3>
                 <p className="text-sm text-gray-700">Fresh swordfish with lemon caper butter sauce, garlic rosemary potatoes and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Sirloin Steak alla Toscana <span className="text-gray-600" style={{fontSize: '22px'}}>(GF)</span> — <span style={{fontSize: '24px', color: '#7A2325'}}>£30</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Sirloin Steak alla Toscana <span className="text-gray-600" style={{fontSize: '24px'}}>(GF)</span> — <span style={{fontSize: '26px', color: '#7A2325'}}>£30</span></h3>
                 <p className="text-sm text-gray-700">Sliced sirloin steak with rocket salad, sautéed baby tomatoes, garlic, chilli, rosemary, pecorino cheese and fries</p>
               </div>
             </div>
@@ -183,32 +183,32 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Desserts</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Pannacotta Chocolate & Amaretto — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Pannacotta Chocolate & Amaretto — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Creamy pannacotta infused with rich chocolate and amaretto flavors</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Tiramisu — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Tiramisu — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Mango & Coconut Semifreddo — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Mango & Coconut Semifreddo — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Light and refreshing frozen dessert with tropical mango and coconut</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Lemon Crème Brûlée — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Lemon Crème Brûlée — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Silky custard with caramelized sugar topping and fresh lemon flavor</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Ice Cream Affogato — <span style={{fontSize: '24px', color: '#7A2325'}}>£8</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Ice Cream Affogato — <span style={{fontSize: '26px', color: '#7A2325'}}>£8</span></h3>
                 <p className="text-sm text-gray-700">Vanilla ice cream drowned in hot espresso with a splash of coffee liqueur</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '24px'}}>Manx Ice Cream Selection — <span style={{fontSize: '24px', color: '#7A2325'}}>£5</span></h3>
+                <h3 className="font-medium text-gray-900 mb-2" style={{fontSize: '26px'}}>Manx Ice Cream Selection — <span style={{fontSize: '26px', color: '#7A2325'}}>£5</span></h3>
                 <p className="text-sm text-gray-700 mb-2">Choose 3 scoops of our local Manx ice cream: vanilla, strawberry, chocolate, or salted caramel</p>
               </div>
             </div>
