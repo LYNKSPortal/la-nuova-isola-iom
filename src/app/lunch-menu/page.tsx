@@ -38,7 +38,7 @@ export default function LunchMenu() {
           <div className="text-center px-4 sm:px-6 md:px-8">
             <FadeIn>
               <h1 className="font-bold text-white mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl">
-                Isola Lunch Menu
+                Lunch Menu
               </h1>
             </FadeIn>
             <FadeIn delay={0.2}>
