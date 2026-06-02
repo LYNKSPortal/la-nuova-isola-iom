@@ -55,88 +55,81 @@ export default function DrinksMenu() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Drinks</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* First Column */}
-              <div className="bg-white rounded-lg overflow-hidden shadow-sm">
-                <div className="bg-[#7A2325] text-white px-6 py-3">
-                  <h3 className="text-sm font-semibold">Drink</h3>
-                </div>
-                <div className="divide-y divide-gray-200">
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Small Prosecco (200ml)</span>
-                    <span className="text-sm text-gray-900 font-medium">£8.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Fruit juices</span>
-                    <span className="text-sm text-gray-900 font-medium">From £4.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Tonic water</span>
-                    <span className="text-sm text-gray-900 font-medium">From £2.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Mixers / cordials</span>
-                    <span className="text-sm text-gray-900 font-medium">£1.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Mineral water (small)</span>
-                    <span className="text-sm text-gray-900 font-medium">£3.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Mineral water (large)</span>
-                    <span className="text-sm text-gray-900 font-medium">£6</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">House bottled lager</span>
-                    <span className="text-sm text-gray-900 font-medium">£5.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Italian bottled lager</span>
-                    <span className="text-sm text-gray-900 font-medium">£5.50</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Second Column */}
-              <div className="bg-white rounded-lg overflow-hidden shadow-sm">
-                <div className="bg-[#7A2325] text-white px-6 py-3">
-                  <h3 className="text-sm font-semibold">Drink</h3>
-                </div>
-                <div className="divide-y divide-gray-200">
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Other beers / ales / cider</span>
-                    <span className="text-sm text-gray-900 font-medium">From £6.50</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Spirits / liqueurs / vermouths</span>
-                    <span className="text-sm text-gray-900 font-medium">From £5</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Port</span>
-                    <span className="text-sm text-gray-900 font-medium">From £6</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Dessert wine (175ml)</span>
-                    <span className="text-sm text-gray-900 font-medium">£7</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Liqueur coffee</span>
-                    <span className="text-sm text-gray-900 font-medium">From £7</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Coffee & tea selection</span>
-                    <span className="text-sm text-gray-900 font-medium">From £3.75</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Aperol Spritz</span>
-                    <span className="text-sm text-gray-900 font-medium">£14</span>
-                  </div>
-                  <div className="px-6 py-4 flex justify-between items-center hover:bg-gray-50">
-                    <span className="text-sm text-gray-900">Espresso Martini</span>
-                    <span className="text-sm text-gray-900 font-medium">£12</span>
-                  </div>
-                </div>
-              </div>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-white rounded-lg overflow-hidden shadow-sm">
+                <thead className="bg-[#7A2325] text-white">
+                  <tr>
+                    <th className="px-6 py-3 text-left text-sm font-semibold">Drink</th>
+                    <th className="px-6 py-3 text-right text-sm font-semibold">Price</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Small Prosecco (200ml)</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£8.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Fruit juices</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £4.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Tonic water</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £2.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Mixers / cordials</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£1.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Mineral water (small)</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£3.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Mineral water (large)</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£6</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">House bottled lager</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£5.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Italian bottled lager</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£5.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Other beers / ales / cider</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £6.50</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Spirits / liqueurs / vermouths</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £5</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Port</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £6</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Dessert wine (175ml)</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£7</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Liqueur coffee</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £7</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Coffee & tea selection</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">From £3.75</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Aperol Spritz</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£14</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 text-sm text-gray-900">Espresso Martini</td>
+                    <td className="px-6 py-4 text-sm text-gray-900 text-right font-medium">£12</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </FadeIn>
         </div>
