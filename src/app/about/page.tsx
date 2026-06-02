@@ -68,9 +68,9 @@ export default function About() {
             <FadeIn className="order-1 lg:order-2">
               <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Story</h2>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
-                La Nuova Isola was born from a dream to bring the authentic flavors of Italy to the heart of our city. 
-                Founded in 2020 by Chef Paolo Piccoli, our restaurant represents a culmination of over 20 years of 
-                culinary experience and a deep passion for Italian cuisine.
+                Our journey began in 2005 when Chef Paolo Piccoli first opened the original Isola restaurant, bringing authentic 
+                Italian flavors to the Isle of Man. After years of success and culinary excellence, we're proud to announce 
+                the rebirth of La Nuova Isola in our new location in 2025, continuing our legacy with renewed passion and vision.
               </p>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 Our name, "The New Island," symbolizes our mission to create an oasis of Italian culture and cuisine 
