@@ -75,7 +75,7 @@ export default function EveningMenu() {
       <section className="py-8 md:py-12 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Starters (First Course Dishes)</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Starters (First Course Dishes)</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Isola Bruschetta Caprese <span className="text-sm text-gray-600">(V)</span></h3>
@@ -115,7 +115,7 @@ export default function EveningMenu() {
       <section className="py-8 md:py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Pasta, Gnocchi & Risotto</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Pasta, Gnocchi & Risotto</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Tagliatelle Ai Gamberoni</h3>
@@ -176,7 +176,7 @@ export default function EveningMenu() {
       <section className="py-8 md:py-12 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Main Courses</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Main Courses</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Chicken Milanese Al Valdostana</h3>
@@ -221,7 +221,7 @@ export default function EveningMenu() {
       <section className="py-8 md:py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Desserts</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Desserts</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Mini Liqueur Coffee</h3>
@@ -271,7 +271,7 @@ export default function EveningMenu() {
       <section className="py-8 md:py-12 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Side Orders</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Side Orders</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-gray-50 rounded-lg overflow-hidden">
                 <thead className="bg-[#7A2325] text-white">

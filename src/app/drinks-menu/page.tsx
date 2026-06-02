@@ -54,7 +54,7 @@ export default function DrinksMenu() {
       <section className="py-8 md:py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Drinks</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Drinks</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg overflow-hidden shadow-sm">
                 <thead className="bg-[#7A2325] text-white">
@@ -139,11 +139,11 @@ export default function DrinksMenu() {
       <section className="py-8 md:py-12 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <h2 className="font-bold text-gray-900 mb-8 text-center text-xl md:text-2xl lg:text-3xl">Wine List</h2>
+            <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Wine List</h2>
             
             {/* House Wines */}
             <div className="mb-12">
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">House Wines</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">House Wines</h3>
               <div className="overflow-x-auto">
                 <table className="w-full bg-gray-50 rounded-lg overflow-hidden">
                   <thead className="bg-[#7A2325] text-white">
@@ -180,7 +180,7 @@ export default function DrinksMenu() {
 
             {/* Premium House Whites */}
             <div className="mb-12">
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">Premium House Whites (£29)</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Premium House Whites (£29)</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
                   <p className="text-sm text-gray-900">Viognier</p>
@@ -208,7 +208,7 @@ export default function DrinksMenu() {
 
             {/* Premium House Reds */}
             <div className="mb-12">
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">Premium House Reds (£29)</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Premium House Reds (£29)</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
                   <p className="text-sm text-gray-900">Pinot Noir</p>
@@ -236,7 +236,7 @@ export default function DrinksMenu() {
 
             {/* White Wines */}
             <div className="mb-12">
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">White Wines</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">White Wines</h3>
               <div className="overflow-x-auto">
                 <table className="w-full bg-gray-50 rounded-lg overflow-hidden">
                   <thead className="bg-[#7A2325] text-white">
@@ -285,7 +285,7 @@ export default function DrinksMenu() {
 
             {/* Rosé Wines */}
             <div className="mb-12">
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">Rosé Wines</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Rosé Wines</h3>
               <div className="overflow-x-auto">
                 <table className="w-full bg-gray-50 rounded-lg overflow-hidden">
                   <thead className="bg-[#7A2325] text-white">
@@ -310,7 +310,7 @@ export default function DrinksMenu() {
 
             {/* Red Wines */}
             <div className="mb-12">
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">Red Wines</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Red Wines</h3>
               <div className="overflow-x-auto">
                 <table className="w-full bg-gray-50 rounded-lg overflow-hidden">
                   <thead className="bg-[#7A2325] text-white">
@@ -387,7 +387,7 @@ export default function DrinksMenu() {
 
             {/* Sparkling & Champagne */}
             <div>
-              <h3 className="font-bold text-gray-900 mb-6 text-lg">Sparkling & Champagne</h3>
+              <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Sparkling & Champagne</h3>
               <div className="overflow-x-auto">
                 <table className="w-full bg-gray-50 rounded-lg overflow-hidden">
                   <thead className="bg-[#7A2325] text-white">
