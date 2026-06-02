@@ -181,27 +181,33 @@ export default function DrinksMenu() {
             {/* Premium House Whites */}
             <div className="mb-12">
               <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Premium House Whites (£29)</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Viognier</p>
+              <div className="space-y-6">
+                {/* Top row - 4 boxes */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Viognier</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Grillo</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Riesling</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Pinot Grigio</p>
+                  </div>
                 </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Grillo</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Riesling</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Pinot Grigio</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Chenin Blanc</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Chardonnay</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Sauvignon Blanc</p>
+                {/* Bottom row - 3 boxes */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Chenin Blanc</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Chardonnay</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Sauvignon Blanc</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -209,27 +215,33 @@ export default function DrinksMenu() {
             {/* Premium House Reds */}
             <div className="mb-12">
               <h3 className="font-bold text-gray-900 mb-6 text-base md:text-lg">Premium House Reds (£29)</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Pinot Noir</p>
+              <div className="space-y-6">
+                {/* Top row - 4 boxes */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Pinot Noir</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Malbec</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Garnacha</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Shiraz</p>
+                  </div>
                 </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Malbec</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Garnacha</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Shiraz</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Tempranillo</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Cabernet Sauvignon</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <p className="text-sm text-gray-900">Merlot</p>
+                {/* Bottom row - 3 boxes */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Tempranillo</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Cabernet Sauvignon</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg text-center">
+                    <p className="text-sm text-gray-900">Merlot</p>
+                  </div>
                 </div>
               </div>
             </div>
