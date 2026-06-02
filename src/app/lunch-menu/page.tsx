@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Lunch Menu | Italian Midday Dining | La Nuova Isola",
     description: "Discover our authentic Italian lunch menu with fresh pasta, light starters, and delicious mains perfect for business lunches or casual dining in Isle of Man.",
     url: 'https://lanuovaisola.im/lunch-menu',
-    sitesiteName: 'La Nuova Isola',
+    siteName: 'La Nuova Isola',
     locale: 'en_GB',
     type: 'website',
     images: [

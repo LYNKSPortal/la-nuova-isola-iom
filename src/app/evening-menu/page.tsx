@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Evening Menu | Authentic Italian Fine Dining | La Nuova Isola",
     description: "Indulge in our exquisite evening menu featuring authentic Italian cuisine, fresh pasta, premium meats, and extensive wine selection at La Nuova Isola in Isle of Man.",
     url: 'https://lanuovaisola.im/evening-menu',
-    sitesitesiteName: 'La Nuova Isola',
+    siteName: 'La Nuova Isola',
     locale: 'en_GB',
     type: 'website',
     images: [

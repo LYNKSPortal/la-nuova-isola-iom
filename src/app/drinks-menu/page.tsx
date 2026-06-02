@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Drinks Menu | Premium Wines & Cocktails | La Nuova Isola",
     description: "Explore our comprehensive drinks menu featuring premium wines, handcrafted cocktails, fine spirits, and beverages at La Nuova Isola Italian restaurant in Isle of Man.",
     url: 'https://lanuovaisola.im/drinks-menu',
-    sitesiteName: 'La Nuova Isola',
+    siteName: 'La Nuova Isola',
     locale: 'en_GB',
     type: 'website',
     images: [
