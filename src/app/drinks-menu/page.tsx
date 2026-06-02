@@ -2,23 +2,77 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FadeIn from '@/components/FadeIn';
 import Image from 'next/image';
+import StructuredData from '@/components/StructuredData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Drinks Menu - La Nuova Isola | Italian Restaurant Isle of Man",
-  description: "Explore La Nuova Isola's extensive drinks menu featuring premium wines, cocktails, spirits, and beverages. Perfect complement to your Italian dining experience.",
-  keywords: ["drinks menu", "wine list", "cocktails", "Italian beverages", "Isle of Man restaurant", "La Nuova Isola", "bar menu"],
+  title: "Drinks Menu | Wines, Cocktails & Beverages | La Nuova Isola | Italian Restaurant Isle of Man",
+  description: "Complete drinks menu at La Nuova Isola Italian restaurant, Isle of Man. Premium wine selection, classic cocktails, spirits, beers, and non-alcoholic beverages. Perfect pairings for authentic Italian cuisine.",
+  keywords: [
+    "drinks menu Isle of Man", 
+    "Italian restaurant drinks", 
+    "wine list Douglas Isle of Man", 
+    "cocktails Italian restaurant", 
+    "premium wines", 
+    "beverages menu", 
+    "La Nuova Isola bar", 
+    "Italian dining drinks",
+    "restaurant bar Isle of Man",
+    "wine pairing Italian food"
+  ],
+  authors: [{ name: "La Nuova Isola Restaurant" }],
+  creator: "La Nuova Isola",
+  publisher: "La Nuova Isola",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://lanuovaisola.im'),
+  alternates: {
+    canonical: 'https://lanuovaisola.im/drinks-menu',
+  },
   openGraph: {
-    title: "Drinks Menu - La Nuova Isola",
-    description: "Discover our extensive selection of wines, cocktails, and beverages to complement your Italian dining experience.",
-    url: "https://lanuovaisola.im/drinks-menu",
+    title: "Drinks Menu | Premium Wines & Cocktails | La Nuova Isola",
+    description: "Explore our comprehensive drinks menu featuring premium wines, handcrafted cocktails, fine spirits, and beverages at La Nuova Isola Italian restaurant in Isle of Man.",
+    url: 'https://lanuovaisola.im/drinks-menu',
+    sitesiteName: 'La Nuova Isola',
+    locale: 'en_GB',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image-drinks-menu.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'La Nuova Isola Drinks Menu - Premium Wines and Cocktails',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Drinks Menu | La Nuova Isola | Italian Restaurant Isle of Man",
+    description: "Premium wines, cocktails, and beverages at La Nuova Isola Italian restaurant. Perfect complement to authentic Italian cuisine.",
+    images: ['/og-image-drinks-menu.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
 export default function DrinksMenu() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
+    <>
+      <StructuredData type="Restaurant" />
+      <div className="min-h-screen bg-white">
+        <Header />
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
@@ -459,5 +513,6 @@ export default function DrinksMenu() {
 
       <Footer />
     </div>
+    </>
   );
 }

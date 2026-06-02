@@ -2,23 +2,77 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FadeIn from '@/components/FadeIn';
 import Image from 'next/image';
+import StructuredData from '@/components/StructuredData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Evening Menu - La Nuova Isola | Italian Restaurant Isle of Man",
-  description: "Explore La Nuova Isola's exquisite evening menu featuring authentic Italian cuisine, from fresh pasta to premium wines. Perfect for fine dining in the Isle of Man.",
-  keywords: ["evening menu", "Italian dinner", "fine dining", "Isle of Man restaurant", "La Nuova Isola", "Italian cuisine", "pasta", "wine list"],
+  title: "Evening Menu | Authentic Italian Fine Dining | La Nuova Isola | Restaurant Isle of Man",
+  description: "Experience authentic Italian fine dining at La Nuova Isola, Isle of Man. Evening menu featuring fresh pasta, premium meats, seafood, desserts, and extensive wine selection. Perfect for romantic dinners and special occasions.",
+  keywords: [
+    "evening menu Isle of Man", 
+    "Italian fine dining Douglas", 
+    "romantic restaurant Isle of Man", 
+    "Italian dinner menu", 
+    "fresh pasta restaurant", 
+    "special occasions dining", 
+    "La Nuova Isola evening",
+    "Italian cuisine Isle of Man",
+    "wine pairing dinner",
+    "premium Italian restaurant"
+  ],
+  authors: [{ name: "La Nuova Isola Restaurant" }],
+  creator: "La Nuova Isola",
+  publisher: "La Nuova Isola",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://lanuovaisola.im'),
+  alternates: {
+    canonical: 'https://lanuovaisola.im/evening-menu',
+  },
   openGraph: {
-    title: "Evening Menu - La Nuova Isola",
-    description: "Discover our authentic Italian evening menu with fresh pasta, premium meats, and extensive wine selection.",
-    url: "https://lanuovaisola.im/evening-menu",
+    title: "Evening Menu | Authentic Italian Fine Dining | La Nuova Isola",
+    description: "Indulge in our exquisite evening menu featuring authentic Italian cuisine, fresh pasta, premium meats, and extensive wine selection at La Nuova Isola in Isle of Man.",
+    url: 'https://lanuovaisola.im/evening-menu',
+    sitesitesiteName: 'La Nuova Isola',
+    locale: 'en_GB',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image-evening-menu.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'La Nuova Isola Evening Menu - Authentic Italian Fine Dining',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Evening Menu | La Nuova Isola | Italian Fine Dining Isle of Man",
+    description: "Authentic Italian evening menu with fresh pasta, premium meats, seafood and extensive wine selection. Perfect for special occasions.",
+    images: ['/og-image-evening-menu.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
 export default function EveningMenu() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
+    <>
+      <StructuredData type="Restaurant" />
+      <div className="min-h-screen bg-white">
+        <Header />
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
@@ -386,5 +440,6 @@ export default function EveningMenu() {
 
       <Footer />
     </div>
+    </>
   );
 }

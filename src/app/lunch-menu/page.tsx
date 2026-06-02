@@ -2,23 +2,77 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FadeIn from '@/components/FadeIn';
 import Image from 'next/image';
+import StructuredData from '@/components/StructuredData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lunch Menu - La Nuova Isola | Italian Restaurant Isle of Man",
-  description: "Explore La Nuova Isola's delicious lunch menu featuring authentic Italian starters, pasta, main courses, and desserts. Perfect for midday dining in the Isle of Man.",
-  keywords: ["lunch menu", "Italian lunch", "midday dining", "Isle of Man restaurant", "La Nuova Isola", "pasta lunch", "Italian cuisine"],
+  title: "Lunch Menu | Italian Midday Dining | La Nuova Isola | Restaurant Isle of Man",
+  description: "Enjoy authentic Italian lunch at La Nuova Isola, Isle of Man. Fresh pasta, light starters, main courses, and desserts perfect for business lunches or casual midday dining. Great value set menus available.",
+  keywords: [
+    "lunch menu Isle of Man", 
+    "Italian lunch Douglas", 
+    "business lunch restaurant", 
+    "midday dining Isle of Man", 
+    "pasta lunch special", 
+    "Italian restaurant lunch", 
+    "La Nuova Isola lunch",
+    "casual dining Isle of Man",
+    "set menu lunch",
+    "affordable Italian lunch"
+  ],
+  authors: [{ name: "La Nuova Isola Restaurant" }],
+  creator: "La Nuova Isola",
+  publisher: "La Nuova Isola",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://lanuovaisola.im'),
+  alternates: {
+    canonical: 'https://lanuovaisola.im/lunch-menu',
+  },
   openGraph: {
-    title: "Lunch Menu - La Nuova Isola",
-    description: "Discover our authentic Italian lunch menu with fresh pasta, delicious mains, and tempting desserts.",
-    url: "https://lanuovaisola.im/lunch-menu",
+    title: "Lunch Menu | Italian Midday Dining | La Nuova Isola",
+    description: "Discover our authentic Italian lunch menu with fresh pasta, light starters, and delicious mains perfect for business lunches or casual dining in Isle of Man.",
+    url: 'https://lanuovaisola.im/lunch-menu',
+    sitesiteName: 'La Nuova Isola',
+    locale: 'en_GB',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image-lunch-menu.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'La Nuova Isola Lunch Menu - Authentic Italian Midday Dining',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Lunch Menu | La Nuova Isola | Italian Restaurant Isle of Man",
+    description: "Authentic Italian lunch menu with fresh pasta, light starters and delicious mains. Perfect for business lunches and casual dining.",
+    images: ['/og-image-lunch-menu.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
 export default function LunchMenu() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
+    <>
+      <StructuredData type="Restaurant" />
+      <div className="min-h-screen bg-white">
+        <Header />
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden">
@@ -459,5 +513,6 @@ export default function LunchMenu() {
 
       <Footer />
     </div>
+    </>
   );
 }
