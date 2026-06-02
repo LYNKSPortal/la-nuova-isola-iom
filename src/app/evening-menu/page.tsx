@@ -60,11 +60,11 @@ export default function EveningMenu() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 text-center">
                 <h3 className="font-bold text-gray-900 text-lg mb-2">2 Courses</h3>
-                <p className="text-2xl font-bold text-[#7A2325]">£35</p>
+                <p className="text-2xl font-bold text-[#7A2325]">£35 per person</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 text-center">
                 <h3 className="font-bold text-gray-900 text-lg mb-2">3 Courses</h3>
-                <p className="text-2xl font-bold text-[#7A2325]">£39</p>
+                <p className="text-2xl font-bold text-[#7A2325]">£39 per person</p>
               </div>
             </div>
           </FadeIn>
