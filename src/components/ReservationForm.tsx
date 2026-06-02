@@ -109,7 +109,7 @@ export default function ReservationForm() {
                 </svg>
                 <div className="text-sm text-yellow-800">
                   <p className="font-semibold mb-1">Important Notice for Short Notice Bookings</p>
-                  <p>If you're wanting to make a booking within 48 hours, it's better to message us on WhatsApp as anything to do with short notice we can get back to immediately and let you know if it is available. If it's not a booking within 24 to 48 hours, just fill out the form below.</p>
+                  <p>If you're looking to make a booking within the next 24-48 hours, please contact us via WhatsApp. For short notice bookings, we can respond quickly and let you know straight away whether availability remains. For bookings more than 24-48 hours in advance, simply complete the form below and we'll get back to you as soon as possible.</p>
                   <a 
                     href="https://wa.me/447624482007" 
                     className="inline-flex items-center mt-2 text-[#7A2325] hover:text-[#7A2325] 700 font-medium"
