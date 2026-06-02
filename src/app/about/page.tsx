@@ -69,7 +69,7 @@ export default function About() {
               <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Story</h2>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
                 La Nuova Isola was born from a dream to bring the authentic flavors of Italy to the heart of our city. 
-                Founded in 2020 by Chef Paolo Rossi, our restaurant represents a culmination of over 20 years of 
+                Founded in 2020 by Chef Paolo Piccoli, our restaurant represents a culmination of over 20 years of 
                 culinary experience and a deep passion for Italian cuisine.
               </p>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
@@ -94,7 +94,7 @@ export default function About() {
             <FadeIn className="order-1 lg:order-1">
               <h2 className="font-bold text-gray-900 mb-4 md:mb-6 text-xl md:text-2xl lg:text-3xl">Our Chef</h2>
               <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">
-                Chef Paolo Rossi brings a wealth of experience from working in some of Italy's most prestigious 
+                Chef Paolo Piccoli brings a wealth of experience from working in some of Italy's most prestigious 
                 restaurants. Trained in the classic techniques of Italian cuisine while embracing modern 
                 culinary innovations, Chef Paolo creates dishes that honour tradition while delighting the modern palate.
               </p>
@@ -111,7 +111,7 @@ export default function About() {
             <FadeIn delay={0.2} className="order-2 lg:order-2">
               <Image 
                 src="/the-chefs.jpg" 
-                alt="Chef Paolo Rossi" 
+                alt="Chef Paolo Piccoli" 
                 width={800}
                 height={600}
                 className="w-full object-cover rounded-none"
