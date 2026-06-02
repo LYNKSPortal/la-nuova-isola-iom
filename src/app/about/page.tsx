@@ -104,7 +104,7 @@ export default function About() {
                 exciting.
               </p>
               <p className="text-gray-600 text-sm md:text-base">
-                "Cooking is not just about feeding people," says Chef Paolo. "It's about creating memories, 
+                "Cooking is not just about feeding people," says Paolo. "It's about creating memories, 
                 bringing families together, and sharing the joy of Italian hospitality."
               </p>
             </FadeIn>
