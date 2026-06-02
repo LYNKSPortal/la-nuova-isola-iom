@@ -79,65 +79,32 @@ export default function EveningMenu() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Isola Bruschetta Caprese <span className="text-sm text-gray-600">(V)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Classic tomato</li>
-                  <li>• Red onion</li>
-                  <li>• Garlic</li>
-                  <li>• Basil</li>
-                  <li>• Olive oil</li>
-                  <li>• Buffalo mozzarella</li>
-                  <li>• Rocket</li>
-                  <li>• Balsamic pearls</li>
-                  <li>• Basil pesto</li>
-                </ul>
+                <p className="text-sm text-gray-700">Classic tomato, red onion, garlic, basil, olive oil, buffalo mozzarella, rocket, balsamic pearls and basil pesto on toasted bread</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Pate Della Casa</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Toasted bread</li>
-                  <li>• Chicken liver, mushroom & truffle pâté</li>
-                  <li>• Onion and fig chutney</li>
-                </ul>
+                <p className="text-sm text-gray-700">Toasted bread served with chicken liver, mushroom & truffle pâté and onion and fig chutney</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Garlic King Prawns & Queenies</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• King prawns</li>
-                  <li>• Queenies</li>
-                  <li>• Spicy 'Nduja tomato sauce</li>
-                  <li>• Rocket</li>
-                </ul>
+                <p className="text-sm text-gray-700">King prawns and queenies in a spicy 'Nduja tomato sauce with fresh rocket</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Portobello Milanese <span className="text-sm text-gray-600">(V)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Breadcrumbed mushroom slices</li>
-                  <li>• Creamy cheese sauce</li>
-                </ul>
+                <p className="text-sm text-gray-700">Breadcrumbed mushroom slices served with a creamy cheese sauce</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Meatballs Arrabbiata</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Homemade Roman-style meatballs</li>
-                  <li>• Chilli garlic tomato sauce</li>
-                  <li>• Rocket leaves</li>
-                  <li>• Toasted bread</li>
-                </ul>
+                <p className="text-sm text-gray-700">Homemade Roman-style meatballs in a chilli garlic tomato sauce with rocket leaves and toasted bread</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Crostino dello Chef</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Toasted bread</li>
-                  <li>• Cured ham</li>
-                  <li>• Mostarda</li>
-                  <li>• Goat cheese stout cream</li>
-                  <li>• Agave nectar</li>
-                </ul>
+                <p className="text-sm text-gray-700">Toasted bread topped with cured ham, mostarda, goat cheese stout cream and agave nectar</p>
               </div>
             </div>
           </FadeIn>
@@ -152,94 +119,47 @@ export default function EveningMenu() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Tagliatelle Ai Gamberoni</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Ribbon pasta</li>
-                  <li>• Zucchini Cacio e Pepe cream</li>
-                  <li>• Lime zest</li>
-                  <li>• King prawns</li>
-                </ul>
+                <p className="text-sm text-gray-700">Ribbon pasta with zucchini cacio e pepe cream, lime zest and king prawns</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Gnocchi Alfredo <span className="text-sm text-gray-600">(V) (GF)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Baked gnocchi</li>
-                  <li>• Spinach</li>
-                  <li>• Italian cheese & butter sauce</li>
-                </ul>
+                <p className="text-sm text-gray-700">Baked gnocchi with spinach and Italian cheese & butter sauce</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Penne 'Nduja & Gorgonzola</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Spicy Calabrian pork sausage</li>
-                  <li>• Gorgonzola sauce</li>
-                </ul>
+                <p className="text-sm text-gray-700">Penne pasta with spicy Calabrian pork sausage and gorgonzola sauce</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Spaghetti Carbonara</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Guanciale</li>
-                  <li>• Pecorino cream</li>
-                  <li>• Egg</li>
-                  <li>• Black pepper</li>
-                </ul>
+                <p className="text-sm text-gray-700">Classic carbonara with guanciale, pecorino cream, egg and black pepper</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Rigatoni Sugo di Coda <span className="text-xs text-gray-600">(Oxtail Ragù)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Slow-braised oxtail</li>
-                  <li>• Tomato sauce</li>
-                  <li>• Vegetables</li>
-                  <li>• Wine</li>
-                  <li>• Herbs</li>
-                  <li>• Hint of cacao</li>
-                </ul>
+                <p className="text-sm text-gray-700">Slow-braised oxtail with tomato sauce, vegetables, wine, herbs and a hint of cacao</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Mezze Maniche Gricia al Porto</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Short pasta tubes</li>
-                  <li>• Crispy guanciale</li>
-                  <li>• Port wine reduction</li>
-                  <li>• Black pepper</li>
-                  <li>• Pecorino cheese</li>
-                </ul>
+                <p className="text-sm text-gray-700">Short pasta tubes with crispy guanciale, port wine reduction, black pepper and pecorino cheese</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Black Ravioli Queenies</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Queenie-filled ravioli</li>
-                  <li>• Spring onion</li>
-                  <li>• Guanciale</li>
-                  <li>• Pecorino</li>
-                  <li>• Cream</li>
-                  <li>• Garlic</li>
-                </ul>
+                <p className="text-sm text-gray-700">Queenie-filled ravioli with spring onion, guanciale, pecorino, cream and garlic</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Linguine allo Scoglio</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Mixed seafood</li>
-                  <li>• White wine</li>
-                  <li>• Garlic</li>
-                  <li>• Spicy tomato sauce</li>
-                </ul>
+                <p className="text-sm text-gray-700">Linguine with mixed seafood, white wine, garlic and spicy tomato sauce</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Risotto ai Funghi e Tartufi <span className="text-sm text-gray-600">(V)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Arborio rice</li>
-                  <li>• Wild mushrooms</li>
-                  <li>• Truffle cream</li>
-                  <li>• Prosecco</li>
-                </ul>
+                <p className="text-sm text-gray-700">Arborio rice with wild mushrooms, truffle cream and prosecco</p>
               </div>
             </div>
             
@@ -260,88 +180,37 @@ export default function EveningMenu() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Chicken Milanese Al Valdostana</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Breadcrumbed chicken escalope</li>
-                  <li>• Ham</li>
-                  <li>• Mozzarella</li>
-                  <li>• Garlic butter</li>
-                  <li>• Gnocchi Bolognese</li>
-                  <li>• Parmesan</li>
-                </ul>
+                <p className="text-sm text-gray-700">Breadcrumbed chicken escalope with ham, mozzarella, garlic butter, gnocchi bolognese and parmesan</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Braised Lamb Spezzatino Abruzzo Style <span className="text-sm text-gray-600">(GF)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Slow-cooked lamb</li>
-                  <li>• Mint</li>
-                  <li>• Tomato</li>
-                  <li>• Lamb stock</li>
-                  <li>• Pecorino</li>
-                  <li>• Garlic rosemary potatoes</li>
-                  <li>• Salad</li>
-                </ul>
+                <p className="text-sm text-gray-700">Slow-cooked lamb with mint, tomato, lamb stock, pecorino, garlic rosemary potatoes and salad</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Sicilian Stuffed Peppers <span className="text-sm text-gray-600">(V)</span></h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Roasted red pepper</li>
-                  <li>• Sicilian caponata</li>
-                  <li>• Breadcrumbs</li>
-                  <li>• Italian cheese</li>
-                  <li>• Tomato passata</li>
-                  <li>• Garlic rosemary potatoes</li>
-                  <li>• Salad</li>
-                </ul>
+                <p className="text-sm text-gray-700">Roasted red pepper with Sicilian caponata, breadcrumbs, Italian cheese, tomato passata, garlic rosemary potatoes and salad</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Roman Style Meatballs</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Meatballs</li>
-                  <li>• Peppercorn cream sauce</li>
-                  <li>• Garlic rosemary potatoes</li>
-                  <li>• Salad</li>
-                </ul>
+                <p className="text-sm text-gray-700">Meatballs with peppercorn cream sauce, garlic rosemary potatoes and salad</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Cioppino</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Seafood & fish stew</li>
-                  <li>• Tomato</li>
-                  <li>• Garlic</li>
-                  <li>• Herbs</li>
-                  <li>• White wine</li>
-                  <li>• Chilli</li>
-                  <li>• Toasted bread</li>
-                </ul>
+                <p className="text-sm text-gray-700">Seafood & fish stew with tomato, garlic, herbs, white wine, chilli and toasted bread</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Spezzatino di Maiale e Salsiccia</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Pork stew</li>
-                  <li>• Sausage</li>
-                  <li>• White wine sauce</li>
-                  <li>• Black olives</li>
-                  <li>• Herbs</li>
-                  <li>• Parmesan mash</li>
-                </ul>
+                <p className="text-sm text-gray-700">Pork stew with sausage, white wine sauce, black olives, herbs and parmesan mash</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-2">Braised Beef Al Vino Rosso</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Slow-cooked rump steak</li>
-                  <li>• Red wine</li>
-                  <li>• Onion</li>
-                  <li>• Garlic</li>
-                  <li>• Root vegetables</li>
-                  <li>• Aromatic herbs</li>
-                  <li>• Parmesan butter mash</li>
-                </ul>
+                <p className="text-sm text-gray-700">Slow-cooked rump steak with red wine, onion, garlic, root vegetables, aromatic herbs and parmesan butter mash</p>
               </div>
             </div>
           </FadeIn>
@@ -356,52 +225,42 @@ export default function EveningMenu() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Mini Liqueur Coffee</h3>
-                <p className="text-sm text-gray-700 mb-2">Choose:</p>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Whiskey</li>
-                  <li>• Irish cream</li>
-                  <li>• Coffee liqueur</li>
-                </ul>
+                <p className="text-sm text-gray-700">Choose from whiskey, Irish cream, or coffee liqueur</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Pannacotta with Forest Fruits <span className="text-sm text-gray-600">(GF)</span></h3>
+                <p className="text-sm text-gray-700">Silky pannacotta topped with fresh forest fruits</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Tiramisu</h3>
+                <p className="text-sm text-gray-700">Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Mango & Coconut Semifreddo <span className="text-sm text-gray-600">(GF)</span></h3>
+                <p className="text-sm text-gray-700">Light frozen dessert with tropical mango and coconut flavors</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Lemon Crème Brûlée <span className="text-sm text-gray-600">(GF)</span></h3>
+                <p className="text-sm text-gray-700">Silky custard with caramelized sugar topping and fresh lemon flavor</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Ice Cream Affogato</h3>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Ice cream</li>
-                  <li>• Espresso</li>
-                  <li>• Coffee liqueur</li>
-                </ul>
+                <p className="text-sm text-gray-700">Vanilla ice cream drowned in hot espresso with a splash of coffee liqueur</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Chocolate Cake & Pistachio Custard <span className="text-sm text-gray-600">(GF)</span></h3>
+                <p className="text-sm text-gray-700">Rich chocolate cake served with creamy pistachio custard</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold text-gray-900 mb-2">Manx Ice Cream Selection</h3>
-                <p className="text-sm text-gray-700 mb-2">Choose 3 scoops:</p>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Vanilla</li>
-                  <li>• Strawberry</li>
-                  <li>• Chocolate</li>
-                  <li>• Salted caramel</li>
-                </ul>
+                <p className="text-sm text-gray-700">Choose 3 scoops of our local Manx ice cream: vanilla, strawberry, chocolate, or salted caramel</p>
               </div>
             </div>
           </FadeIn>
