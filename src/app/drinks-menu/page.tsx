@@ -150,7 +150,7 @@ export default function DrinksMenu() {
                     <tr>
                       <th className="px-6 py-3 text-left text-sm font-semibold">Wine</th>
                       <th className="px-6 py-3 text-center text-sm font-semibold">175ml</th>
-                      <th className="px-6 py-3 text-center text-sm font-semibold">500ml Carafe</th>
+                      <th className="px-6 py-3 text-center text-sm font-semibold"><span className="md:hidden">500 ML</span><span className="hidden md:inline">500ml Carafe</span></th>
                       <th className="px-6 py-3 text-right text-sm font-semibold">Bottle</th>
                     </tr>
                   </thead>
