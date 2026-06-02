@@ -421,6 +421,42 @@ export default function LunchMenu() {
         </div>
       </section>
 
+      {/* PDF Download Section */}
+      <section className="py-8 md:py-12 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn>
+            <div className="text-center">
+              <h2 className="font-bold text-gray-900 mb-6 text-xl md:text-2xl lg:text-3xl">Download Our Menu</h2>
+              <p className="text-gray-600 mb-8 text-base md:text-lg">Take our lunch menu with you or view it offline</p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a 
+                  href="/menu/Isola Lunch Menu.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-[#7A2325] hover:bg-[#5a1a1c] text-white font-medium rounded-lg transition-colors shadow-sm"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                  </svg>
+                  View Menu PDF
+                </a>
+                <a 
+                  href="/menu/Isola Lunch Menu.pdf" 
+                  download="Isola Lunch Menu.pdf"
+                  className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-50 text-[#7A2325] font-medium rounded-lg transition-colors border border-[#7A2325] shadow-sm"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Download Menu
+                </a>
+              </div>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
