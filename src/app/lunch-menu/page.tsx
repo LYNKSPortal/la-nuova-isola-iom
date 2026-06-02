@@ -57,32 +57,32 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Starters (First Course Dishes)</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Classic Bruschetta <span className="text-sm text-gray-600">(V)</span> — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Classic Bruschetta <span className="text-xs text-gray-600">(V)</span> — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Toasted bread topped with fresh tomatoes, red onion, garlic, basil and drizzled with olive oil</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Aubergine alla Parmigiana <span className="text-sm text-gray-600">(V)</span> — <span className="text-[#7A2325]">£10</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Aubergine alla Parmigiana <span className="text-xs text-gray-600">(V)</span> — <span className="text-[#7A2325]">£10</span></h3>
                 <p className="text-sm text-gray-700">Layers of baked aubergine with tomato, basil and melted mozzarella cheese</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Garlic King Prawns <span className="text-sm text-gray-600">(GF)</span> — <span className="text-[#7A2325]">£10</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Garlic King Prawns <span className="text-xs text-gray-600">(GF)</span> — <span className="text-[#7A2325]">£10</span></h3>
                 <p className="text-sm text-gray-700">Succulent king prawns in a spicy tomato sauce with rocket leaves and toasted bread</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Meatballs Arrabbiata — <span className="text-[#7A2325]">£9</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Meatballs Arrabbiata — <span className="text-[#7A2325]">£9</span></h3>
                 <p className="text-sm text-gray-700">Homemade Roman-style meatballs in a chilli garlic tomato sauce with rocket leaves and toasted bread</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Minestrone Soup <span className="text-sm text-gray-600">(V)</span> — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Minestrone Soup <span className="text-xs text-gray-600">(V)</span> — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Traditional Italian vegetable soup with seasonal vegetables and herbs</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Cozze Alla Romana — <span className="text-[#7A2325]">£10</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Cozze Alla Romana — <span className="text-[#7A2325]">£10</span></h3>
                 <p className="text-sm text-gray-700">Fresh mussels cooked in white wine with garlic, chilli, parsley and pecorino sauce, served with toasted bread</p>
               </div>
             </div>
@@ -97,37 +97,37 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Pasta & Gnocchi</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Penne all'Amatriciana — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Penne all'Amatriciana — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Penne pasta with guanciale (cured pork cheek), tomato sauce, pecorino romano and chilli</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Rigatoni Carbonara — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Rigatoni Carbonara — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Classic Roman carbonara with rigatoni, guanciale, pecorino cheese, egg and black pepper</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Tagliatelle Bolognese — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Tagliatelle Bolognese — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Fresh tagliatelle with rich meat ragù, tomato, herbs and garlic</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Lasagne al Forno — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Lasagne al Forno — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Traditional oven-baked lasagne with beef & tomato ragù, béchamel sauce and cheese</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Tortellini alla Panna <span className="text-sm text-gray-600">(V)</span> — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Tortellini alla Panna <span className="text-xs text-gray-600">(V)</span> — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Ricotta & spinach tortellini in a creamy sauce with sage and pecorino cheese</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Gnocchi Isola <span className="text-sm text-gray-600">(Vegan)</span> — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Gnocchi Isola <span className="text-xs text-gray-600">(Vegan)</span> — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Homemade gnocchi with tomato & basil sauce and fried aubergine</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Spaghetti alla Puttanesca — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Spaghetti alla Puttanesca — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Spaghetti with tomato passata, olives, anchovy, chilli and capers</p>
               </div>
             </div>
@@ -148,27 +148,27 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Main Courses</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Chicken alla Milanese — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Chicken alla Milanese — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Breadcrumbed chicken escalope, pan fried and served with chips and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Mixed Vegetable Omelette — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Mixed Vegetable Omelette — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Fresh vegetable omelette served with chips and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Deep Fried Calamari — <span className="text-[#7A2325]">£16</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Deep Fried Calamari — <span className="text-[#7A2325]">£16</span></h3>
                 <p className="text-sm text-gray-700">Crispy deep fried calamari served with chips and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Swordfish alla Milanese — <span className="text-[#7A2325]">£25</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Swordfish alla Milanese — <span className="text-[#7A2325]">£25</span></h3>
                 <p className="text-sm text-gray-700">Fresh swordfish with lemon caper butter sauce, garlic rosemary potatoes and salad</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Sirloin Steak alla Toscana <span className="text-sm text-gray-600">(GF)</span> — <span className="text-[#7A2325]">£30</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Sirloin Steak alla Toscana <span className="text-xs text-gray-600">(GF)</span> — <span className="text-[#7A2325]">£30</span></h3>
                 <p className="text-sm text-gray-700">Sliced sirloin steak with rocket salad, sautéed baby tomatoes, garlic, chilli, rosemary, pecorino cheese and fries</p>
               </div>
             </div>
@@ -183,32 +183,32 @@ export default function LunchMenu() {
             <h2 className="font-bold text-gray-900 mb-8 text-center text-lg md:text-xl lg:text-2xl">Desserts</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Pannacotta Chocolate & Amaretto — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Pannacotta Chocolate & Amaretto — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Creamy pannacotta infused with rich chocolate and amaretto flavors</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Tiramisu — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Tiramisu — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Mango & Coconut Semifreddo — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Mango & Coconut Semifreddo — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Light and refreshing frozen dessert with tropical mango and coconut</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Lemon Crème Brûlée — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Lemon Crème Brûlée — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Silky custard with caramelized sugar topping and fresh lemon flavor</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Ice Cream Affogato — <span className="text-[#7A2325]">£8</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Ice Cream Affogato — <span className="text-[#7A2325]">£8</span></h3>
                 <p className="text-sm text-gray-700">Vanilla ice cream drowned in hot espresso with a splash of coffee liqueur</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Manx Ice Cream Selection — <span className="text-[#7A2325]">£5</span></h3>
+                <h3 className="font-semibold text-gray-900 mb-2 text-sm">Manx Ice Cream Selection — <span className="text-[#7A2325]">£5</span></h3>
                 <p className="text-sm text-gray-700 mb-2">Choose 3 scoops of our local Manx ice cream: vanilla, strawberry, chocolate, or salted caramel</p>
               </div>
             </div>
