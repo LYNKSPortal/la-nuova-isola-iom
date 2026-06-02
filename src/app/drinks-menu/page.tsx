@@ -198,7 +198,7 @@ export default function DrinksMenu() {
                   </div>
                 </div>
                 {/* Bottom row - 3 boxes */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-gray-50 p-4 rounded-lg text-center">
                     <p className="text-sm text-gray-900">Chenin Blanc</p>
                   </div>
@@ -232,7 +232,7 @@ export default function DrinksMenu() {
                   </div>
                 </div>
                 {/* Bottom row - 3 boxes */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-gray-50 p-4 rounded-lg text-center">
                     <p className="text-sm text-gray-900">Tempranillo</p>
                   </div>
