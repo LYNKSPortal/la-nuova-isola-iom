@@ -25,8 +25,9 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
       "longitude": "-4.4821"
     },
     "openingHours": [
-      "Mo-Su 12:00-14:30",
-      "Mo-Su 18:00-22:00"
+      "We-Fr 12:00-14:00",
+      "We-Fr 17:30-21:30",
+      "Sa 18:00-21:30"
     ],
     "servesCuisine": "Italian",
     "priceRange": "£££",

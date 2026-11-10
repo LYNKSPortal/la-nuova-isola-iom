@@ -184,10 +184,11 @@ export default function ContactForm() {
                     <h3 className="font-medium text-gray-900 mb-2">Hours</h3>
                     <div className="text-gray-600">
                       <p>Sunday, Monday & Tuesday: Closed</p>
-                      <p>Wednesday: 12:00 PM - 2:00 PM, 5:00 PM - 9:00 PM</p>
-                      <p>Thursday: 12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</p>
-                      <p>Friday: 12:00 PM - 2:00 PM, 5:00 PM - 9:30 PM</p>
+                      <p>Wednesday: 12:00 PM - 2:00 PM, 5:30 PM - 9:30 PM</p>
+                      <p>Thursday: 12:00 PM - 2:00 PM, 5:30 PM - 9:30 PM</p>
+                      <p>Friday: 12:00 PM - 2:00 PM, 5:30 PM - 9:30 PM</p>
                       <p>Saturday: 6:00 PM - 9:30 PM</p>
+                      <p className="mt-2 text-sm italic">During December and the TT we may have additional days open — please ask.</p>
                     </div>
                   </div>
                 </div>

@@ -111,10 +111,11 @@ export default function Footer() {
             <h2 id="hours-heading" className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Hours</h2>
             <div className="text-white space-y-1 text-sm md:text-base">
               <p><span className="font-medium">Sun, Mon & Tue:</span> Closed</p>
-              <p><span className="font-medium">Wednesday:</span> 12:00-14:00, 17:00-21:00</p>
-              <p><span className="font-medium">Thursday:</span> 12:00-14:00, 17:00-21:30</p>
-              <p><span className="font-medium">Friday:</span> 12:00-14:00, 17:00-21:30</p>
+              <p><span className="font-medium">Wednesday:</span> 12:00-14:00, 17:30-21:30</p>
+              <p><span className="font-medium">Thursday:</span> 12:00-14:00, 17:30-21:30</p>
+              <p><span className="font-medium">Friday:</span> 12:00-14:00, 17:30-21:30</p>
               <p><span className="font-medium">Saturday:</span> 18:00-21:30</p>
+              <p className="pt-1 text-xs italic">December & TT: additional days may be available, please ask</p>
             </div>
           </section>
           </FadeIn>
